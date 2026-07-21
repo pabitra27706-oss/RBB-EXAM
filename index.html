@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-fontsize="medium">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Railway RRB NTPC / Group D Previous Year Questions Practice" />
+  <meta name="theme-color" content="#0f1117" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <title>Railway PYQ Practice</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath:  [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: { fontCache: 'global' },
+      startup: { typeset: false }
+    };
+  </script>
+</head>
+
+<body>
+
+  <!-- SVG Icon Sprite -->
+  <div id="svg-sprite-container" aria-hidden="true"
+       style="display:none;position:absolute;width:0;height:0;overflow:hidden;"></div>
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toast-container"
+       aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Shared Modal -->
+  <div class="modal-overlay" id="modal-overlay"
+       role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-body"  id="modal-body"></p>
+      <div class="modal-actions" id="modal-actions"></div>
+    </div>
+  </div>
+
+  <!-- Palette overlay -->
+  <div class="palette-overlay" id="palette-overlay"></div>
+
+  <!-- Question Palette Panel -->
+  <div class="palette-panel" id="palette-panel"
+       role="dialog" aria-label="Question Palette">
+    <div class="palette-header">
+      <span class="palette-title">Question Palette</span>
+      <button class="btn-icon" id="palette-close-btn" aria-label="Close palette">
+        <svg class="icon icon-lg"><use href="#icon-close"/></svg>
+      </button>
+    </div>
+
+    <div class="palette-legend">
+      <div class="palette-legend-item">
+        <span class="palette-legend-dot answered"></span>
+        <span>Answered</span>
+      </div>
+      <div class="palette-legend-item">
+        <span class="palette-legend-dot flagged"></span>
+        <span>Flagged</span>
+      </div>
+      <div class="palette-legend-item">
+        <span class="palette-legend-dot visited"></span>
+        <span>Visited</span>
+      </div>
+      <div class="palette-legend-item">
+        <span class="palette-legend-dot not-visited"></span>
+        <span>Not Visited</span>
+      </div>
+    </div>
+
+    <div class="palette-grid-container">
+      <div class="palette-grid" id="palette-grid"></div>
+    </div>
+
+    <div class="palette-footer">
+      <div class="palette-summary" id="palette-summary">
+        <div class="palette-summary-item">
+          <span class="palette-summary-value" id="palette-count-answered">0</span>
+          <span class="palette-summary-label">Answered</span>
+        </div>
+        <div class="palette-summary-item">
+          <span class="palette-summary-value" id="palette-count-flagged">0</span>
+          <span class="palette-summary-label">Flagged</span>
+        </div>
+        <div class="palette-summary-item">
+          <span class="palette-summary-value" id="palette-count-visited">0</span>
+          <span class="palette-summary-label">Visited</span>
+        </div>
+        <div class="palette-summary-item">
+          <span class="palette-summary-value" id="palette-count-remaining">0</span>
+          <span class="palette-summary-label">Remaining</span>
+        </div>
+      </div>
+      <button class="btn btn-danger btn-block" id="palette-submit-btn">
+        <svg class="icon"><use href="#icon-submit"/></svg>
+        Submit Quiz
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       MAIN APP
+  ═══════════════════════════════════════════ -->
+  <div id="app">
+
+    <!-- APP HEADER -->
+    <header class="app-header" id="app-header">
+      <button class="btn-icon" id="header-back-btn"
+              aria-label="Go back" style="display:none;">
+        <svg class="icon icon-lg"><use href="#icon-back"/></svg>
+      </button>
+      <span class="header-title" id="header-title">Railway PYQ</span>
+      <div class="header-actions">
+        <button class="btn-icon" id="header-search-btn" aria-label="Search">
+          <svg class="icon icon-lg"><use href="#icon-search"/></svg>
+        </button>
+        <button class="btn-icon" id="header-settings-btn" aria-label="Settings">
+          <svg class="icon icon-lg"><use href="#icon-settings"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: HOME
+    ═══════════════════════════════════════════ -->
+    <section class="page active" id="page-home" data-page="home">
+      <div class="page-content">
+
+        <div class="dashboard-header">
+          <div>
+            <div class="dashboard-greeting" id="home-greeting">Welcome back</div>
+            <div class="dashboard-subtitle">Keep practising to improve your score</div>
+          </div>
+          <button class="btn-icon" id="home-streak-btn" aria-label="View streak">
+            <svg class="icon icon-xl" style="color:var(--accent-yellow)">
+              <use href="#icon-streak"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Stats strip -->
+        <div class="stats-strip">
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <svg class="icon icon-lg"><use href="#icon-paper"/></svg>
+            </div>
+            <div class="stat-card-value" id="home-shifts-attempted">0</div>
+            <div class="stat-card-label">Shifts Done</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon" style="color:var(--accent-green)">
+              <svg class="icon icon-lg"><use href="#icon-accuracy"/></svg>
+            </div>
+            <div class="stat-card-value" id="home-accuracy">0%</div>
+            <div class="stat-card-label">Accuracy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon" style="color:var(--accent-yellow)">
+              <svg class="icon icon-lg"><use href="#icon-streak"/></svg>
+            </div>
+            <div class="stat-card-value" id="home-streak">0</div>
+            <div class="stat-card-label">Day Streak</div>
+          </div>
+        </div>
+
+        <!-- Progress ring -->
+        <div class="progress-section">
+          <div class="progress-ring-container">
+            <svg class="progress-ring-svg" viewBox="0 0 100 100">
+              <circle class="progress-ring-bg" cx="50" cy="50" r="42"/>
+              <circle class="progress-ring-fill" id="progress-ring-fill"
+                      cx="50" cy="50" r="42"
+                      stroke-dasharray="263.9"
+                      stroke-dashoffset="263.9"/>
+            </svg>
+            <div class="progress-ring-text">
+              <span class="progress-ring-value" id="progress-ring-value">0</span>
+              <span class="progress-ring-total">/ 54</span>
+            </div>
+          </div>
+          <div class="progress-info">
+            <div class="progress-title">Shifts Completed</div>
+            <div class="progress-desc" id="progress-desc">
+              Start your first shift to begin tracking progress.
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="section-header">
+          <span class="section-title">Quick Actions</span>
+        </div>
+        <div class="quick-actions mb-6">
+          <button class="quick-action-btn" id="qa-browse">
+            <div class="quick-action-icon blue">
+              <svg class="icon icon-lg"><use href="#icon-browse"/></svg>
+            </div>
+            <span class="quick-action-label">Browse Shifts</span>
+          </button>
+          <button class="quick-action-btn" id="qa-continue">
+            <div class="quick-action-icon green">
+              <svg class="icon icon-lg"><use href="#icon-play"/></svg>
+            </div>
+            <span class="quick-action-label">Continue Last</span>
+          </button>
+          <button class="quick-action-btn" id="qa-practice">
+            <div class="quick-action-icon purple">
+              <svg class="icon icon-lg"><use href="#icon-target"/></svg>
+            </div>
+            <span class="quick-action-label">Practice</span>
+          </button>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="section-header">
+          <span class="section-title">Recent Activity</span>
+          <button class="section-action" id="home-view-all-btn">View all</button>
+        </div>
+        <div class="recent-list" id="home-recent-list">
+          <div class="empty-state">
+            <div class="empty-state-icon">
+              <svg class="icon icon-2xl" style="width:56px;height:56px;">
+                <use href="#icon-history"/>
+              </svg>
+            </div>
+            <div class="empty-state-title">No attempts yet</div>
+            <div class="empty-state-desc">
+              Complete a shift to see your recent activity here.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: BROWSE
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-browse" data-page="browse">
+      <div class="page-content">
+
+        <div class="search-bar">
+          <svg class="icon icon-sm"><use href="#icon-search"/></svg>
+          <input type="search" id="browse-search"
+                 placeholder="Search shifts by date..."
+                 autocomplete="off" />
+        </div>
+
+        <div class="filter-bar" id="browse-filter-bar">
+          <button class="filter-chip active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="not-started">Not Started</button>
+          <button class="filter-chip" data-filter="in-progress">In Progress</button>
+          <button class="filter-chip" data-filter="completed">Completed</button>
+        </div>
+
+        <div id="browse-shifts-container"></div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: SHIFT DETAIL
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-shift-detail" data-page="shift-detail">
+      <div class="page-content">
+
+        <div class="shift-detail-header">
+          <div class="shift-detail-title" id="detail-title"></div>
+          <div class="shift-detail-meta"  id="detail-meta"></div>
+
+          <div class="subject-split-row">
+            <div class="subject-split-item">
+              <div class="subject-split-count"
+                   style="color:var(--subject-ga)">40</div>
+              <div class="subject-split-name">Gen. Awareness</div>
+            </div>
+            <div class="subject-split-item">
+              <div class="subject-split-count"
+                   style="color:var(--subject-math)">30</div>
+              <div class="subject-split-name">Mathematics</div>
+            </div>
+            <div class="subject-split-item">
+              <div class="subject-split-count"
+                   style="color:var(--subject-reasoning)">30</div>
+              <div class="subject-split-name">Reasoning</div>
+            </div>
+          </div>
+
+          <div id="detail-status-row"></div>
+        </div>
+
+        <!-- Attempt history -->
+        <div id="detail-attempts-section" style="display:none;">
+          <div class="section-header mb-3">
+            <span class="section-title">Attempt History</span>
+          </div>
+          <div class="card card-sm mb-4" style="overflow-x:auto;">
+            <table class="attempt-history-table" id="detail-attempts-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Date</th>
+                  <th>Mode</th>
+                  <th>Score</th>
+                  <th>Accuracy</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody id="detail-attempts-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="action-buttons-grid" id="detail-action-buttons">
+          <button class="btn btn-primary btn-lg btn-block"
+                  id="detail-start-quiz-btn">
+            <svg class="icon"><use href="#icon-play"/></svg>
+            Start Quiz Mode
+          </button>
+          <button class="btn btn-secondary btn-lg btn-block"
+                  id="detail-start-exam-btn">
+            <svg class="icon"><use href="#icon-lock"/></svg>
+            Start Exam Mode
+          </button>
+          <button class="btn btn-ghost btn-block"
+                  id="detail-review-btn" style="display:none;">
+            <svg class="icon"><use href="#icon-note"/></svg>
+            Review Last Attempt
+          </button>
+          <button class="btn btn-ghost btn-block"
+                  id="detail-bookmarks-btn">
+            <svg class="icon"><use href="#icon-bookmark"/></svg>
+            Shift Bookmarks
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: PRE-QUIZ
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-pre-quiz" data-page="pre-quiz">
+      <div class="page-content">
+        <div class="pre-quiz-screen">
+
+          <div class="pre-quiz-title" id="pre-quiz-title">Quiz Mode</div>
+          <div class="pre-quiz-meta"  id="pre-quiz-meta"></div>
+
+          <div class="pre-quiz-rules">
+            <div class="pre-quiz-rule-item">
+              <div class="rule-icon-wrap">
+                <svg class="icon"><use href="#icon-paper"/></svg>
+              </div>
+              <div>
+                <strong id="pre-quiz-qcount">100 Questions</strong>
+                <div class="text-sm text-muted mt-1"
+                     id="pre-quiz-subject-split"></div>
+              </div>
+            </div>
+            <div class="pre-quiz-rule-item">
+              <div class="rule-icon-wrap">
+                <svg class="icon"><use href="#icon-timer"/></svg>
+              </div>
+              <div>
+                <strong id="pre-quiz-duration">90 Minutes</strong>
+                <div class="text-sm text-muted mt-1">
+                  Auto-submit when time runs out
+                </div>
+              </div>
+            </div>
+            <div class="pre-quiz-rule-item">
+              <div class="rule-icon-wrap" style="color:var(--accent-green)">
+                <svg class="icon"><use href="#icon-check"/></svg>
+              </div>
+              <div><strong>+1 Mark</strong> per correct answer</div>
+            </div>
+            <div class="pre-quiz-rule-item">
+              <div class="rule-icon-wrap" style="color:var(--accent-red)">
+                <svg class="icon"><use href="#icon-cross"/></svg>
+              </div>
+              <div><strong>-0.33 Marks</strong> per wrong answer</div>
+            </div>
+            <div class="pre-quiz-rule-item" id="pre-quiz-mode-note">
+              <div class="rule-icon-wrap" style="color:var(--accent-yellow)">
+                <svg class="icon"><use href="#icon-info"/></svg>
+              </div>
+              <div id="pre-quiz-mode-desc">
+                Free navigation — jump to any question, use the palette,
+                bookmark and flag questions.
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-xl btn-block"
+                  id="pre-quiz-start-btn">
+            <svg class="icon"><use href="#icon-play"/></svg>
+            Begin Now
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: QUIZ
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-quiz" data-page="quiz">
+
+      <!-- Quiz header -->
+      <div class="quiz-header" id="quiz-header">
+        <div class="quiz-header-info">
+          <div class="quiz-shift-name"       id="quiz-shift-name"></div>
+          <div class="quiz-question-counter" id="quiz-question-counter">Q 1 / 100</div>
+        </div>
+        <div class="quiz-timer" id="quiz-timer"
+             aria-live="polite" aria-label="Time remaining">
+          <svg class="icon icon-sm"><use href="#icon-timer"/></svg>
+          <span id="quiz-timer-display">90:00</span>
+        </div>
+        <button class="btn-icon" id="quiz-pause-btn"
+                aria-label="Pause quiz" style="display:none;">
+          <svg class="icon icon-lg"><use href="#icon-pause"/></svg>
+        </button>
+      </div>
+
+      <!-- Question area -->
+      <div class="question-area" id="question-area">
+        <div class="question-badges"      id="question-badges"></div>
+        <div class="question-number-label" id="question-number-label">Question 1</div>
+        <div class="question-text"         id="question-text"></div>
+        <div class="options-list"          id="options-list"></div>
+        <div class="explanation-box"       id="explanation-box" style="display:none;">
+          <div class="explanation-title">
+            <svg class="icon icon-sm"><use href="#icon-info"/></svg>
+            Explanation
+          </div>
+          <div class="explanation-text" id="explanation-text"></div>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="quiz-bottom-bar" id="quiz-bottom-bar">
+        <div class="quiz-bottom-actions">
+          <button class="btn-icon" id="quiz-bookmark-btn"
+                  aria-label="Bookmark question" title="Bookmark">
+            <svg class="icon icon-lg"><use href="#icon-bookmark"/></svg>
+          </button>
+          <button class="btn-icon" id="quiz-flag-btn"
+                  aria-label="Flag question" title="Flag for review">
+            <svg class="icon icon-lg"><use href="#icon-flag"/></svg>
+          </button>
+        </div>
+        <div class="quiz-bottom-nav">
+          <button class="btn btn-secondary btn-sm" id="quiz-prev-btn">
+            <svg class="icon icon-sm"><use href="#icon-previous"/></svg>
+            Prev
+          </button>
+          <button class="btn btn-ghost btn-sm" id="quiz-skip-btn">
+            Skip
+          </button>
+          <button class="btn btn-primary btn-sm" id="quiz-next-btn">
+            Next
+            <svg class="icon icon-sm"><use href="#icon-next"/></svg>
+          </button>
+          <button class="btn-icon" id="quiz-palette-btn"
+                  aria-label="Open question palette" title="Question palette">
+            <svg class="icon icon-lg"><use href="#icon-palette"/></svg>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: RESULT
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-result" data-page="result">
+      <div class="page-content">
+
+        <div class="result-score-card">
+          <div class="result-score-main" id="result-score-main">0.00</div>
+          <div class="result-score-label">
+            Final Score (out of
+            <span id="result-total-marks">100</span>)
+          </div>
+
+          <div class="result-stats-grid">
+            <div class="result-stat-item">
+              <span class="result-stat-value correct"
+                    id="result-correct">0</span>
+              <span class="result-stat-label">Correct</span>
+            </div>
+            <div class="result-stat-item">
+              <span class="result-stat-value wrong"
+                    id="result-wrong">0</span>
+              <span class="result-stat-label">Wrong</span>
+            </div>
+            <div class="result-stat-item">
+              <span class="result-stat-value skipped"
+                    id="result-skipped">0</span>
+              <span class="result-stat-label">Skipped</span>
+            </div>
+            <div class="result-stat-item">
+              <span class="result-stat-value"
+                    id="result-negative"
+                    style="color:var(--accent-red)">0</span>
+              <span class="result-stat-label">Neg. Marks</span>
+            </div>
+            <div class="result-stat-item">
+              <span class="result-stat-value"
+                    id="result-accuracy"
+                    style="color:var(--accent-blue)">0%</span>
+              <span class="result-stat-label">Accuracy</span>
+            </div>
+          </div>
+
+          <div class="flex-center gap-2 mt-4"
+               style="color:var(--text-muted);font-size:var(--font-size-sm);">
+            <svg class="icon icon-sm"><use href="#icon-clock"/></svg>
+            Time taken:
+            <strong id="result-time-taken"
+                    style="color:var(--text-primary);">--:--</strong>
+          </div>
+        </div>
+
+        <!-- Comparison banner -->
+        <div class="comparison-banner" id="comparison-banner"
+             style="display:none;">
+          <div class="comparison-icon" id="comparison-icon">
+            <svg class="icon"><use href="#icon-improvement-up"/></svg>
+          </div>
+          <div class="comparison-text" id="comparison-text"></div>
+        </div>
+
+        <!-- Subject breakdown -->
+        <div class="section-header mb-3">
+          <span class="section-title">Subject Breakdown</span>
+        </div>
+        <div class="subject-table-card mb-4">
+          <table class="subject-table" id="result-subject-table">
+            <thead>
+              <tr>
+                <th>Subject</th>
+                <th>Correct</th>
+                <th>Wrong</th>
+                <th>Skipped</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody id="result-subject-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Difficulty breakdown -->
+        <div class="section-header mb-3">
+          <span class="section-title">Difficulty Breakdown</span>
+        </div>
+        <div class="card mb-4" id="result-difficulty-card">
+          <div class="bar-chart" id="result-difficulty-chart"></div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="result-action-grid">
+          <button class="btn btn-primary"   id="result-review-all-btn">
+            <svg class="icon"><use href="#icon-note"/></svg>
+            Review All
+          </button>
+          <button class="btn btn-secondary" id="result-review-wrong-btn">
+            <svg class="icon"><use href="#icon-cross"/></svg>
+            Review Wrong
+          </button>
+          <button class="btn btn-secondary" id="result-review-flagged-btn">
+            <svg class="icon"><use href="#icon-flag"/></svg>
+            Review Flagged
+          </button>
+          <button class="btn btn-secondary" id="result-review-bookmarked-btn">
+            <svg class="icon"><use href="#icon-bookmark"/></svg>
+            Review Bookmarked
+          </button>
+          <button class="btn btn-ghost" id="result-retake-btn">
+            <svg class="icon"><use href="#icon-reset"/></svg>
+            Retake
+          </button>
+          <button class="btn btn-ghost" id="result-back-browse-btn">
+            <svg class="icon"><use href="#icon-browse"/></svg>
+            Browse
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: REVIEW
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-review" data-page="review">
+
+      <div class="app-header" id="review-filter-header"
+           style="position:sticky;top:0;z-index:var(--z-sticky);">
+        <button class="btn-icon" id="review-back-btn" aria-label="Back to result">
+          <svg class="icon icon-lg"><use href="#icon-back"/></svg>
+        </button>
+        <div class="filter-bar"
+             style="flex:1;margin:0;padding:0;overflow-x:auto;">
+          <button class="filter-chip active" data-review-filter="all">All</button>
+          <button class="filter-chip" data-review-filter="wrong">Wrong</button>
+          <button class="filter-chip" data-review-filter="flagged">Flagged</button>
+          <button class="filter-chip" data-review-filter="bookmarked">Bookmarked</button>
+        </div>
+      </div>
+
+      <div class="question-area" id="review-question-area">
+        <div class="question-badges"       id="review-question-badges"></div>
+        <div class="question-number-label" id="review-question-number-label">Question 1</div>
+        <div class="question-text"         id="review-question-text"></div>
+        <div class="options-list"          id="review-options-list"></div>
+        <div class="explanation-box"       id="review-explanation-box">
+          <div class="explanation-title">
+            <svg class="icon icon-sm"><use href="#icon-info"/></svg>
+            Explanation
+          </div>
+          <div class="explanation-text" id="review-explanation-text"></div>
+        </div>
+      </div>
+
+      <div class="quiz-bottom-bar">
+        <div class="quiz-bottom-actions">
+          <button class="btn-icon" id="review-bookmark-btn"
+                  aria-label="Toggle bookmark">
+            <svg class="icon icon-lg"><use href="#icon-bookmark"/></svg>
+          </button>
+          <button class="btn-icon" id="review-flag-btn"
+                  aria-label="Toggle flag">
+            <svg class="icon icon-lg"><use href="#icon-flag"/></svg>
+          </button>
+          <span class="text-sm text-muted" id="review-position-label"
+                style="padding:0 var(--space-2);">1 / 100</span>
+        </div>
+        <div class="quiz-bottom-nav">
+          <button class="btn btn-secondary btn-sm" id="review-prev-btn">
+            <svg class="icon icon-sm"><use href="#icon-previous"/></svg>
+            Prev
+          </button>
+          <button class="btn btn-primary btn-sm" id="review-next-btn">
+            Next
+            <svg class="icon icon-sm"><use href="#icon-next"/></svg>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: PRACTICE MODE
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-practice" data-page="practice">
+      <div class="page-content">
+
+        <div class="practice-filter-panel" id="practice-filter-panel">
+
+          <!-- Source -->
+          <div class="practice-section-label">Source</div>
+          <div class="practice-filter-group" id="practice-source-group">
+
+            <div class="practice-filter-row">
+              <span class="practice-filter-label">Year</span>
+              <div class="filter-chip-wrap" id="practice-year-chips">
+                <button class="filter-chip active" data-year="all">All</button>
+                <button class="filter-chip" data-year="2025">2025</button>
+              </div>
+            </div>
+
+            <div class="practice-filter-row">
+              <span class="practice-filter-label">Date</span>
+              <div class="filter-chip-wrap" id="practice-date-chips">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+
+            <div class="practice-filter-row">
+              <span class="practice-filter-label">Shift</span>
+              <div class="filter-chip-wrap" id="practice-shift-chips">
+                <button class="filter-chip active" data-shift="all">All</button>
+                <button class="filter-chip" data-shift="1">Shift 1</button>
+                <button class="filter-chip" data-shift="2">Shift 2</button>
+                <button class="filter-chip" data-shift="3">Shift 3</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="practice-divider"></div>
+
+          <!-- Subject -->
+          <div class="practice-section-label">Subject</div>
+          <div class="filter-chip-wrap" id="practice-subject-chips">
+            <button class="filter-chip active" data-subject="all">All</button>
+            <button class="filter-chip"
+                    data-subject="General Awareness">Gen. Awareness</button>
+            <button class="filter-chip"
+                    data-subject="Mathematics">Mathematics</button>
+            <button class="filter-chip"
+                    data-subject="General Intelligence and Reasoning">Reasoning</button>
+          </div>
+
+          <div class="practice-divider"></div>
+
+          <!-- Topic (cascades from subject) -->
+          <div id="practice-topic-section" style="display:none;">
+            <div class="practice-section-label">Topic</div>
+            <div class="filter-chip-wrap" id="practice-topic-chips"></div>
+            <div class="practice-divider"></div>
+          </div>
+
+          <!-- SubTopic (cascades from topic) -->
+          <div id="practice-subtopic-section" style="display:none;">
+            <div class="practice-section-label">SubTopic</div>
+            <div class="filter-chip-wrap" id="practice-subtopic-chips"></div>
+            <div class="practice-divider"></div>
+          </div>
+
+          <!-- Difficulty -->
+          <div class="practice-section-label">Difficulty</div>
+          <div class="filter-chip-wrap" id="practice-diff-chips">
+            <button class="filter-chip active" data-diff="all">All</button>
+            <button class="filter-chip" data-diff="Easy">Easy</button>
+            <button class="filter-chip" data-diff="Medium">Medium</button>
+            <button class="filter-chip" data-diff="Hard">Hard</button>
+          </div>
+
+          <div class="practice-divider"></div>
+
+          <!-- Special Filters -->
+          <div class="practice-section-label">Special Filters</div>
+          <div class="practice-toggle-row">
+            <div class="practice-toggle-info">
+              <div class="practice-toggle-label">Only Bookmarked</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="practice-only-bookmarked" />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="practice-toggle-row">
+            <div class="practice-toggle-info">
+              <div class="practice-toggle-label">Only Flagged</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="practice-only-flagged" />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="practice-toggle-row">
+            <div class="practice-toggle-info">
+              <div class="practice-toggle-label">Only Previously Wrong</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="practice-only-wrong" />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+
+          <div class="practice-divider"></div>
+
+          <!-- Settings -->
+          <div class="practice-section-label">Settings</div>
+
+          <div class="practice-filter-row mb-3">
+            <span class="practice-filter-label">Questions</span>
+            <div class="filter-chip-wrap" id="practice-count-chips">
+              <button class="filter-chip"       data-count="10">10</button>
+              <button class="filter-chip active" data-count="25">25</button>
+              <button class="filter-chip"       data-count="50">50</button>
+              <button class="filter-chip"       data-count="all">All</button>
+            </div>
+          </div>
+
+          <div class="practice-toggle-row">
+            <div class="practice-toggle-info">
+              <div class="practice-toggle-label">Shuffle Questions</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="practice-shuffle" checked />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+
+          <div class="practice-toggle-row">
+            <div class="practice-toggle-info">
+              <div class="practice-toggle-label">Enable Timer</div>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="practice-timer-on" />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+
+          <div id="practice-timer-row" class="practice-filter-row"
+               style="display:none;">
+            <span class="practice-filter-label">Minutes</span>
+            <input type="number" id="practice-timer-mins"
+                   value="30" min="1" max="300"
+                   style="width:80px;text-align:center;" />
+          </div>
+
+        </div><!-- end practice-filter-panel -->
+
+        <!-- Sticky preview bar — sits above bottom nav -->
+        <div class="practice-preview-bar" id="practice-preview-bar">
+          <div class="practice-preview-info">
+            <span class="practice-preview-count"
+                  id="practice-preview-count">0</span>
+            <span class="practice-preview-label">questions match</span>
+          </div>
+          <button class="btn btn-primary" id="practice-start-btn" disabled>
+            <svg class="icon"><use href="#icon-play"/></svg>
+            Start Practice
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: HISTORY
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-history" data-page="history">
+      <div class="page-content">
+
+        <div class="filter-bar mb-4">
+          <button class="filter-chip active" data-history-filter="all">All</button>
+          <button class="filter-chip" data-history-filter="quiz">Quiz Mode</button>
+          <button class="filter-chip" data-history-filter="exam">Exam Mode</button>
+        </div>
+
+        <div class="history-list" id="history-list"></div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: BOOKMARKS
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-bookmarks" data-page="bookmarks">
+      <div class="page-content">
+
+        <div class="filter-bar" id="bookmarks-filter-bar">
+          <button class="filter-chip active" data-bm-filter="all">All</button>
+          <button class="filter-chip" data-bm-filter="ga">Gen. Awareness</button>
+          <button class="filter-chip" data-bm-filter="math">Mathematics</button>
+          <button class="filter-chip" data-bm-filter="reasoning">Reasoning</button>
+        </div>
+
+        <div class="filter-bar mb-4" id="bookmarks-diff-bar">
+          <button class="filter-chip active" data-bm-diff="all">All Difficulty</button>
+          <button class="filter-chip" data-bm-diff="Easy">Easy</button>
+          <button class="filter-chip" data-bm-diff="Medium">Medium</button>
+          <button class="filter-chip" data-bm-diff="Hard">Hard</button>
+        </div>
+
+        <button class="btn btn-outline btn-block mb-4" id="bookmarks-quiz-btn">
+          <svg class="icon"><use href="#icon-play"/></svg>
+          Quiz Only Bookmarked Questions
+        </button>
+
+        <div id="bookmarks-list"></div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: ANALYTICS
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-analytics" data-page="analytics">
+      <div class="page-content">
+
+        <div class="analytics-number-row">
+          <div class="stat-card">
+            <div class="stat-card-icon">
+              <svg class="icon icon-lg"><use href="#icon-paper"/></svg>
+            </div>
+            <div class="stat-card-value" id="an-total-attempted">0</div>
+            <div class="stat-card-label">Questions Attempted</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon" style="color:var(--accent-green)">
+              <svg class="icon icon-lg"><use href="#icon-accuracy"/></svg>
+            </div>
+            <div class="stat-card-value" id="an-overall-accuracy">0%</div>
+            <div class="stat-card-label">Overall Accuracy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon" style="color:var(--accent-cyan)">
+              <svg class="icon icon-lg"><use href="#icon-clock"/></svg>
+            </div>
+            <div class="stat-card-value" id="an-total-time">0h</div>
+            <div class="stat-card-label">Time Spent</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon" style="color:var(--accent-yellow)">
+              <svg class="icon icon-lg"><use href="#icon-streak"/></svg>
+            </div>
+            <div class="stat-card-value" id="an-streak">0</div>
+            <div class="stat-card-label">Current Streak</div>
+          </div>
+        </div>
+
+        <!-- Score Trend -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">Score Trend</div>
+          <div class="line-chart-container" id="score-trend-chart">
+            <svg class="line-chart-svg" id="score-trend-svg"
+                 viewBox="0 0 400 160" preserveAspectRatio="none"></svg>
+          </div>
+          <div class="text-center text-sm text-muted mt-2"
+               id="score-trend-empty" style="display:none;">
+            Complete at least 2 shifts to see the score trend.
+          </div>
+        </div>
+
+        <!-- Subject Accuracy -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">Subject-wise Accuracy</div>
+          <div class="bar-chart" id="subject-accuracy-chart">
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Gen. Awareness</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill ga" id="bar-ga"
+                     style="width:0%"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-ga-val">0%</div>
+            </div>
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Mathematics</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill math" id="bar-math"
+                     style="width:0%"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-math-val">0%</div>
+            </div>
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Reasoning</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill reasoning" id="bar-reasoning"
+                     style="width:0%"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-reasoning-val">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weak Areas -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">Weak Areas (below 60% accuracy)</div>
+          <div class="weak-area-list" id="weak-area-list">
+            <div class="text-sm text-muted text-center" id="weak-area-empty">
+              No weak areas detected yet. Keep practising!
+            </div>
+          </div>
+        </div>
+
+        <!-- Coverage Map -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">SubTopic Coverage</div>
+          <div class="coverage-grid" id="coverage-grid"></div>
+        </div>
+
+        <!-- Difficulty Accuracy -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">Difficulty-wise Accuracy</div>
+          <div class="bar-chart" id="difficulty-accuracy-chart">
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Easy</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill" id="bar-easy"
+                     style="width:0%;background:var(--diff-easy)"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-easy-val">0%</div>
+            </div>
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Medium</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill" id="bar-medium"
+                     style="width:0%;background:var(--diff-medium)"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-medium-val">0%</div>
+            </div>
+            <div class="bar-chart-row">
+              <div class="bar-chart-label">Hard</div>
+              <div class="bar-chart-track">
+                <div class="bar-chart-fill" id="bar-hard"
+                     style="width:0%;background:var(--diff-hard)"></div>
+              </div>
+              <div class="bar-chart-value" id="bar-hard-val">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Streak Calendar -->
+        <div class="analytics-card">
+          <div class="analytics-card-title">Practice Calendar</div>
+          <div class="flex-between mb-3">
+            <div class="text-sm text-secondary">
+              Current streak:
+              <strong id="an-current-streak"
+                      style="color:var(--accent-yellow)">0 days</strong>
+            </div>
+            <div class="text-sm text-secondary">
+              Best:
+              <strong id="an-longest-streak"
+                      style="color:var(--text-primary)">0 days</strong>
+            </div>
+          </div>
+          <div class="streak-calendar" id="streak-calendar"></div>
+          <div class="flex gap-2 mt-3 items-center">
+            <span class="text-xs text-muted">Less</span>
+            <span class="streak-day" style="width:14px;height:14px;"></span>
+            <span class="streak-day practiced-low"
+                  style="width:14px;height:14px;"></span>
+            <span class="streak-day practiced-medium"
+                  style="width:14px;height:14px;"></span>
+            <span class="streak-day practiced-high"
+                  style="width:14px;height:14px;"></span>
+            <span class="text-xs text-muted">More</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: CUSTOM QUIZ BUILDER
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-custom-quiz" data-page="custom-quiz">
+      <div class="page-content">
+
+        <div class="quiz-builder-steps" id="builder-steps">
+          <div class="step-indicator">
+            <div class="step-dot active" id="step-dot-1">1</div>
+            <div class="step-label active">Source</div>
+          </div>
+          <div class="step-connector" id="step-conn-1"></div>
+          <div class="step-indicator">
+            <div class="step-dot" id="step-dot-2">2</div>
+            <div class="step-label">Filters</div>
+          </div>
+          <div class="step-connector" id="step-conn-2"></div>
+          <div class="step-indicator">
+            <div class="step-dot" id="step-dot-3">3</div>
+            <div class="step-label">Settings</div>
+          </div>
+          <div class="step-connector" id="step-conn-3"></div>
+          <div class="step-indicator">
+            <div class="step-dot" id="step-dot-4">4</div>
+            <div class="step-label">Preview</div>
+          </div>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="builder-panel active" id="builder-step-1">
+          <div class="section-title mb-4">Select Source</div>
+          <div class="toggle-group">
+            <label class="toggle-row" style="cursor:pointer;">
+              <input type="radio" name="builder-source"
+                     value="all" checked style="display:none;">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">All Shifts</div>
+                <div class="toggle-row-desc">Questions from all 54 shifts</div>
+              </div>
+              <svg class="icon" id="source-all-icon">
+                <use href="#icon-radio-filled"/>
+              </svg>
+            </label>
+            <label class="toggle-row" style="cursor:pointer;">
+              <input type="radio" name="builder-source"
+                     value="date-range" style="display:none;">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Date Range</div>
+                <div class="toggle-row-desc">Select a start and end date</div>
+              </div>
+              <svg class="icon" id="source-date-icon">
+                <use href="#icon-radio-empty"/>
+              </svg>
+            </label>
+            <div id="builder-date-range"
+                 style="display:none;padding:var(--space-3) var(--space-4);
+                        background:var(--bg-tertiary);border-radius:var(--radius-lg);"
+                 class="flex-col gap-3">
+              <div>
+                <label class="text-sm text-muted mb-2"
+                       style="display:block;">From</label>
+                <input type="date" id="builder-date-from" />
+              </div>
+              <div>
+                <label class="text-sm text-muted mb-2"
+                       style="display:block;">To</label>
+                <input type="date" id="builder-date-to" />
+              </div>
+            </div>
+            <label class="toggle-row" style="cursor:pointer;">
+              <input type="radio" name="builder-source"
+                     value="specific" style="display:none;">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Specific Shifts</div>
+                <div class="toggle-row-desc">Pick individual shifts</div>
+              </div>
+              <svg class="icon" id="source-specific-icon">
+                <use href="#icon-radio-empty"/>
+              </svg>
+            </label>
+            <div id="builder-shift-picker" style="display:none;"></div>
+          </div>
+          <div class="flex gap-3 mt-6">
+            <button class="btn btn-primary btn-block" id="builder-next-1">
+              Next
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="builder-panel" id="builder-step-2">
+          <div class="section-title mb-4">Filter Questions</div>
+          <div class="text-sm font-semi text-secondary mb-2">Subject</div>
+          <div class="toggle-group mb-4" id="builder-subject-filters"></div>
+          <div class="text-sm font-semi text-secondary mb-2">Difficulty</div>
+          <div class="filter-bar mb-4" id="builder-diff-filter">
+            <button class="filter-chip active" data-diff="all">All</button>
+            <button class="filter-chip" data-diff="Easy">Easy</button>
+            <button class="filter-chip" data-diff="Medium">Medium</button>
+            <button class="filter-chip" data-diff="Hard">Hard</button>
+          </div>
+          <div class="toggle-group mb-4">
+            <div class="toggle-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Only Bookmarked</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="builder-only-bookmarked" />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <div class="toggle-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Only Flagged</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="builder-only-flagged" />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <div class="toggle-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Only Previously Wrong</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="builder-only-wrong" />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="flex gap-3 mt-4">
+            <button class="btn btn-secondary" id="builder-back-2">Back</button>
+            <button class="btn btn-primary btn-block" id="builder-next-2">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="builder-panel" id="builder-step-3">
+          <div class="section-title mb-4">Quiz Settings</div>
+          <div class="text-sm font-semi text-secondary mb-2">
+            Number of Questions
+          </div>
+          <div class="question-count-options mb-4">
+            <button class="count-chip"       data-count="10">10</button>
+            <button class="count-chip active" data-count="25">25</button>
+            <button class="count-chip"       data-count="50">50</button>
+            <button class="count-chip"       data-count="100">100</button>
+            <button class="count-chip"       data-count="custom">Custom</button>
+          </div>
+          <div id="custom-count-input" style="display:none;" class="mb-4">
+            <input type="number" id="builder-custom-count"
+                   placeholder="Enter number of questions"
+                   min="1" max="500" />
+          </div>
+          <div class="toggle-group mb-4">
+            <div class="toggle-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Enable Timer</div>
+                <div class="toggle-row-desc">Countdown timer during quiz</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="builder-timer-on" checked />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <div class="toggle-row" id="timer-duration-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Duration (minutes)</div>
+              </div>
+              <input type="number" id="builder-timer-mins"
+                     value="90" min="1" max="300"
+                     style="width:80px;text-align:center;" />
+            </div>
+            <div class="toggle-row">
+              <div class="toggle-row-info">
+                <div class="toggle-row-label">Shuffle Questions</div>
+                <div class="toggle-row-desc">Randomise question order</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="builder-shuffle" checked />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="flex gap-3 mt-4">
+            <button class="btn btn-secondary" id="builder-back-3">Back</button>
+            <button class="btn btn-primary btn-block"
+                    id="builder-next-3">Preview</button>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="builder-panel" id="builder-step-4">
+          <div class="section-title mb-4">Ready to Start</div>
+          <div class="builder-preview-box">
+            <div class="builder-preview-count"
+                 id="builder-preview-count">0</div>
+            <div class="builder-preview-label">
+              questions matching your filters
+            </div>
+          </div>
+          <div class="card mb-4" id="builder-settings-summary"></div>
+          <div class="flex gap-3 mt-4">
+            <button class="btn btn-secondary" id="builder-back-4">Back</button>
+            <button class="btn btn-primary btn-block"
+                    id="builder-start-btn" disabled>
+              <svg class="icon"><use href="#icon-play"/></svg>
+              Start Custom Quiz
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PAGE: SETTINGS
+    ═══════════════════════════════════════════ -->
+    <section class="page" id="page-settings" data-page="settings">
+      <div class="page-content">
+
+        <!-- Appearance -->
+        <div class="settings-section">
+          <div class="settings-section-title">Appearance</div>
+          <div class="settings-group">
+            <div class="settings-row">
+              <div class="settings-row-icon">
+                <svg class="icon"><use href="#icon-dark-mode"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Dark Mode</div>
+                <div class="settings-row-desc">Default: On</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="settings-dark-mode" checked />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <div class="settings-row">
+              <div class="settings-row-icon">
+                <svg class="icon"><use href="#icon-edit"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Font Size</div>
+              </div>
+              <div class="font-size-selector">
+                <button class="font-size-btn fs-small"
+                        data-size="small">A</button>
+                <button class="font-size-btn fs-medium active"
+                        data-size="medium">A</button>
+                <button class="font-size-btn fs-large"
+                        data-size="large">A</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quiz Defaults -->
+        <div class="settings-section">
+          <div class="settings-section-title">Quiz Defaults</div>
+          <div class="settings-group">
+            <div class="settings-row">
+              <div class="settings-row-icon">
+                <svg class="icon"><use href="#icon-timer"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Timer On by Default</div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="settings-timer-default" checked />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <div class="settings-row">
+              <div class="settings-row-icon">
+                <svg class="icon"><use href="#icon-clock"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Default Duration</div>
+                <div class="settings-row-desc">Minutes per session</div>
+              </div>
+              <input type="number" id="settings-default-time"
+                     value="90" min="10" max="300"
+                     style="width:72px;text-align:center;" />
+            </div>
+            <div class="settings-row">
+              <div class="settings-row-icon">
+                <svg class="icon"><use href="#icon-palette"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Show Subject Badges</div>
+                <div class="settings-row-desc">
+                  Display topic badges during quiz
+                </div>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="settings-show-badges" checked />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data -->
+        <div class="settings-section">
+          <div class="settings-section-title">Data</div>
+          <div class="settings-group">
+            <button class="settings-row w-full"
+                    id="settings-export-btn" style="text-align:left;">
+              <div class="settings-row-icon" style="color:var(--accent-green)">
+                <svg class="icon"><use href="#icon-export"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Export Progress</div>
+                <div class="settings-row-desc">Download all data as JSON</div>
+              </div>
+              <svg class="icon icon-sm text-muted">
+                <use href="#icon-chevron-right"/>
+              </svg>
+            </button>
+            <button class="settings-row w-full"
+                    id="settings-reset-shift-btn" style="text-align:left;">
+              <div class="settings-row-icon" style="color:var(--accent-yellow)">
+                <svg class="icon"><use href="#icon-reset"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Reset Specific Shift</div>
+                <div class="settings-row-desc">Clear data for one shift</div>
+              </div>
+              <svg class="icon icon-sm text-muted">
+                <use href="#icon-chevron-right"/>
+              </svg>
+            </button>
+            <button class="settings-row w-full"
+                    id="settings-reset-all-btn" style="text-align:left;">
+              <div class="settings-row-icon" style="color:var(--accent-red)">
+                <svg class="icon"><use href="#icon-delete"/></svg>
+              </div>
+              <div class="settings-row-info">
+                <div class="settings-row-label">Reset All Progress</div>
+                <div class="settings-row-desc">This cannot be undone</div>
+              </div>
+              <svg class="icon icon-sm text-muted">
+                <use href="#icon-chevron-right"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="text-center text-muted text-xs mt-6 mb-4">
+          Railway PYQ Practice &nbsp;&middot;&nbsp; v1.0.0<br/>
+          54 Shifts &nbsp;&middot;&nbsp; 5400 Questions
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         BOTTOM NAVIGATION
+    ═══════════════════════════════════════════ -->
+    <nav class="bottom-nav" id="bottom-nav" aria-label="Main navigation">
+      <button class="nav-item active" data-nav="home" aria-label="Home">
+        <svg class="icon icon-lg"><use href="#icon-home"/></svg>
+        <span class="nav-label">Home</span>
+      </button>
+      <button class="nav-item" data-nav="browse" aria-label="Browse shifts">
+        <svg class="icon icon-lg"><use href="#icon-browse"/></svg>
+        <span class="nav-label">Browse</span>
+      </button>
+      <button class="nav-item" data-nav="practice" aria-label="Practice">
+        <svg class="icon icon-lg"><use href="#icon-target"/></svg>
+        <span class="nav-label">Practice</span>
+      </button>
+      <button class="nav-item" data-nav="analytics" aria-label="Analytics">
+        <svg class="icon icon-lg"><use href="#icon-analytics"/></svg>
+        <span class="nav-label">Analytics</span>
+      </button>
+      <button class="nav-item" data-nav="bookmarks" aria-label="Bookmarks">
+        <svg class="icon icon-lg"><use href="#icon-bookmarks"/></svg>
+        <span class="nav-label">Bookmarks</span>
+      </button>
+    </nav>
+
+  </div><!-- end #app -->
+
+  <!-- Scripts — order matters -->
+  <script src="scripts/storage.js"></script>
+  <script src="scripts/scoring.js"></script>
+  <script src="scripts/analytics.js"></script>
+  <script src="scripts/components.js"></script>
+  <script src="scripts/quiz.js"></script>
+  <script src="scripts/practice.js"></script>
+  <script src="scripts/app.js"></script>
+
+</body>
+</html>

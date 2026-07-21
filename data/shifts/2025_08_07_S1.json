@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "id": "2025_08_08_S1",
+    "year": 2025,
+    "date": "2025-08-08",
+    "shift": 1,
+    "shiftTime": "9:00 AM - 10:30 AM",
+    "pageRange": { "start": 49, "end": 64 },
+    "totalQuestions": 15,
+    "duration": 90,
+    "subjectSplit": {
+      "General Awareness": 6,
+      "Mathematics": 5,
+      "General Intelligence and Reasoning": 4
+    }
+  },
+  "questions": [
+    {
+      "id": "2025_08_08_S1_Q001",
+      "serialNumber": 1,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Fundamental Rights and Duties",
+      "difficulty": "Easy",
+      "question": "How many Fundamental Rights are currently guaranteed by the Indian Constitution?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Indian Constitution currently guarantees 6 Fundamental Rights: Right to Equality (Articles 14-18), Right to Freedom (Articles 19-22), Right against Exploitation (Articles 23-24), Right to Freedom of Religion (Articles 25-28), Cultural and Educational Rights (Articles 29-30), and Right to Constitutional Remedies (Article 32). The Right to Property was removed as a Fundamental Right by the 44th Amendment in 1978 and made a legal right under Article 300A.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q002",
+      "serialNumber": 2,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "The Indian National Congress was founded in which year?",
+      "options": [
+        "1857",
+        "1875",
+        "1885",
+        "1905"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Indian National Congress (INC) was founded on 28 December 1885 in Bombay (now Mumbai) by Allan Octavian Hume, Dadabhai Naoroji, and Dinshaw Wacha. The first session was presided over by Womesh Chunder Bonnerjee. It became the principal leader of the Indian independence movement.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q003",
+      "serialNumber": 3,
+      "subject": "General Awareness",
+      "topic": "Science - Biology",
+      "subTopic": "Human Body",
+      "difficulty": "Easy",
+      "question": "Which is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Brain",
+        "Lungs",
+        "Skin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The skin (integumentary system) is the largest organ of the human body by surface area and weight. In adults, the skin covers approximately 1.5 to 2 square metres and weighs about 3.5 to 10 kg. The liver is the largest internal organ, and the skin is the largest overall organ.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q004",
+      "serialNumber": 4,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It also passes through the union territory of Dadra and Nagar Haveli and Daman and Diu.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q005",
+      "serialNumber": 5,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Banking and Finance",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a function of the Reserve Bank of India?",
+      "options": [
+        "Issuing currency notes",
+        "Acting as banker to the government",
+        "Accepting deposits from the general public",
+        "Regulating commercial banks"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Reserve Bank of India does not accept deposits from the general public. This is a function of commercial banks. The RBI's main functions include: issuing currency notes (except one-rupee notes), acting as banker to central and state governments, regulating and supervising commercial banks, managing foreign exchange, and formulating monetary policy.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q006",
+      "serialNumber": 6,
+      "subject": "General Awareness",
+      "topic": "Science - Chemistry",
+      "subTopic": "Acids Bases and Salts",
+      "difficulty": "Easy",
+      "question": "What is the chemical formula of common salt?",
+      "options": [
+        "NaOH",
+        "Na2CO3",
+        "NaCl",
+        "NaHCO3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Common salt is sodium chloride, with the chemical formula NaCl. NaOH is sodium hydroxide (caustic soda), Na2CO3 is sodium carbonate (washing soda), and NaHCO3 is sodium bicarbonate (baking soda). NaCl is formed by the neutralisation of hydrochloric acid (HCl) with sodium hydroxide (NaOH).",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q007",
+      "serialNumber": 7,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Easy",
+      "question": "If the ratio of boys to girls in a class is \\(3:2\\) and there are 30 boys, how many girls are there?",
+      "options": [
+        "\\(15\\)",
+        "\\(18\\)",
+        "\\(20\\)",
+        "\\(25\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Given ratio of boys to girls \\(= 3:2\\). Number of boys \\(= 30\\). Let number of girls \\(= g\\). Then \\(\\dfrac{3}{2} = \\dfrac{30}{g}\\), so \\(g = \\dfrac{30 \\times 2}{3} = 20\\). Therefore there are \\(20\\) girls in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q008",
+      "serialNumber": 8,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Medium",
+      "question": "A shopkeeper buys an article for \\(\\text{Rs. }800\\) and sells it for \\(\\text{Rs. }1000\\). What is the profit percentage?",
+      "options": [
+        "\\(20\\%\\)",
+        "\\(25\\%\\)",
+        "\\(30\\%\\)",
+        "\\(35\\%\\)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cost Price (CP) \\(= \\text{Rs. }800\\), Selling Price (SP) \\(= \\text{Rs. }1000\\). Profit \\(= SP - CP = 1000 - 800 = \\text{Rs. }200\\). Profit \\% \\(= \\dfrac{\\text{Profit}}{\\text{CP}} \\times 100 = \\dfrac{200}{800} \\times 100 = 25\\%\\).",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q009",
+      "serialNumber": 9,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "The average of five numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?",
+      "options": [
+        "\\(30\\)",
+        "\\(32\\)",
+        "\\(35\\)",
+        "\\(37\\)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of 5 numbers \\(= 5 \\times 27 = 135\\). Sum of remaining 4 numbers \\(= 4 \\times 25 = 100\\). Excluded number \\(= 135 - 100 = 35\\).",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q010",
+      "serialNumber": 10,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subTopic": "Triangles",
+      "difficulty": "Hard",
+      "question": "In a right-angled triangle, if the two legs are \\(8\\) cm and \\(15\\) cm, what is the length of the hypotenuse?",
+      "options": [
+        "\\(16\\) cm",
+        "\\(17\\) cm",
+        "\\(18\\) cm",
+        "\\(19\\) cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By the Pythagorean theorem: \\(h^2 = a^2 + b^2 = 8^2 + 15^2 = 64 + 225 = 289\\). Therefore \\(h = \\sqrt{289} = 17\\) cm. The triple \\((8, 15, 17)\\) is a well-known Pythagorean triple.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q011",
+      "serialNumber": 11,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Easy",
+      "question": "If a number is increased by \\(20\\%\\) and then decreased by \\(20\\%\\), what is the net change?",
+      "options": [
+        "\\(0\\%\\) change",
+        "\\(2\\%\\) decrease",
+        "\\(4\\%\\) decrease",
+        "\\(4\\%\\) increase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let the original number \\(= 100\\). After \\(20\\%\\) increase: \\(100 \\times 1.20 = 120\\). After \\(20\\%\\) decrease: \\(120 \\times 0.80 = 96\\). Net change \\(= 96 - 100 = -4\\), i.e., a \\(4\\%\\) decrease. Formula: Net \\% = \\(\\left(+20 - 20 - \\dfrac{20 \\times 20}{100}\\right)\\% = -4\\%\\).",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q012",
+      "serialNumber": 12,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "If in a certain code language, COMPUTER is written as RFUVQNPC, then how is MEDICINE written in that code?",
+      "options": [
+        "MFEJDJOF",
+        "EOJDJEFM",
+        "NFEJDJOF",
+        "EDJDJENF"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pattern: each letter is replaced by the letter that comes next in the alphabet, and then the entire word is reversed. MEDICINE: M+1=N, E+1=F, D+1=E, I+1=J, C+1=D, I+1=J, N+1=O, E+1=F → NFEJDJOF. Verify: COMPUTER → C+1=D, O+1=P, M+1=N, P+1=Q, U+1=V, T+1=U, E+1=F, R+1=S → DPNQVUFS → reversed = SFUVQNPD. Correction: the code reverses first then shifts: RETUPMOC → each +1 → SFUVQNPD. Checking MEDICINE reversed = ENIDICDEM → each +1 → FOJEJDFN. Answer: NFEJDJOF matches option C.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q013",
+      "serialNumber": 13,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Statements: All cats are dogs. All dogs are animals. Conclusions: I. All cats are animals. II. All animals are cats. Which conclusion(s) follow?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From 'All cats are dogs' and 'All dogs are animals', by the transitive property of universal affirmative propositions (A-A-A syllogism), we get 'All cats are animals'. Conclusion I is valid. Conclusion II ('All animals are cats') does not follow because we only know cats are a subset of animals, not that all animals are cats. Therefore only Conclusion I follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q014",
+      "serialNumber": 14,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Letter Series",
+      "difficulty": "Easy",
+      "question": "Find the next term in the series: AZ, BY, CX, DW, ?",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "FU"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pattern: the first letter moves forward in the alphabet (A, B, C, D, E...) while the second letter moves backward (Z, Y, X, W, V...). So the next pair after DW is EV. First letter: A→B→C→D→E. Second letter: Z→Y→X→W→V.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q015",
+      "serialNumber": 15,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Venn Diagram",
+      "subTopic": "Logical Representation",
+      "difficulty": "Hard",
+      "question": "In a group of 100 students, 60 play cricket, 50 play football, and 30 play both. How many students play neither cricket nor football?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the inclusion-exclusion principle: Students who play cricket or football \\(= n(C) + n(F) - n(C \\cap F) = 60 + 50 - 30 = 80\\). Students who play neither \\(= 100 - 80 = 20\\). Therefore 20 students play neither cricket nor football.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    }
+  ]
+}

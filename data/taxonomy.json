@@ -1,0 +1,390 @@
+{
+  "subjects": [
+    {
+      "name": "General Awareness",
+      "questionCount": 40,
+      "topics": [
+        {
+          "name": "History",
+          "subTopics": [
+            "Ancient History",
+            "Medieval History",
+            "Modern History",
+            "Personalities",
+            "Revolts and Rebellions"
+          ]
+        },
+        {
+          "name": "Geography",
+          "subTopics": [
+            "Physical Geography",
+            "Climate",
+            "Indian Geography",
+            "World Geography"
+          ]
+        },
+        {
+          "name": "Polity",
+          "subTopics": [
+            "Constitution",
+            "Fundamental Rights and Duties",
+            "Directive Principles of State Policy",
+            "President Vice President Governor",
+            "Prime Minister Chief Minister Council of Ministers",
+            "Parliament",
+            "Judiciary",
+            "Panchayati Raj and Municipalities",
+            "Elections and Representation of People Act",
+            "Citizenship Writs and PIL",
+            "Centre State Relations"
+          ]
+        },
+        {
+          "name": "Economy",
+          "subTopics": [
+            "Planning",
+            "Reforms",
+            "Agriculture",
+            "Industry",
+            "Infrastructure",
+            "Banking and Finance",
+            "Trade",
+            "Poverty Unemployment and HDI"
+          ]
+        },
+        {
+          "name": "Science - Physics",
+          "subTopics": [
+            "Motion Force Work Energy",
+            "Sound Light Optics",
+            "Magnetism Electricity Current",
+            "Heat and Thermodynamics",
+            "Measurement Units Dimensions",
+            "Nuclear Physics and Radioactivity"
+          ]
+        },
+        {
+          "name": "Science - Chemistry",
+          "subTopics": [
+            "Atomic Structure and Periodic Table",
+            "Chemical Reactions and Equations",
+            "Acids Bases and Salts",
+            "Organic Chemistry",
+            "Inorganic Chemistry",
+            "Environmental Chemistry"
+          ]
+        },
+        {
+          "name": "Science - Biology",
+          "subTopics": [
+            "Human Body",
+            "Genetics and Evolution",
+            "Plant Biology",
+            "Ecology Food Chain Biodiversity",
+            "Biotechnology Enzymes Vitamins",
+            "Microorganisms and Immunity"
+          ]
+        },
+        {
+          "name": "Current Affairs 2024-2025",
+          "subTopics": [
+            "National Events",
+            "International Events",
+            "Sports",
+            "Science and Technology",
+            "Books and Authors",
+            "Obituaries"
+          ]
+        },
+        {
+          "name": "Static GK",
+          "subTopics": [
+            "National Symbols Capitals Currencies",
+            "First in India",
+            "Important Dates and Days",
+            "Official Languages",
+            "UNESCO Sites"
+          ]
+        },
+        {
+          "name": "Environment and Ecology",
+          "subTopics": [
+            "Climate Change and Global Warming",
+            "Biosphere Reserves National Parks Wildlife Sanctuaries",
+            "Endangered Species",
+            "Pollution",
+            "Environmental Acts and Conventions"
+          ]
+        },
+        {
+          "name": "Computer Awareness",
+          "subTopics": [
+            "Hardware",
+            "Software",
+            "Networking",
+            "Cybersecurity",
+            "MS Windows",
+            "Abbreviations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "questionCount": 30,
+      "topics": [
+        {
+          "name": "Number System",
+          "subTopics": [
+            "Divisibility and Remainders",
+            "LCM and HCF",
+            "Prime Numbers",
+            "Fractions and Decimals"
+          ]
+        },
+        {
+          "name": "Algebra",
+          "subTopics": [
+            "Linear Equations",
+            "Quadratic Equations",
+            "Polynomials",
+            "Exponents and Powers"
+          ]
+        },
+        {
+          "name": "Geometry",
+          "subTopics": [
+            "Lines and Angles",
+            "Triangles",
+            "Quadrilaterals",
+            "Circles",
+            "Polygons"
+          ]
+        },
+        {
+          "name": "Trigonometry",
+          "subTopics": [
+            "Trigonometric Ratios",
+            "Identities",
+            "Heights and Distances"
+          ]
+        },
+        {
+          "name": "Mensuration",
+          "subTopics": [
+            "2D Shapes",
+            "3D Shapes"
+          ]
+        },
+        {
+          "name": "Data Interpretation",
+          "subTopics": [
+            "Tables",
+            "Charts"
+          ]
+        },
+        {
+          "name": "Percentage",
+          "subTopics": [
+            "Basic Percentage",
+            "Profit and Loss",
+            "Discount"
+          ]
+        },
+        {
+          "name": "Time and Work",
+          "subTopics": [
+            "Work Rate",
+            "Pipes and Cisterns"
+          ]
+        },
+        {
+          "name": "Time Speed and Distance",
+          "subTopics": [
+            "Relative Speed",
+            "Boats and Streams",
+            "Trains"
+          ]
+        },
+        {
+          "name": "Profit and Loss",
+          "subTopics": [
+            "Cost Price and Selling Price",
+            "Marked Price and Discount",
+            "Successive Discounts"
+          ]
+        },
+        {
+          "name": "Simple and Compound Interest",
+          "subTopics": [
+            "Basic SI and CI",
+            "Compounding Periods"
+          ]
+        },
+        {
+          "name": "Ratio and Proportion",
+          "subTopics": [
+            "Part to Part and Part to Whole",
+            "Direct and Inverse Proportion"
+          ]
+        },
+        {
+          "name": "Average",
+          "subTopics": [
+            "Average"
+          ]
+        },
+        {
+          "name": "Mixture and Allegation",
+          "subTopics": [
+            "Mixture and Allegation"
+          ]
+        },
+        {
+          "name": "Simplification",
+          "subTopics": [
+            "BODMAS"
+          ]
+        },
+        {
+          "name": "Surds and Indices",
+          "subTopics": [
+            "Surds and Indices"
+          ]
+        },
+        {
+          "name": "Permutation and Combination",
+          "subTopics": [
+            "Permutation and Combination"
+          ]
+        },
+        {
+          "name": "Probability",
+          "subTopics": [
+            "Probability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Intelligence and Reasoning",
+      "questionCount": 30,
+      "topics": [
+        {
+          "name": "Analogy",
+          "subTopics": [
+            "Letter Analogy",
+            "Number Analogy",
+            "Mixed Analogy"
+          ]
+        },
+        {
+          "name": "Classification",
+          "subTopics": [
+            "Letter Classification",
+            "Number Classification",
+            "Word Classification"
+          ]
+        },
+        {
+          "name": "Series",
+          "subTopics": [
+            "Number Series",
+            "Letter Series",
+            "Mixed Series",
+            "Missing Number in Series"
+          ]
+        },
+        {
+          "name": "Coding Decoding",
+          "subTopics": [
+            "Letter Coding",
+            "Number Coding",
+            "Symbol Coding",
+            "Conditional Coding"
+          ]
+        },
+        {
+          "name": "Blood Relations",
+          "subTopics": [
+            "Family Tree",
+            "Coded Relations"
+          ]
+        },
+        {
+          "name": "Direction and Distance",
+          "subTopics": [
+            "Basic Directions",
+            "Right Left Turns",
+            "Shortest Distance"
+          ]
+        },
+        {
+          "name": "Syllogism",
+          "subTopics": [
+            "Two Statement Conclusions",
+            "Three Statement Conclusions"
+          ]
+        },
+        {
+          "name": "Matrix",
+          "subTopics": [
+            "Matrix Arrangement",
+            "Grid Pattern"
+          ]
+        },
+        {
+          "name": "Venn Diagram",
+          "subTopics": [
+            "Logical Representation",
+            "Set Operations"
+          ]
+        },
+        {
+          "name": "Logical Reasoning",
+          "subTopics": [
+            "Statement and Assumptions",
+            "Statement and Conclusions",
+            "Statement and Arguments",
+            "Cause and Effect"
+          ]
+        },
+        {
+          "name": "Non Verbal Reasoning",
+          "subTopics": [
+            "Mirror Image",
+            "Water Image",
+            "Figure Counting",
+            "Embedded Figures"
+          ]
+        },
+        {
+          "name": "Missing Numbers",
+          "subTopics": [
+            "Number Puzzles",
+            "Matrix Puzzles"
+          ]
+        },
+        {
+          "name": "Puzzle",
+          "subTopics": [
+            "Seating Arrangement",
+            "Floor Puzzle"
+          ]
+        },
+        {
+          "name": "Ranking and Order",
+          "subTopics": [
+            "Ranking and Order"
+          ]
+        },
+        {
+          "name": "Alphabet Test",
+          "subTopics": [
+            "Alphabet Test"
+          ]
+        }
+      ]
+    }
+  ]
+}
