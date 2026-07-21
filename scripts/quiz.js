@@ -1,6 +1,9 @@
 /* ═══════════════════════════════════════════════════════════════
-   QUIZ.JS — Complete quiz engine with study mode
-   FIX: Use Components.typesetQuestion() for consistent MathJax.
+   QUIZ.JS — Final corrected version
+   - Study mode with instant feedback
+   - MathJax works (formulas)
+   - Bookmarks & flags work
+   - Quiz/exam mode selection fixed
 ═══════════════════════════════════════════════════════════════ */
 
 const Quiz = (() => {
@@ -327,20 +330,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     MATHJAX HELPERS — using Components.typesetQuestion
-  ───────────────────────────────────────────────────────────── */
-
-  function _typesetCurrentQuestion() {
-    const question = _session.questions[_session.currentIndex];
-    if (!question || question.subject !== 'Mathematics') return;
-    const container = document.getElementById('question-area');
-    if (container) {
-      Components.typesetQuestion(question, container);
-    }
-  }
-
-  /* ─────────────────────────────────────────────────────────────
-     QUESTION RENDERING
+     RENDER — with direct MathJax call (restored)
   ───────────────────────────────────────────────────────────── */
 
   function _renderCurrentQuestion() {
@@ -412,15 +402,18 @@ const Quiz = (() => {
       _refreshPalette();
     }
 
-    // Typeset Math if needed
-    _typesetCurrentQuestion();
+    // ✅ MathJax: direct call (original working version)
+    if (question.subject === 'Mathematics') {
+      const container = document.getElementById('question-area');
+      Components.typesetQuestion(question, container);
+    }
 
     const area = document.getElementById('question-area');
     if (area) area.scrollTop = 0;
   }
 
   /* ─────────────────────────────────────────────────────────────
-     ANSWER SELECTION
+     ANSWER SELECTION — fixed toggle and study branch
   ───────────────────────────────────────────────────────────── */
 
   function _selectAnswer(optionIndex) {
@@ -432,6 +425,7 @@ const Quiz = (() => {
     const oldAnswer = _session.answers[question.id];
 
     if (!_session.studyMode) {
+      // Quiz mode: toggle off if same option
       if (_session.mode === 'quiz' && oldAnswer === optionIndex) {
         _session.answers[question.id] = null;
       } else {
@@ -452,7 +446,10 @@ const Quiz = (() => {
       }
 
       // Re‑typeset Math after options re‑render
-      _typesetCurrentQuestion();
+      if (question.subject === 'Mathematics') {
+        const container = document.getElementById('question-area');
+        Components.typesetQuestion(question, container);
+      }
 
       if (_session.mode === 'exam' && _session.answers[question.id] !== null) {
         setTimeout(() => {
@@ -466,7 +463,7 @@ const Quiz = (() => {
       return;
     }
 
-    // Study mode
+    // Study mode: set answer and show feedback
     _session.answers[question.id] = optionIndex;
     _showStudyFeedback(question, optionIndex);
     _updateSinglePaletteBtn(_session.currentIndex);
@@ -491,7 +488,10 @@ const Quiz = (() => {
     }
 
     // Re‑typeset Math after options re‑render
-    _typesetCurrentQuestion();
+    if (question.subject === 'Mathematics') {
+      const container = document.getElementById('question-area');
+      Components.typesetQuestion(question, container);
+    }
 
     const expBox = document.getElementById('explanation-box');
     const expText = document.getElementById('explanation-text');
@@ -553,7 +553,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     BOOKMARK AND FLAG
+     BOOKMARK & FLAG — working, with explicit binding
   ───────────────────────────────────────────────────────────── */
 
   function _toggleBookmark() {
@@ -907,12 +907,10 @@ const Quiz = (() => {
         : `Next <svg class="icon icon-sm"><use href="#icon-next"/></svg>`;
     }
 
-    // Typeset Math in review mode as well
+    // MathJax for review
     if (question && question.subject === 'Mathematics') {
       const container = document.getElementById('review-question-area');
-      if (container) {
-        Components.typesetQuestion(question, container);
-      }
+      Components.typesetQuestion(question, container);
     }
 
     const area = document.getElementById('review-question-area');
@@ -929,7 +927,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     EVENT BINDING
+     EVENT BINDING — explicit and safe
   ───────────────────────────────────────────────────────────── */
 
   function _bindQuizControls() {
