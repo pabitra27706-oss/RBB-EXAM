@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
    QUIZ.JS — Complete quiz engine with study mode
-   FIX: MathJax re‑typeset after options re‑render.
+   FIX: Use Components.typesetQuestion() for consistent MathJax.
 ═══════════════════════════════════════════════════════════════ */
 
 const Quiz = (() => {
@@ -327,16 +327,15 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     MATH TYPESETTING HELPER — FIX
+     MATHJAX HELPERS — using Components.typesetQuestion
   ───────────────────────────────────────────────────────────── */
 
-  function _typesetMathIfNeeded() {
+  function _typesetCurrentQuestion() {
     const question = _session.questions[_session.currentIndex];
-    if (question && question.subject === 'Mathematics') {
-      const container = document.getElementById('question-area');
-      if (container && window.MathJax) {
-        MathJax.typesetPromise([container]).catch(console.warn);
-      }
+    if (!question || question.subject !== 'Mathematics') return;
+    const container = document.getElementById('question-area');
+    if (container) {
+      Components.typesetQuestion(question, container);
     }
   }
 
@@ -413,8 +412,8 @@ const Quiz = (() => {
       _refreshPalette();
     }
 
-    // Re‑typeset Math if needed
-    _typesetMathIfNeeded();
+    // Typeset Math if needed
+    _typesetCurrentQuestion();
 
     const area = document.getElementById('question-area');
     if (area) area.scrollTop = 0;
@@ -453,7 +452,7 @@ const Quiz = (() => {
       }
 
       // Re‑typeset Math after options re‑render
-      _typesetMathIfNeeded();
+      _typesetCurrentQuestion();
 
       if (_session.mode === 'exam' && _session.answers[question.id] !== null) {
         setTimeout(() => {
@@ -492,7 +491,7 @@ const Quiz = (() => {
     }
 
     // Re‑typeset Math after options re‑render
-    _typesetMathIfNeeded();
+    _typesetCurrentQuestion();
 
     const expBox = document.getElementById('explanation-box');
     const expText = document.getElementById('explanation-text');
@@ -908,11 +907,11 @@ const Quiz = (() => {
         : `Next <svg class="icon icon-sm"><use href="#icon-next"/></svg>`;
     }
 
-    // Re‑typeset Math for review as well (if needed)
+    // Typeset Math in review mode as well
     if (question && question.subject === 'Mathematics') {
       const container = document.getElementById('review-question-area');
-      if (container && window.MathJax) {
-        MathJax.typesetPromise([container]).catch(console.warn);
+      if (container) {
+        Components.typesetQuestion(question, container);
       }
     }
 
