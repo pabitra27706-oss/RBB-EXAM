@@ -14,7 +14,7 @@ const Quiz = (() => {
     mode:           'quiz',
     isCustom:       false,
     isReview:       false,
-    studyMode:      false,   // <── ADDED
+    studyMode:      false,
 
     questions:      [],
     currentIndex:   0,
@@ -140,7 +140,7 @@ const Quiz = (() => {
       mode:         'quiz',
       questions,
       isCustom:     true,
-      studyMode:    config.studyMode || false,   // <── ADDED
+      studyMode:    config.studyMode || false,
       timerEnabled: config.timerEnabled ?? settings.timerEnabled,
       totalSeconds: Scoring.minutesToSeconds(
         config.timerEnabled ? (config.timerMins || settings.defaultTime) : 0
@@ -187,7 +187,7 @@ const Quiz = (() => {
       mode:             'quiz',
       isCustom:         false,
       isReview:         false,
-      studyMode:        false,   // <── ADDED
+      studyMode:        false,
       questions:        [],
       currentIndex:     0,
       answers:          {},
@@ -212,7 +212,7 @@ const Quiz = (() => {
   function _initSession({
     shiftId, shiftMeta, mode, questions,
     isCustom, timerEnabled, totalSeconds,
-    studyMode = false,   // <── ADDED
+    studyMode = false,
   }) {
     _stopTimer();
 
@@ -369,11 +369,10 @@ const Quiz = (() => {
       );
     }
 
-    // Hide explanation initially (unless already answered in study mode)
+    // For study mode, if the question was already answered, show feedback
     const expBox  = document.getElementById('explanation-box');
     const expText = document.getElementById('explanation-text');
 
-    // For study mode, if the question was already answered, show feedback
     if (_session.studyMode && _session.answers[question.id] !== null && _session.answers[question.id] !== undefined) {
       _showStudyFeedback(question, _session.answers[question.id]);
     } else {
