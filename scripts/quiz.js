@@ -1,5 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
    QUIZ.JS — Complete quiz engine with study mode
+   Fix: quiz/exam option selection now works correctly.
 ═══════════════════════════════════════════════════════════════ */
 
 const Quiz = (() => {
@@ -379,9 +380,9 @@ const Quiz = (() => {
       Components.renderExplanation(expBox, expText, question, false);
       if (expBox) expBox.style.display = 'none';
 
-      // Disable Next button until answered
+      // Disable Next button until answered (only in study mode)
       const nextBtn = document.getElementById('quiz-next-btn');
-      if (nextBtn) {
+      if (nextBtn && _session.studyMode) {
         nextBtn.disabled = true;
         nextBtn.innerHTML = 'Next <svg class="icon icon-sm"><use href="#icon-next"/></svg>';
       }
@@ -410,7 +411,8 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     ANSWER SELECTION
+     ANSWER SELECTION — FIXED
+     Now correctly toggles off in quiz mode and auto‑advances in exam mode.
   ───────────────────────────────────────────────────────────── */
 
   function _selectAnswer(optionIndex) {
@@ -420,19 +422,18 @@ const Quiz = (() => {
     // In study mode, if already answered, do nothing
     if (_session.studyMode && _session.answers[question.id] !== null) return;
 
-    // Save the answer
-    _session.answers[question.id] = optionIndex;
+    const oldAnswer = _session.answers[question.id];
 
-    if (_session.studyMode) {
-      // Show feedback immediately
-      _showStudyFeedback(question, optionIndex);
-    } else {
-      // Normal quiz/exam behaviour (toggle off for quiz, auto-advance for exam)
-      if (_session.mode === 'quiz' &&
-          _session.answers[question.id] === optionIndex) {
+    // Non‑study modes (quiz / exam)
+    if (!_session.studyMode) {
+      // Quiz mode: toggle off if clicking the same option again
+      if (_session.mode === 'quiz' && oldAnswer === optionIndex) {
         _session.answers[question.id] = null;
+      } else {
+        _session.answers[question.id] = optionIndex;
       }
 
+      // Re‑render options with the updated selection
       const optionsEl = document.getElementById('options-list');
       if (optionsEl) {
         Components.renderOptions(
@@ -446,16 +447,22 @@ const Quiz = (() => {
         );
       }
 
-      // In exam mode, auto-advance
-      if (_session.mode === 'exam') {
+      // Exam mode: auto‑advance after a short delay (only if answered)
+      if (_session.mode === 'exam' && _session.answers[question.id] !== null) {
         setTimeout(() => {
           if (_session.currentIndex < _session.questions.length - 1) {
             _navigateTo(_session.currentIndex + 1);
           }
         }, 400);
       }
+
+      _updateSinglePaletteBtn(_session.currentIndex);
+      return;
     }
 
+    // Study mode: set answer and show feedback immediately
+    _session.answers[question.id] = optionIndex;
+    _showStudyFeedback(question, optionIndex);
     _updateSinglePaletteBtn(_session.currentIndex);
   }
 
@@ -541,7 +548,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     BOOKMARK AND FLAG (unchanged, but we keep them in study mode)
+     BOOKMARK AND FLAG (unchanged)
   ───────────────────────────────────────────────────────────── */
 
   function _toggleBookmark() {
@@ -713,7 +720,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     SUBMISSION (unchanged, but study mode never reaches here)
+     SUBMISSION (unchanged)
   ───────────────────────────────────────────────────────────── */
 
   function confirmSubmit() {
