@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
    QUIZ.JS — Complete quiz engine with study mode
-   Fix: quiz/exam option selection now works correctly.
+   FIX: MathJax re‑typeset after options re‑render.
 ═══════════════════════════════════════════════════════════════ */
 
 const Quiz = (() => {
@@ -282,13 +282,12 @@ const Quiz = (() => {
     const timerEl = document.getElementById('quiz-timer');
     if (timerEl) timerEl.style.display = isStudy ? 'none' : (_session.timerEnabled ? '' : 'none');
 
-    // Hide submit in palette for study mode
     const paletteSubmit = document.getElementById('palette-submit-btn');
     if (paletteSubmit) paletteSubmit.style.display = isStudy ? 'none' : '';
   }
 
   /* ─────────────────────────────────────────────────────────────
-     TIMER (unchanged, but we don't start it in study mode)
+     TIMER
   ───────────────────────────────────────────────────────────── */
 
   function _startTimer() {
@@ -325,6 +324,20 @@ const Quiz = (() => {
   function _autoSubmit() {
     Components.showToast('Time is up! Submitting automatically.', 'warning', 4000);
     setTimeout(() => _submitQuiz(), 1500);
+  }
+
+  /* ─────────────────────────────────────────────────────────────
+     MATH TYPESETTING HELPER — FIX
+  ───────────────────────────────────────────────────────────── */
+
+  function _typesetMathIfNeeded() {
+    const question = _session.questions[_session.currentIndex];
+    if (question && question.subject === 'Mathematics') {
+      const container = document.getElementById('question-area');
+      if (container && window.MathJax) {
+        MathJax.typesetPromise([container]).catch(console.warn);
+      }
+    }
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -380,7 +393,6 @@ const Quiz = (() => {
       Components.renderExplanation(expBox, expText, question, false);
       if (expBox) expBox.style.display = 'none';
 
-      // Disable Next button until answered (only in study mode)
       const nextBtn = document.getElementById('quiz-next-btn');
       if (nextBtn && _session.studyMode) {
         nextBtn.disabled = true;
@@ -401,39 +413,32 @@ const Quiz = (() => {
       _refreshPalette();
     }
 
-    if (question.subject === 'Mathematics') {
-      const container = document.getElementById('question-area');
-      Components.typesetQuestion(question, container);
-    }
+    // Re‑typeset Math if needed
+    _typesetMathIfNeeded();
 
     const area = document.getElementById('question-area');
     if (area) area.scrollTop = 0;
   }
 
   /* ─────────────────────────────────────────────────────────────
-     ANSWER SELECTION — FIXED
-     Now correctly toggles off in quiz mode and auto‑advances in exam mode.
+     ANSWER SELECTION
   ───────────────────────────────────────────────────────────── */
 
   function _selectAnswer(optionIndex) {
     const question = _session.questions[_session.currentIndex];
     if (!question) return;
 
-    // In study mode, if already answered, do nothing
     if (_session.studyMode && _session.answers[question.id] !== null) return;
 
     const oldAnswer = _session.answers[question.id];
 
-    // Non‑study modes (quiz / exam)
     if (!_session.studyMode) {
-      // Quiz mode: toggle off if clicking the same option again
       if (_session.mode === 'quiz' && oldAnswer === optionIndex) {
         _session.answers[question.id] = null;
       } else {
         _session.answers[question.id] = optionIndex;
       }
 
-      // Re‑render options with the updated selection
       const optionsEl = document.getElementById('options-list');
       if (optionsEl) {
         Components.renderOptions(
@@ -447,7 +452,9 @@ const Quiz = (() => {
         );
       }
 
-      // Exam mode: auto‑advance after a short delay (only if answered)
+      // Re‑typeset Math after options re‑render
+      _typesetMathIfNeeded();
+
       if (_session.mode === 'exam' && _session.answers[question.id] !== null) {
         setTimeout(() => {
           if (_session.currentIndex < _session.questions.length - 1) {
@@ -460,7 +467,7 @@ const Quiz = (() => {
       return;
     }
 
-    // Study mode: set answer and show feedback immediately
+    // Study mode
     _session.answers[question.id] = optionIndex;
     _showStudyFeedback(question, optionIndex);
     _updateSinglePaletteBtn(_session.currentIndex);
@@ -471,27 +478,27 @@ const Quiz = (() => {
   ───────────────────────────────────────────────────────────── */
 
   function _showStudyFeedback(question, selectedIndex) {
-    // Re-render options with highlighting
     const optionsEl = document.getElementById('options-list');
     if (optionsEl) {
       Components.renderOptions(
         optionsEl,
         question,
         selectedIndex,
-        true,                       // show correct answer
-        question.correctAnswer,     // correct option index
-        selectedIndex,              // user's selection
-        null                        // no click handler → read-only
+        true,
+        question.correctAnswer,
+        selectedIndex,
+        null
       );
     }
 
-    // Show explanation
+    // Re‑typeset Math after options re‑render
+    _typesetMathIfNeeded();
+
     const expBox = document.getElementById('explanation-box');
     const expText = document.getElementById('explanation-text');
     Components.renderExplanation(expBox, expText, question, true);
     if (expBox) expBox.style.display = 'block';
 
-    // Enable Next button (or change to "Done" if last question)
     const nextBtn = document.getElementById('quiz-next-btn');
     if (nextBtn) {
       nextBtn.disabled = false;
@@ -523,7 +530,6 @@ const Quiz = (() => {
       if (idx < total - 1) {
         _navigateTo(idx + 1);
       } else {
-        // Practice session complete
         Components.showToast('Practice session completed! 🎉', 'success', 3000);
         App.navigateTo('practice');
       }
@@ -548,7 +554,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     BOOKMARK AND FLAG (unchanged)
+     BOOKMARK AND FLAG
   ───────────────────────────────────────────────────────────── */
 
   function _toggleBookmark() {
@@ -581,7 +587,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     PAUSE / RESUME (unchanged)
+     PAUSE / RESUME
   ───────────────────────────────────────────────────────────── */
 
   function _togglePause() {
@@ -643,7 +649,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     PALETTE (unchanged)
+     PALETTE
   ───────────────────────────────────────────────────────────── */
 
   function openPalette() {
@@ -720,7 +726,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     SUBMISSION (unchanged)
+     SUBMISSION
   ───────────────────────────────────────────────────────────── */
 
   function confirmSubmit() {
@@ -793,7 +799,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     PROGRESS SAVING (unchanged)
+     PROGRESS SAVING
   ───────────────────────────────────────────────────────────── */
 
   function _saveProgress() {
@@ -819,7 +825,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     QUESTION TIME TRACKING (unchanged)
+     QUESTION TIME TRACKING
   ───────────────────────────────────────────────────────────── */
 
   function _recordQuestionTime(questionIndex) {
@@ -831,7 +837,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     REVIEW MODE (unchanged)
+     REVIEW MODE
   ───────────────────────────────────────────────────────────── */
 
   function _renderReviewQuestion(index) {
@@ -902,9 +908,12 @@ const Quiz = (() => {
         : `Next <svg class="icon icon-sm"><use href="#icon-next"/></svg>`;
     }
 
-    if (question.subject === 'Mathematics') {
+    // Re‑typeset Math for review as well (if needed)
+    if (question && question.subject === 'Mathematics') {
       const container = document.getElementById('review-question-area');
-      Components.typesetQuestion(question, container);
+      if (container && window.MathJax) {
+        MathJax.typesetPromise([container]).catch(console.warn);
+      }
     }
 
     const area = document.getElementById('review-question-area');
@@ -921,57 +930,38 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     EVENT BINDING: QUIZ CONTROLS (unchanged)
+     EVENT BINDING
   ───────────────────────────────────────────────────────────── */
 
   function _bindQuizControls() {
     const nextBtn = document.getElementById('quiz-next-btn');
-    if (nextBtn) {
-      nextBtn.onclick = () => _goNext();
-    }
+    if (nextBtn) nextBtn.onclick = () => _goNext();
 
     const prevBtn = document.getElementById('quiz-prev-btn');
-    if (prevBtn) {
-      prevBtn.onclick = () => _goPrev();
-    }
+    if (prevBtn) prevBtn.onclick = () => _goPrev();
 
     const skipBtn = document.getElementById('quiz-skip-btn');
-    if (skipBtn) {
-      skipBtn.onclick = () => _goSkip();
-    }
+    if (skipBtn) skipBtn.onclick = () => _goSkip();
 
     const bmBtn = document.getElementById('quiz-bookmark-btn');
-    if (bmBtn) {
-      bmBtn.onclick = () => _toggleBookmark();
-    }
+    if (bmBtn) bmBtn.onclick = () => _toggleBookmark();
 
     const flagBtn = document.getElementById('quiz-flag-btn');
-    if (flagBtn) {
-      flagBtn.onclick = () => _toggleFlag();
-    }
+    if (flagBtn) flagBtn.onclick = () => _toggleFlag();
 
     const paletteBtn = document.getElementById('quiz-palette-btn');
     if (paletteBtn) {
       paletteBtn.onclick = () => {
-        if (_session.paletteOpen) {
-          closePalette();
-        } else {
-          openPalette();
-        }
+        if (_session.paletteOpen) closePalette();
+        else openPalette();
       };
     }
 
     const pauseBtn = document.getElementById('quiz-pause-btn');
-    if (pauseBtn) {
-      pauseBtn.onclick = () => _togglePause();
-    }
+    if (pauseBtn) pauseBtn.onclick = () => _togglePause();
 
     _bindKeyboardShortcuts();
   }
-
-  /* ─────────────────────────────────────────────────────────────
-     EVENT BINDING: REVIEW CONTROLS (unchanged)
-  ───────────────────────────────────────────────────────────── */
 
   function _bindReviewControls() {
     const nextBtn = document.getElementById('review-next-btn');
@@ -994,9 +984,7 @@ const Quiz = (() => {
     }
 
     const backBtn = document.getElementById('review-back-btn');
-    if (backBtn) {
-      backBtn.onclick = () => App.navigateTo('result');
-    }
+    if (backBtn) backBtn.onclick = () => App.navigateTo('result');
 
     const bmBtn = document.getElementById('review-bookmark-btn');
     if (bmBtn) {
@@ -1005,10 +993,7 @@ const Quiz = (() => {
         if (!question) return;
         const isNow = Storage.toggleBookmark(question.id);
         Components.updateReviewActionButtons(question.id);
-        Components.showToast(
-          isNow ? 'Bookmarked.' : 'Bookmark removed.',
-          'info', 1500
-        );
+        Components.showToast(isNow ? 'Bookmarked.' : 'Bookmark removed.', 'info', 1500);
       };
     }
 
@@ -1045,7 +1030,7 @@ const Quiz = (() => {
   }
 
   /* ─────────────────────────────────────────────────────────────
-     KEYBOARD SHORTCUTS (unchanged)
+     KEYBOARD SHORTCUTS
   ───────────────────────────────────────────────────────────── */
 
   let _keyboardBound = false;
