@@ -2,7 +2,7 @@
    QUIZ.JS — Final corrected version
    - Study mode with instant feedback
    - MathJax works (formulas)
-   - Bookmarks & flags work
+   - Bookmarks & flags work (fixed event binding)
    - Quiz/exam mode selection fixed
 ═══════════════════════════════════════════════════════════════ */
 
@@ -932,30 +932,58 @@ const Quiz = (() => {
 
   function _bindQuizControls() {
     const nextBtn = document.getElementById('quiz-next-btn');
-    if (nextBtn) nextBtn.onclick = () => _goNext();
+    if (nextBtn) nextBtn.addEventListener('click', _goNext);
 
     const prevBtn = document.getElementById('quiz-prev-btn');
-    if (prevBtn) prevBtn.onclick = () => _goPrev();
+    if (prevBtn) prevBtn.addEventListener('click', _goPrev);
 
     const skipBtn = document.getElementById('quiz-skip-btn');
-    if (skipBtn) skipBtn.onclick = () => _goSkip();
+    if (skipBtn) skipBtn.addEventListener('click', _goSkip);
 
+    // --- FIX: Bookmark button using addEventListener and cloning to remove old listeners ---
     const bmBtn = document.getElementById('quiz-bookmark-btn');
-    if (bmBtn) bmBtn.onclick = () => _toggleBookmark();
-
-    const flagBtn = document.getElementById('quiz-flag-btn');
-    if (flagBtn) flagBtn.onclick = () => _toggleFlag();
-
-    const paletteBtn = document.getElementById('quiz-palette-btn');
-    if (paletteBtn) {
-      paletteBtn.onclick = () => {
-        if (_session.paletteOpen) closePalette();
-        else openPalette();
-      };
+    if (bmBtn) {
+      bmBtn.replaceWith(bmBtn.cloneNode(true));
+      const newBmBtn = document.getElementById('quiz-bookmark-btn');
+      newBmBtn.addEventListener('click', _toggleBookmark);
     }
 
+    // Flag button
+    const flagBtn = document.getElementById('quiz-flag-btn');
+    if (flagBtn) {
+      flagBtn.replaceWith(flagBtn.cloneNode(true));
+      const newFlagBtn = document.getElementById('quiz-flag-btn');
+      newFlagBtn.addEventListener('click', _toggleFlag);
+    }
+
+    // Palette
+    const paletteBtn = document.getElementById('quiz-palette-btn');
+    if (paletteBtn) {
+      paletteBtn.addEventListener('click', () => {
+        if (_session.paletteOpen) closePalette();
+        else openPalette();
+      });
+    }
+
+    // Pause
     const pauseBtn = document.getElementById('quiz-pause-btn');
-    if (pauseBtn) pauseBtn.onclick = () => _togglePause();
+    if (pauseBtn) pauseBtn.addEventListener('click', _togglePause);
+
+    // --- Additional fallback: event delegation on the bottom bar ---
+    const bottomBar = document.getElementById('quiz-bottom-bar');
+    if (bottomBar) {
+      bottomBar.addEventListener('click', function(e) {
+        const target = e.target.closest('button');
+        if (!target) return;
+        if (target.id === 'quiz-bookmark-btn') {
+          e.preventDefault();
+          _toggleBookmark();
+        } else if (target.id === 'quiz-flag-btn') {
+          e.preventDefault();
+          _toggleFlag();
+        }
+      });
+    }
 
     _bindKeyboardShortcuts();
   }
@@ -963,45 +991,45 @@ const Quiz = (() => {
   function _bindReviewControls() {
     const nextBtn = document.getElementById('review-next-btn');
     if (nextBtn) {
-      nextBtn.onclick = () => {
+      nextBtn.addEventListener('click', () => {
         const next = _session.reviewCurrentIndex + 1;
         if (next >= _session.questions.length) {
           App.navigateTo('result');
         } else {
           _renderReviewQuestion(next);
         }
-      };
+      });
     }
 
     const prevBtn = document.getElementById('review-prev-btn');
     if (prevBtn) {
-      prevBtn.onclick = () => {
+      prevBtn.addEventListener('click', () => {
         _renderReviewQuestion(_session.reviewCurrentIndex - 1);
-      };
+      });
     }
 
     const backBtn = document.getElementById('review-back-btn');
-    if (backBtn) backBtn.onclick = () => App.navigateTo('result');
+    if (backBtn) backBtn.addEventListener('click', () => App.navigateTo('result'));
 
     const bmBtn = document.getElementById('review-bookmark-btn');
     if (bmBtn) {
-      bmBtn.onclick = () => {
+      bmBtn.addEventListener('click', () => {
         const question = _session.questions[_session.reviewCurrentIndex];
         if (!question) return;
         const isNow = Storage.toggleBookmark(question.id);
         Components.updateReviewActionButtons(question.id);
         Components.showToast(isNow ? 'Bookmarked.' : 'Bookmark removed.', 'info', 1500);
-      };
+      });
     }
 
     const flagBtn = document.getElementById('review-flag-btn');
     if (flagBtn) {
-      flagBtn.onclick = () => {
+      flagBtn.addEventListener('click', () => {
         const question = _session.questions[_session.reviewCurrentIndex];
         if (!question) return;
         Storage.toggleFlag(question.id);
         Components.updateReviewActionButtons(question.id);
-      };
+      });
     }
 
     const filterHeader = document.getElementById('review-filter-header');

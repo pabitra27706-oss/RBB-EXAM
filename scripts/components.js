@@ -1253,21 +1253,22 @@ const Components = (() => {
     }
   }
 
-  /**
-   * Update bookmark and flag button states in quiz bottom bar.
-   * @param {string}  questionId
-   */
+  /* ─────────────────────────────────────────────────────────────
+     QUIZ ACTION BUTTONS — with robust fallback
+  ───────────────────────────────────────────────────────────── */
+
   function updateQuizActionButtons(questionId) {
-    const bmBtn   = document.getElementById('quiz-bookmark-btn');
+    const bmBtn = document.getElementById('quiz-bookmark-btn');
     const flagBtn = document.getElementById('quiz-flag-btn');
 
     if (bmBtn) {
       const isBookmarked = Storage.isBookmarked(questionId);
-      const useEl        = bmBtn.querySelector('use');
+      const useEl = bmBtn.querySelector('use');
       if (useEl) {
-        useEl.setAttribute('href',
-          isBookmarked ? '#icon-bookmark-filled' : '#icon-bookmark'
-        );
+        useEl.setAttribute('href', isBookmarked ? '#icon-bookmark-filled' : '#icon-bookmark');
+      } else {
+        // Fallback: rebuild the SVG if not found
+        bmBtn.innerHTML = `<svg class="icon icon-lg" aria-hidden="true"><use href="#icon-${isBookmarked ? 'bookmark-filled' : 'bookmark'}"/></svg>`;
       }
       bmBtn.classList.toggle('active', isBookmarked);
       bmBtn.title = isBookmarked ? 'Remove bookmark' : 'Bookmark';
@@ -1275,11 +1276,11 @@ const Components = (() => {
 
     if (flagBtn) {
       const isFlagged = Storage.isFlagged(questionId);
-      const useEl     = flagBtn.querySelector('use');
+      const useEl = flagBtn.querySelector('use');
       if (useEl) {
-        useEl.setAttribute('href',
-          isFlagged ? '#icon-flag-filled' : '#icon-flag'
-        );
+        useEl.setAttribute('href', isFlagged ? '#icon-flag-filled' : '#icon-flag');
+      } else {
+        flagBtn.innerHTML = `<svg class="icon icon-lg" aria-hidden="true"><use href="#icon-${isFlagged ? 'flag-filled' : 'flag'}"/></svg>`;
       }
       flagBtn.classList.toggle('active', isFlagged);
       flagBtn.title = isFlagged ? 'Remove flag' : 'Flag for review';
@@ -1291,27 +1292,27 @@ const Components = (() => {
    * @param {string} questionId
    */
   function updateReviewActionButtons(questionId) {
-    const bmBtn   = document.getElementById('review-bookmark-btn');
+    const bmBtn = document.getElementById('review-bookmark-btn');
     const flagBtn = document.getElementById('review-flag-btn');
 
     if (bmBtn) {
       const isBookmarked = Storage.isBookmarked(questionId);
-      const useEl        = bmBtn.querySelector('use');
+      const useEl = bmBtn.querySelector('use');
       if (useEl) {
-        useEl.setAttribute('href',
-          isBookmarked ? '#icon-bookmark-filled' : '#icon-bookmark'
-        );
+        useEl.setAttribute('href', isBookmarked ? '#icon-bookmark-filled' : '#icon-bookmark');
+      } else {
+        bmBtn.innerHTML = `<svg class="icon icon-lg" aria-hidden="true"><use href="#icon-${isBookmarked ? 'bookmark-filled' : 'bookmark'}"/></svg>`;
       }
       bmBtn.classList.toggle('active', isBookmarked);
     }
 
     if (flagBtn) {
       const isFlagged = Storage.isFlagged(questionId);
-      const useEl     = flagBtn.querySelector('use');
+      const useEl = flagBtn.querySelector('use');
       if (useEl) {
-        useEl.setAttribute('href',
-          isFlagged ? '#icon-flag-filled' : '#icon-flag'
-        );
+        useEl.setAttribute('href', isFlagged ? '#icon-flag-filled' : '#icon-flag');
+      } else {
+        flagBtn.innerHTML = `<svg class="icon icon-lg" aria-hidden="true"><use href="#icon-${isFlagged ? 'flag-filled' : 'flag'}"/></svg>`;
       }
       flagBtn.classList.toggle('active', isFlagged);
     }
