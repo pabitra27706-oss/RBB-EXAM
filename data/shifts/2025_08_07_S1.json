@@ -12,9 +12,9 @@
     "totalQuestions": 100,
     "duration": 90,
     "subjectSplit": {
-      "General Awareness": 40,
+      "General Awareness": 30,
       "Mathematics": 30,
-      "General Intelligence and Reasoning": 30
+      "General Intelligence and Reasoning": 40
     }
   },
   "questions": [
@@ -588,7 +588,7 @@
       "question": "A man wants to reach a certain destination. He covers 3/5 of the distance at a speed of 60 km/hr and the remaining at a speed of 90 km/hr. What is his average speed for the entire journey?",
       "options": ["11.13 hours", "12 hours", "4 hours", "7 hours"],
       "correctAnswer": 2,
-      "explanation": "The options appear to be time values, but the question asks for average speed. The correct average speed = 2/( (3/5)/60 + (2/5)/90 ) = 2/(3/300 + 2/450) = 2/(1/100 + 1/225) = 2/( (225+100)/22500 ) = 2 × 22500/325 = 138.46 km/hr. The answer key shows 4 hours.",
+      "explanation": "The options appear to be time values, but the question asks for average speed. The correct average speed = 2/( (3/5)/60 + (2/5)/90 ) = 2/(3/300 + 2/450) = 2/(1/100 + 1/225) = 2 × 22500/325 = 138.46 km/hr. The answer key shows 4 hours.",
       "marks": 1,
       "negativeMarking": 0.33
     },
@@ -907,10 +907,10 @@
       "topic": "Symbol Series",
       "subTopic": "Counting",
       "difficulty": "Medium",
-      "question": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) ? > @ ∧ @ \ ? + $ 6 7 \ 1 & @ \ 1 4 2 2 % 9 (Right) How many such numbers are there, each of which is immediately preceded by a symbol and also immediately followed by another number?",
+      "question": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) ? > @ ^ @ \\| ? + $ 6 7 \\| 1 & @ \\| 1 4 2 2 % 9 (Right) How many such numbers are there, each of which is immediately preceded by a symbol and also immediately followed by another number?",
       "options": ["None", "Two", "Three", "One"],
       "correctAnswer": 1,
-      "explanation": "The numbers meeting the condition are 6 (preceded by $, followed by 7) and 4 (preceded by \, followed by 2) → Two.",
+      "explanation": "The numbers meeting the condition are 6 (preceded by $, followed by 7) and 4 (preceded by \\|, followed by 2) → Two.",
       "marks": 1,
       "negativeMarking": 0.33
     },
@@ -966,7 +966,7 @@
       "question": "T is the daughter of A. A is married to M. M is the son of K. K is married to J. J is the father of D. D is the brother of N. G is the son of N. How is K related to T?",
       "options": ["Father's mother", "Mother's brother", "Father's father", "Mother's father"],
       "correctAnswer": 0,
-      "explanation": "T is daughter of A, A married to M → M is father of T. M is son of K → K is grandparent of T. Since K is father of M and M is father of T, K is father's father (paternal grandfather) of T. But the option says 'Father's mother' - actually K is married to J, and J is father of D, so K is mother of M? Let's trace: M is son of K, so K is parent of M. K is married to J. J is father of D, D brother of N, so J is father of N. K is mother of M, so K is grandmother of T. The correct option is Father's mother (paternal grandmother).",
+      "explanation": "T is daughter of A, A married to M → M is father of T. M is son of K → K is father of M. K is married to J, so K is father of M. K is the father of M, and M is the father of T, so K is the father's father (paternal grandfather) of T. Option 'Father's mother' appears to be a typo in the PDF; the correct relation is Father's father.",
       "marks": 1,
       "negativeMarking": 0.33
     },
