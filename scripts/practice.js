@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   PRACTICE.JS — Practice mode with multi-select filters
+   PRACTICE.JS — Practice mode with multi-select filters (FIXED v2)
 ═══════════════════════════════════════════════════════════════ */
 
 const Practice = (() => {
@@ -34,6 +34,23 @@ const Practice = (() => {
   };
 
   /* ─────────────────────────────────────────────────────────────
+     HELPERS — String comparison utilities
+  ───────────────────────────────────────────────────────────── */
+
+  function _normalize(str) {
+    return (str || '').toLowerCase().trim();
+  }
+
+  function _matches(value1, value2) {
+    return _normalize(value1) === _normalize(value2);
+  }
+
+  function _arrayContains(array, value) {
+    const normalizedValue = _normalize(value);
+    return array.some(item => _normalize(item) === normalizedValue);
+  }
+
+  /* ─────────────────────────────────────────────────────────────
      INIT
   ───────────────────────────────────────────────────────────── */
 
@@ -52,6 +69,9 @@ const Practice = (() => {
     }
 
     await _updatePreview();
+
+    // OPTIONAL: Uncomment to debug
+    // console.log('Taxonomy loaded:', _state.taxonomy);
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -158,18 +178,25 @@ const Practice = (() => {
     const container = document.getElementById('practice-topic-chips');
     if (!container || !section) return;
 
+    // ✅ FIX: Use case-insensitive matching
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
       : _state.taxonomy.subjects.filter(s =>
-          _state.selectedSubjects.includes(s.name)
+          _arrayContains(_state.selectedSubjects, s.name)
         );
 
-    const topics = [];
+    // Deduplicate topics by normalized name
+    const topicsMap = new Map();
     subjects.forEach(s => {
       s.topics.forEach(t => {
-        if (!topics.find(x => x.name === t.name)) topics.push(t);
+        const normalized = _normalize(t.name);
+        if (!topicsMap.has(normalized)) {
+          topicsMap.set(normalized, t);
+        }
       });
     });
+
+    const topics = Array.from(topicsMap.values());
 
     container.innerHTML = '';
 
@@ -196,23 +223,26 @@ const Practice = (() => {
     const container = document.getElementById('practice-subtopic-chips');
     if (!container || !section) return;
 
+    // ✅ FIX: Use case-insensitive matching
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
       : _state.taxonomy.subjects.filter(s =>
-          _state.selectedSubjects.includes(s.name)
+          _arrayContains(_state.selectedSubjects, s.name)
         );
 
-    const subTopics = [];
+    const subTopicsSet = new Set();
     subjects.forEach(s => {
       s.topics.forEach(t => {
         if (_state.selectedTopics.length === 0 ||
-            _state.selectedTopics.includes(t.name)) {
+            _arrayContains(_state.selectedTopics, t.name)) {
           t.subTopics.forEach(st => {
-            if (!subTopics.includes(st)) subTopics.push(st);
+            subTopicsSet.add(st);
           });
         }
       });
     });
+
+    const subTopics = Array.from(subTopicsSet).sort();
 
     container.innerHTML = '';
 
@@ -315,9 +345,7 @@ const Practice = (() => {
     container.addEventListener('click', (e) => {
       const chip = e.target.closest('.filter-chip');
       if (!chip) return;
-      const value = chip.dataset.value ||
-                    chip.dataset[group] ||
-                    chip.textContent.trim();
+      const value = chip.dataset.value || chip.textContent.trim();
       const isAll = value === 'all';
       _handleChipClick(chip, group, value, isAll);
     });
@@ -344,12 +372,22 @@ const Practice = (() => {
 
       if (countEl)  countEl.textContent = count;
       if (startBtn) startBtn.disabled   = count === 0;
+
+      // ✅ DEBUG: Log filter results
+      console.log('🔍 Filter Debug:', {
+        selectedSubjects: _state.selectedSubjects,
+        selectedTopics: _state.selectedTopics,
+        selectedSubTopics: _state.selectedSubTopics,
+        matchingQuestions: total
+      });
     }, 300);
   }
 
   async function _computeMatchingQuestions() {
-    const shiftIds     = _getMatchingShiftIds();
-    const shiftDataMap = await Storage.loadMultipleShifts(shiftIds);
+    // ✅ FIX: Load ALL shifts, don't filter by year/date/shift yet
+    // We need to check questions from all shifts first
+    const allShiftIds  = _state.shiftsIndex.map(s => s.id);
+    const shiftDataMap = await Storage.loadMultipleShifts(allShiftIds);
 
     let allQuestions = [];
     Object.values(shiftDataMap).forEach(data => {
@@ -362,22 +400,54 @@ const Practice = (() => {
     const flaggedMap    = Storage.getFlags();
     const wrongIds      = Storage.getAllWrongQuestionIds(_state.shiftsIndex);
 
+    // ✅ FIX: Filter questions with proper case-insensitive matching
     _state.matchingQuestions = allQuestions.filter(q => {
-      if (_state.selectedSubjects.length > 0 &&
-          !_state.selectedSubjects.includes(q.subject)) return false;
-      if (_state.selectedTopics.length > 0 &&
-          !_state.selectedTopics.includes(q.topic)) return false;
-      if (_state.selectedSubTopics.length > 0 &&
-          !_state.selectedSubTopics.includes(q.subTopic)) return false;
-      if (_state.selectedDiffs.length > 0 &&
-          !_state.selectedDiffs.includes(q.difficulty)) return false;
+      
+      // Year/Date/Shift filter (filter by question's shiftId)
+      if (_state.selectedYears.length > 0 || _state.selectedDates.length > 0 || _state.selectedShifts.length > 0) {
+        const matchingShifts = _getMatchingShiftIds();
+        const questionShiftId = q.id ? q.id.split('_Q')[0] : null;
+        if (questionShiftId && !matchingShifts.includes(questionShiftId)) {
+          return false;
+        }
+      }
 
+      // Subject filter
+      if (_state.selectedSubjects.length > 0) {
+        if (!_arrayContains(_state.selectedSubjects, q.subject)) {
+          return false;
+        }
+      }
+
+      // Topic filter
+      if (_state.selectedTopics.length > 0) {
+        if (!_arrayContains(_state.selectedTopics, q.topic)) {
+          return false;
+        }
+      }
+
+      // SubTopic filter
+      if (_state.selectedSubTopics.length > 0) {
+        if (!_arrayContains(_state.selectedSubTopics, q.subTopic)) {
+          return false;
+        }
+      }
+
+      // Difficulty filter
+      if (_state.selectedDiffs.length > 0) {
+        if (!_arrayContains(_state.selectedDiffs, q.difficulty)) {
+          return false;
+        }
+      }
+
+      // Bookmarked/Flagged/Wrong filter
       if (_state.onlyBookmarked || _state.onlyFlagged || _state.onlyWrong) {
         const bm = _state.onlyBookmarked && bookmarkedIds.includes(q.id);
         const fl = _state.onlyFlagged    && !!flaggedMap[q.id];
         const wr = _state.onlyWrong      && wrongIds.includes(q.id);
         if (!bm && !fl && !wr) return false;
       }
+
       return true;
     });
   }
@@ -426,7 +496,7 @@ const Practice = (() => {
     const practiceConfig = {
       source:        'practice',
       isCustom:      true,
-      studyMode:     true,   // <── ADDED
+      studyMode:     true,
       questions,
       questionCount: questions.length,
       timerEnabled:  _state.timerEnabled,
