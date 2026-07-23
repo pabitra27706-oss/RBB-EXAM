@@ -1,0 +1,1732 @@
+{
+  "metadata": {
+    "id": "2025_08_08_S1",
+    "year": 2025,
+    "date": "2025-08-08",
+    "shift": 1,
+    "shiftTime": "9:00 AM - 10:30 AM",
+    "pageRange": {
+      "start": 49,
+      "end": 64
+    },
+    "totalQuestions": 100,
+    "duration": 90,
+    "subjectSplit": {
+      "General Awareness": 40,
+      "Mathematics": 30,
+      "General Intelligence and Reasoning": 30
+    }
+  },
+  "questions": [
+    {
+      "id": "2025_08_08_S1_Q001",
+      "serialNumber": 1,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Judiciary",
+      "difficulty": "Medium",
+      "question": "Under the Legal Services Authorities Act, 1987, Lok Adalats have no jurisdiction to settle which of the following cases?",
+      "options": [
+        "Civil disputes pending in court",
+        "Divorce and non-compoundable criminal cases",
+        "Motor accident claims",
+        "Compoundable criminal offences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Lok Adalats have no jurisdiction over divorce and non-compoundable criminal cases.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q002",
+      "serialNumber": 2,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "Which of the following Indian states has all three types of physical divisions - plateau, plains, and coastal plains?",
+      "options": [
+        "Madhya Pradesh",
+        "Tamil Nadu",
+        "Punjab",
+        "Uttar Pradesh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Tamil Nadu has plateau, plains, and coastal plains.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q003",
+      "serialNumber": 3,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "Womesh Chandra Bonnerjee represented Calcutta University in the Bengal Legislative Council during ________.",
+      "options": [
+        "1889 - 1890",
+        "1899 - 1900",
+        "1886 - 1887",
+        "1894 - 1895"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Womesh Chandra Bonnerjee represented Calcutta University during 1889-1890.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q004",
+      "serialNumber": 4,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "Which geographical feature separates India from Sri Lanka?",
+      "options": [
+        "Strait of Hormuz",
+        "Gulf of Kutch",
+        "Palk Strait and Gulf of Mannar",
+        "Gulf of Aden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Palk Strait and Gulf of Mannar separate India from Sri Lanka.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q005",
+      "serialNumber": 5,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "Recipient of President's Medal For Distinguished Service (PSM) on the occasion of Republic Day 2025, Shri Deepak Kumar Kedia belongs to which of the following organisations?",
+      "options": [
+        "Central Industrial Security Force (CISF)",
+        "National Security Guard (NSG)",
+        "Central Reserve Police Force (CRPF)",
+        "Indo-Tibetan Border Police (ITBP)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Shri Deepak Kumar Kedia belongs to CISF.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q006",
+      "serialNumber": 6,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Medium",
+      "question": "According to the exercise brief published by PIB, from 10-23 March 2025, Exercise Khanjar-XII, the Joint Special Forces Drill between India and Kyrgyzstan focused primarily on:",
+      "options": [
+        "amphibious warfare",
+        "counter-terrorism",
+        "air defense operations",
+        "naval fleet manoeuvres"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Exercise Khanjar-XII focused primarily on counter-terrorism.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q007",
+      "serialNumber": 7,
+      "subject": "General Awareness",
+      "topic": "Science - Biology",
+      "subTopic": "Human Body",
+      "difficulty": "Easy",
+      "question": "Which of the following is classified as micronutrients?",
+      "options": [
+        "Fats",
+        "Vitamins",
+        "Proteins",
+        "Carbohydrates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Vitamins are classified as micronutrients.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q008",
+      "serialNumber": 8,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "Important Dates and Days",
+      "difficulty": "Medium",
+      "question": "The initial form of Odissi dance was performed by women serving in temples. What was their traditional designation?",
+      "options": [
+        "Devadasis",
+        "Maibis",
+        "Maharis",
+        "Maharani"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The traditional designation was Maharis.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q009",
+      "serialNumber": 9,
+      "subject": "General Awareness",
+      "topic": "Science - Physics",
+      "subTopic": "Sound Light Optics",
+      "difficulty": "Hard",
+      "question": "Who, in 1816, modified Newton's formula for the speed of sound to take into account adiabatic compression in air?",
+      "options": [
+        "Lord Rayleigh",
+        "Galileo Galilei",
+        "Pierre-Simon Laplace",
+        "Hermann von Helmholtz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Pierre-Simon Laplace modified Newton's formula for the speed of sound.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q010",
+      "serialNumber": 10,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Medium",
+      "question": "What was the name of the Indian contender at the 72nd edition of the Miss World, 2025, pageant, held in Telangana?",
+      "options": [
+        "Tanya Sharma",
+        "Nandini Gupta",
+        "Rhea Singha",
+        "Nikita Porwal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Rhea Singha was the Indian contender at Miss World 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q011",
+      "serialNumber": 11,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "Which of the following Acts marked the beginning of British parliamentary control over the East India Company?",
+      "options": [
+        "Pitt's India Act of 1784",
+        "Regulating Act of 1773",
+        "Government of India Act, 1858",
+        "Charter Act of 1813"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Regulating Act of 1773 marked the beginning of British parliamentary control.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q012",
+      "serialNumber": 12,
+      "subject": "General Awareness",
+      "topic": "Science - Physics",
+      "subTopic": "Nuclear Physics and Radioactivity",
+      "difficulty": "Medium",
+      "question": "Which of the following is a preventive measure for nuclear disasters?",
+      "options": [
+        "Constructing nuclear plants near residential areas",
+        "Comprehensive monitoring and regular testing to detect equipment or operator failures",
+        "Ignoring minor radiation leaks to avoid panic",
+        "Disposing radioactive waste without treatment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Comprehensive monitoring and regular testing is a preventive measure.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q013",
+      "serialNumber": 13,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Banking and Finance",
+      "difficulty": "Hard",
+      "question": "Which of the following regulations was introduced by SEBI to mitigate risk in the derivatives market in May 2025?",
+      "options": [
+        "Lifting all trading regulations to enhance India's appeal to investors",
+        "Introduction of limits on open positions in index options to reduce trading risks",
+        "Eliminating the derivatives market entirely",
+        "Allowing unrestricted foreign investment in derivatives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. SEBI introduced limits on open positions in index options to reduce trading risks.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q014",
+      "serialNumber": 14,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Medium",
+      "question": "What is the total worth of the Urban Challenge Fund (UCF) announced in the Union Budget 2025-26 to encourage innovative urban development?",
+      "options": [
+        "5 lakh crore",
+        "50,000 crore",
+        "1 lakh crore",
+        "2 lakh crore"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Urban Challenge Fund is worth 1 lakh crore.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q015",
+      "serialNumber": 15,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Medium",
+      "question": "The Chagos Archipelago, recently in the news, is a disputed territory between which two countries?",
+      "options": [
+        "France and Mauritius",
+        "United States and United Kingdom",
+        "United Kingdom and Mauritius",
+        "United Kingdom and India"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Chagos Archipelago is disputed between the United Kingdom and Mauritius.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q016",
+      "serialNumber": 16,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Citizenship Writs and PIL",
+      "difficulty": "Medium",
+      "question": "The Right to Public Services legislation was first introduced by which Indian state?",
+      "options": [
+        "Madhya Pradesh",
+        "Karnataka",
+        "Maharashtra",
+        "Bihar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Madhya Pradesh first introduced the Right to Public Services legislation.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q017",
+      "serialNumber": 17,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "What was the Supreme Court's decision regarding the Kamla Nehru Memorial Trust's land allotment in Uttar Pradesh?",
+      "options": [
+        "Cancelled the land allotment due to lack of public benefit assessment",
+        "Directed the state to provide alternative land",
+        "Ordered compensation to the Trust",
+        "Upheld the land allotment due to considerable public benefit assessment"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The Supreme Court upheld the land allotment due to considerable public benefit assessment.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q018",
+      "serialNumber": 18,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "National Symbols Capitals Currencies",
+      "difficulty": "Easy",
+      "question": "The Golden Temple, which is situated in Amritsar, Punjab, is alternatively known as",
+      "options": [
+        "Akal Takht",
+        "Anandpur Sahib",
+        "Sri Harmandir Sahib",
+        "Gurudwara Hemkunt Sahib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Golden Temple is alternatively known as Sri Harmandir Sahib.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q019",
+      "serialNumber": 19,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Easy",
+      "question": "The Lion Capital located at Sarnath, which is adopted as the national emblem of the Republic of India, was erected by which of the following Mauryan kings?",
+      "options": [
+        "Ashoka",
+        "Bindusara",
+        "Devavarman Maurya",
+        "Sampraati Maurya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Lion Capital at Sarnath was erected by Ashoka.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q020",
+      "serialNumber": 20,
+      "subject": "General Awareness",
+      "topic": "Science - Biology",
+      "subTopic": "Human Body",
+      "difficulty": "Hard",
+      "question": "Which medical term describes an eating disorder in which energy expenditure is restricted below requirements, leading to significant weight loss?",
+      "options": [
+        "Bulimia Nervosa",
+        "Diabulimia Nervosa",
+        "Anorexia Nervosa",
+        "Orthorexia Nervosa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Anorexia Nervosa is characterized by restricted energy expenditure leading to significant weight loss.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q021",
+      "serialNumber": 21,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "Which of the following statements about the Peninsular Plateau of India is NOT correct?",
+      "options": [
+        "The Western Ghats are higher than the Eastern Ghats.",
+        "The Deccan Plateau is a triangular landmass that lies to the south of the river Narmada.",
+        "The Peninsular plateau consists of three broad divisions, namely, the Northern Highlands, Central Highlands and the Deccan Plateau.",
+        "The Peninsular plateau is a tableland composed of the old crystalline, igneous and metamorphic rocks."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Peninsular plateau does not consist of Northern Highlands.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q022",
+      "serialNumber": 22,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Infrastructure",
+      "difficulty": "Easy",
+      "question": "Rural infrastructure development is crucial to improve connectivity and access to markets and services. Which scheme focuses on providing all-weather road connectivity to unconnected habitations?",
+      "options": [
+        "Saansad Adarsh Gram Yojana",
+        "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+        "Pradhan Mantri Awas Yojana",
+        "Pradhan Mantri Gram Sadak Yojana"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Pradhan Mantri Gram Sadak Yojana provides all-weather road connectivity.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q023",
+      "serialNumber": 23,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Agriculture",
+      "difficulty": "Hard",
+      "question": "The 'Special Food Grain Production Programme (SFPP) on Pulses' was implemented during the year",
+      "options": [
+        "1968-69",
+        "1972-73",
+        "1982-83",
+        "1988-89"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The SFPP on Pulses was implemented during 1968-69.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q024",
+      "serialNumber": 24,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Medium",
+      "question": "Who initiated the Sampoorna Grameen Rozgar Yojana (SGRY)?",
+      "options": [
+        "Central Government",
+        "Private Sector",
+        "Panchayati Raj Institutions",
+        "State Governments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Central Government initiated the Sampoorna Grameen Rozgar Yojana.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q025",
+      "serialNumber": 25,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "According to IQAir's World Air Quality Report released in March 2025, which place in Meghalaya is the most polluted globally?",
+      "options": [
+        "Tura",
+        "Jowai",
+        "Shillong",
+        "Byrnihat"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Byrnihat in Meghalaya is the most polluted globally.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q026",
+      "serialNumber": 26,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Directive Principles of State Policy",
+      "difficulty": "Hard",
+      "question": "Which of the following Directive Principles of State Policy is provided under Article 43A of the Indian Constitution?",
+      "options": [
+        "Right to education",
+        "Promotion of international peace",
+        "Living wage for workers",
+        "Participation of workers in industrial management"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Article 43A provides for participation of workers in industrial management.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q027",
+      "serialNumber": 27,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Medium",
+      "question": "Which Indian athlete won gold in the women's high jump at the 2025 Asian Athletics Championships?",
+      "options": [
+        "Sahana Kumari",
+        "Nandini Agasara",
+        "Pooja Singh",
+        "Swapna Barman"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Pooja Singh won gold in women's high jump at the 2025 Asian Athletics Championships.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q028",
+      "serialNumber": 28,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "MS Windows",
+      "difficulty": "Easy",
+      "question": "Which of the following is considered a poor file management practice on a computer system?",
+      "options": [
+        "Giving files meaningful and descriptive names",
+        "Saving temporary files in unrelated and scattered folders",
+        "Creating separate folders for documents, images and videos",
+        "Using nested folders to organise large sets of data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Saving temporary files in unrelated and scattered folders is a poor file management practice.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q029",
+      "serialNumber": 29,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "Identify whether the given statements are correct or incorrect with respect to INDRA 2025. Statement 1: It is a bilateral naval exercise between India and South Africa. Statement 2: The 14th edition of this exercise included a wide range of activities and structured drills designed to enhance interoperability towards countering common maritime threats.",
+      "options": [
+        "Both Statements 1 and 2 are incorrect",
+        "Both Statements 1 and 2 are correct",
+        "Statement 1 is correct and 2 is incorrect",
+        "Statement 2 is correct and 1 is incorrect"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Statement 2 is correct (INDRA is with Russia, not South Africa).",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q030",
+      "serialNumber": 30,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "Hardware",
+      "difficulty": "Easy",
+      "question": "What does the abbreviation 'SRAM' stand for in computer memory?",
+      "options": [
+        "Synchronous Read Access Memory",
+        "Standard Random Access Memory",
+        "Static Read Access Memory",
+        "Static Random Access Memory"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. SRAM stands for Static Random Access Memory.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q031",
+      "serialNumber": 31,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "Which agency developed the Vikram 3201 and Kalpana 3201 microprocessors for space applications in 2025?",
+      "options": [
+        "ISRO",
+        "BARC",
+        "BEL",
+        "DRDO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. ISRO developed the Vikram 3201 and Kalpana 3201 microprocessors.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q032",
+      "serialNumber": 32,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Fundamental Rights and Duties",
+      "difficulty": "Easy",
+      "question": "Article 19 of the Indian Constitution guarantees six freedoms. Which of the following is NOT one of them?",
+      "options": [
+        "Freedom to form associations or unions",
+        "Freedom from arrest",
+        "Freedom of speech and expression",
+        "Freedom to move freely throughout the territory of India"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Freedom from arrest is not guaranteed under Article 19.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q033",
+      "serialNumber": 33,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Hard",
+      "question": "The first systematisation of the Jain canonical literature took place at",
+      "options": [
+        "Vallabhi",
+        "Pataliputra",
+        "Mathura",
+        "Lumbini"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The first systematisation of Jain canonical literature took place at Pataliputra.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q034",
+      "serialNumber": 34,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Panchayati Raj and Municipalities",
+      "difficulty": "Hard",
+      "question": "Which Article of the Indian Constitution deals with the reservation of seats for Scheduled Castes and Scheduled Tribes in municipal bodies?",
+      "options": [
+        "Article 243R",
+        "Article 243Z",
+        "Article 243T",
+        "Article 243S"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Article 243T deals with reservation of seats for SC/ST in municipal bodies.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q035",
+      "serialNumber": 35,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "In 2025, the Indian government approved the setup of which numbered launch pad at Sriharikota?",
+      "options": [
+        "Launch Pad Four",
+        "Launch Pad Three",
+        "Launch Pad Zero",
+        "Launch Pad One"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The government approved the setup of Launch Pad Three at Sriharikota.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q036",
+      "serialNumber": 36,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Trade",
+      "difficulty": "Medium",
+      "question": "What is the rank of the services sector in terms of the top recipient of FDI equity in FY 2024-25, as per the data of Ministry of Commerce and Industry?",
+      "options": [
+        "First",
+        "Third",
+        "Second",
+        "Fourth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The services sector is the top recipient of FDI equity.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q037",
+      "serialNumber": 37,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Easy",
+      "question": "Where was Gandhi's method of Satyagraha first evolved and later fully developed as a freedom struggle tool in India?",
+      "options": [
+        "Kheda",
+        "South Africa",
+        "Champaran",
+        "Bombay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Gandhi first evolved Satyagraha in South Africa.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q038",
+      "serialNumber": 38,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Hard",
+      "question": "Who among the following became the first Indian chess player to qualify for the Esports World Cup (EWC) 2025 through the second leg of the Champions Chess Tour?",
+      "options": [
+        "Arjun Erigaisi",
+        "Praggnanandhaa Rameshbabu",
+        "Bhubaneswar Kumar",
+        "Pentala Harikrishna"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Praggnanandhaa Rameshbabu became the first Indian to qualify for EWC 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q039",
+      "serialNumber": 39,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Agriculture",
+      "difficulty": "Medium",
+      "question": "Which Indian State contributes the most to commercial floriculture cultivation, accounting for more than 20% of the country's total production in FY 2024?",
+      "options": [
+        "West Bengal",
+        "Tamil Nadu",
+        "Chhattisgarh",
+        "Gujarat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Tamil Nadu contributes the most to commercial floriculture.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q040",
+      "serialNumber": 40,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "First in India",
+      "difficulty": "Easy",
+      "question": "As of March 14, 2024, which of the following is the world's highest railway bridge?",
+      "options": [
+        "Jubilee Bridge",
+        "Chenab Bridge",
+        "Vikramshila Setu",
+        "Nehru Setu Bridge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Chenab Bridge is the world's highest railway bridge.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q041",
+      "serialNumber": 41,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "The average of 15 numbers is 14. If the average of the first 10 numbers is 13 and the average of the next 5 numbers is 16, find the average of the remaining numbers.",
+      "options": [
+        "14,390",
+        "17,390",
+        "16,390",
+        "15,390"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The average is 14,390.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q042",
+      "serialNumber": 42,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Fractions and Decimals",
+      "difficulty": "Medium",
+      "question": "The value of square root of 256 plus square root of 0.0256 minus square root of 4.41 is",
+      "options": [
+        "14.06",
+        "13.37",
+        "13.18",
+        "7.4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 14.06.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q043",
+      "serialNumber": 43,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Medium",
+      "question": "Which of the following numbers is divisible by 14?",
+      "options": [
+        "6794266",
+        "6436639",
+        "7048048",
+        "7132968"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. 7048048 is divisible by 14.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q044",
+      "serialNumber": 44,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Direct and Inverse Proportion",
+      "difficulty": "Hard",
+      "question": "Salman and Vivek together invested 45,200 in a business. At the end of the year, out of a total profit of 16,000, Vivek's share was 6,400. What was the difference between their investments?",
+      "options": [
+        "10,752",
+        "7,053",
+        "9,040",
+        "9,093"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The difference between their investments is 9,040.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q045",
+      "serialNumber": 45,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Hard",
+      "question": "Sapna invested 20,400 on simple interest, partly at the rate of 14% per annum and partly at the rate of 11% per annum. If she earns equal interests from the two investments after 9 years, then find the sum invested at the rate of 14% per annum.",
+      "options": [
+        "8,976",
+        "8,975",
+        "8,979",
+        "8,977"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The sum invested at 14 percent is 8,979.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q046",
+      "serialNumber": 46,
+      "subject": "Mathematics",
+      "topic": "Surds and Indices",
+      "subTopic": "Surds and Indices",
+      "difficulty": "Medium",
+      "question": "Find the value of: 26^(-19) + 26^(18) x 26^(3)",
+      "options": [
+        "26^(-35)",
+        "26^(-40)",
+        "26^(-34)",
+        "26^(-45)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The value is 26 to the power of -34.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q047",
+      "serialNumber": 47,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "3D Shapes",
+      "difficulty": "Medium",
+      "question": "Find the surface area of a sphere whose diameter is equal to 14 cm.",
+      "options": [
+        "1104 pi cm squared",
+        "34 pi cm squared",
+        "1102 pi cm squared",
+        "196 pi cm squared"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The surface area is 196 pi cm squared.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q048",
+      "serialNumber": 48,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Fractions and Decimals",
+      "difficulty": "Medium",
+      "question": "The value of 5/2 + (1/(1 + 3/8)) - 3/5 is",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text due to image placeholders.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q049",
+      "serialNumber": 49,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Quadratic Equations",
+      "difficulty": "Medium",
+      "question": "The sum of the digits of a two-digit number is 9. The number obtained by reversing the digits is 27 more than the original number. Find the original number.",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The number is 9.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q050",
+      "serialNumber": 50,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Linear Equations",
+      "difficulty": "Medium",
+      "question": "If 2x + 3y = 12 and 3x + 2y = 13, then find the value of x + y.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value of x + y is 5.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q051",
+      "serialNumber": 51,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Hard",
+      "question": "The population of a district is 368000, out of which 220000 are males. 62% of the population is literate. If 62% males are literate, then what percentage of females are literate?",
+      "options": [
+        "63%",
+        "59%",
+        "60%",
+        "62%"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. 62 percent of females are literate.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q052",
+      "serialNumber": 52,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Medium",
+      "question": "If 20% of first number is equal to four-fifths of second number, what is the ratio of first number to the second number?",
+      "options": [
+        "1:6",
+        "4:1",
+        "6:2",
+        "7:4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The ratio is 4:1.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q053",
+      "serialNumber": 53,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "3D Shapes",
+      "difficulty": "Hard",
+      "question": "The curved surface area of a right circular cylinder is 5280 cm^2 and its base radius is 21 cm. Find the volume (in cm^3) of the cylinder. Take pi = 22/7.",
+      "options": [
+        "45,550",
+        "55,440",
+        "50,440",
+        "65,660"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The volume is 55,440 cm^3.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q054",
+      "serialNumber": 54,
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "subTopic": "Identities",
+      "difficulty": "Hard",
+      "question": "Find the value of (1 - sec^2 theta)/sin^2 theta x cos^2 theta",
+      "options": [
+        "tan theta",
+        "tan squared theta",
+        "-1",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The value is -1.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q055",
+      "serialNumber": 55,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Pipes and Cisterns",
+      "difficulty": "Medium",
+      "question": "Pipe A can fill a tank in 16 hours, pipe B can fill the same tank in 28 hours and pipe C can fill the same tank in 8 hours. The time taken by them to fill the same tank if they operate together is:",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The time taken is 4 hours.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q056",
+      "serialNumber": 56,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "The average of first 155 even numbers is",
+      "options": [
+        "156",
+        "155.5",
+        "157",
+        "156.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The average is 156.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q057",
+      "serialNumber": 57,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "Find the value of x satisfying: 2(3x^2 - 6) - 3(2x^2 + 8x - 5) = 14",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text due to image placeholders.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q058",
+      "serialNumber": 58,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Work Rate",
+      "difficulty": "Hard",
+      "question": "6 men can complete a piece of work in 9 days, while 6 women can do it in 6 days. In how many days can 2 women and 3 men complete this work?",
+      "options": [
+        "10 days",
+        "11 days",
+        "12 days",
+        "9 days"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. 2 women and 3 men can complete the work in 9 days.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q059",
+      "serialNumber": 59,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Prime Numbers",
+      "difficulty": "Easy",
+      "question": "The number of prime numbers lying between 430 and 438, both included, is:",
+      "options": [
+        "6",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. There are 2 prime numbers between 430 and 438.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q060",
+      "serialNumber": 60,
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "subTopic": "Average",
+      "difficulty": "Easy",
+      "question": "The marks scored by 10 students are given below. 13, 20, 15, 13, 19, 12, 12, 11, 13, 10. The mode of the given data is:",
+      "options": [
+        "13",
+        "15",
+        "19",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The mode of the data is 13.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q061",
+      "serialNumber": 61,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Number Analogy",
+      "difficulty": "Medium",
+      "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the pair in which the numbers are related in the same way as are the numbers of the following pairs. (Note: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g., 13 - Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q062",
+      "serialNumber": 62,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "What will come in the place of the question mark (?) in the following equation, if '+' and 'x' are interchanged and '-' and '+' are interchanged? 15 + 7 + 7 x 48 - 2 + 23 x 4 = ?",
+      "options": [
+        "612",
+        "716",
+        "559",
+        "654"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 612.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q063",
+      "serialNumber": 63,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Classification",
+      "subTopic": "Letter Classification",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "NGK",
+        "TMQ",
+        "QJN",
+        "IBE"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. IBE does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q064",
+      "serialNumber": 64,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: Some guns are roses. All roses are bats. Conclusions: (I) Some guns are bats. (II) All bats are roses.",
+      "options": [
+        "Both conclusions (I) and (II) follow.",
+        "Only conclusion (II) follows.",
+        "Neither conclusion (I) nor (II) follows.",
+        "Only conclusion (I) follows."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Only conclusion (I) follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q065",
+      "serialNumber": 65,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'GIRL' is coded as '5317' and 'INKS' is coded as '2146'. What is the code for 'I' in the given code language?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The code for 'I' is 2.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q066",
+      "serialNumber": 66,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 2436857 is arranged in ascending order from left to right. What will be the sum of the digits which are third from the left and second from the right in the new number thus formed?",
+      "options": [
+        "12",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The sum of the digits is 12.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q067",
+      "serialNumber": 67,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Letter Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? GBD IDF KFH MHJ ?",
+      "options": [
+        "PJS",
+        "OJL",
+        "PQS",
+        "OQK"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. OJL will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q068",
+      "serialNumber": 68,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic. MINK-IKNN-KNIM PLOT-LTOP-TOLP",
+      "options": [
+        "TOES-OTES-SOET",
+        "WAIT-AWIT-TAIW",
+        "READ-RAED-DAER",
+        "CORD-ODRC-DROC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. TOES-OTES-SOET follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q069",
+      "serialNumber": 69,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series? 18 58 47 145 134 ?",
+      "options": [
+        "426",
+        "406",
+        "460",
+        "408"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The next number in the series is 406.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q070",
+      "serialNumber": 70,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "Refer to the following number, symbol series and answer the question that follow. Counting to be done from left to right only. (Left) 7?3?253^#+*@27#&52*#2 (Right) How many such symbols are there each of which is immediately preceded by a number and also immediately followed by a number?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. There are 2 symbols that meet the condition.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q071",
+      "serialNumber": 71,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Easy",
+      "question": "What should come in place of the question mark (?) in the given series? 450 455 461 466 472 477 483 ?",
+      "options": [
+        "488",
+        "490",
+        "487",
+        "489"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The next number in the series is 488.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q072",
+      "serialNumber": 72,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "H, I, J, K, U, V and W are sitting around a circular table facing the centre of the table. U sits fourth to the left of V. H sits fourth to the right of J. Only two people sit between V and J when counted from the left of V. K is not an immediate neighbour of H or V. I is not an immediate neighbour of K. Who sits third to the right of W?",
+      "options": [
+        "K",
+        "I",
+        "U",
+        "H"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. K sits third to the right of W.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q073",
+      "serialNumber": 73,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Easy",
+      "question": "Nikhil ranked 18th from the top and 36th from the bottom in his class. How many students are there in his class?",
+      "options": [
+        "55",
+        "54",
+        "53",
+        "52"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. There are 53 students in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q074",
+      "serialNumber": 74,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Six people, E, F, G, H, I and P, are sitting in a row, facing north. Only two people sit to the left of P. Only two people sit between P and E. Only one person sits between E and H. Only I sits between P and G. How many people sit between F and I?",
+      "options": [
+        "Zero",
+        "Three",
+        "Two",
+        "One"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Two people sit between F and I.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q075",
+      "serialNumber": 75,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Shortest Distance",
+      "difficulty": "Hard",
+      "question": "Govind starts from Point Y and drives 12 km towards west. He then turns right and drives 37 km, takes a left turn, drives 18 km, turns left and drives 63 km. He then takes a right turn and drives 19 km. He takes a right turn, drives 35 km, turns left, drives 32 km, then turns left and drives 9 km to stop at Point Z. How far (shortest distance) and towards which direction should he drive in order to reach Point Y again? (All turns are 90 degrees turns only unless specified.)",
+      "options": [
+        "71 km towards west",
+        "84 km towards west",
+        "81 km towards east",
+        "77 km towards east"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Govind should drive 84 km towards west.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q076",
+      "serialNumber": 76,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "IL-FQ",
+        "WR-TW",
+        "HY-DD",
+        "QE-NJ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. QE-NJ does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q077",
+      "serialNumber": 77,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "EGLU is related to IKOX in a certain way based on the English alphabetical order. In the same way, UWXG is related to YAAJ. To which of the given options is GIGP related, following the same logic?",
+      "options": [
+        "KMJS",
+        "KMSJ",
+        "KSDF",
+        "KJS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. GIGP is related to KMSJ.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q078",
+      "serialNumber": 78,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "RT-MO",
+        "OQ-JM",
+        "WY-RU",
+        "UW-PS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. WY-RU does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q079",
+      "serialNumber": 79,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Easy",
+      "question": "Niku ranked 24th from the top and 13th from the bottom in his class. How many students are there in his class?",
+      "options": [
+        "35",
+        "34",
+        "36",
+        "37"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. There are 36 students in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q080",
+      "serialNumber": 80,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Mixed Series",
+      "difficulty": "Hard",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? MTP 20, OUQ 15, ?",
+      "options": [
+        "MTP 20",
+        "OUQ 15",
+        "PUQ 15",
+        "PTP 20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. OUQ 15 will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q081",
+      "serialNumber": 81,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "GBNS is related to EYPV in a certain way based on the English alphabetical order. In the same way, CVRY is related to ASTB. To which of the following is YPVE related, following the same logic?",
+      "options": [
+        "VNXG",
+        "XLYF",
+        "WMXH",
+        "VLVF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. YPVE is related to XLYF.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q082",
+      "serialNumber": 82,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 6243514 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?",
+      "options": [
+        "Two",
+        "Three",
+        "One",
+        "None"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. One digit will remain unchanged.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q083",
+      "serialNumber": 83,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "What should come in place of the question mark (?) in the given series? 679 680 684 693 709 ?",
+      "options": [
+        "741",
+        "739",
+        "734",
+        "731"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The next number in the series is 734.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q084",
+      "serialNumber": 84,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Blood Relations",
+      "subTopic": "Coded Relations",
+      "difficulty": "Hard",
+      "question": "In a certain code language, 'A = B' means 'A is the wife of B', 'A # B' means 'A is the father of B', 'A != B' means 'A is the brother of B' and 'A % B' means 'A is the son of B'. How is S related to P if 'S # Y # R = U % P'?",
+      "options": [
+        "Son's wife's sister",
+        "Son's wife's father",
+        "Son's wife's mother",
+        "Son's wife's brother"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. S is the son's wife's father of P.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q085",
+      "serialNumber": 85,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements. Statements: All lions are tigers. No lion is a cat. Conclusions (I): Some cats are lions. Conclusions (II): Some tigers are lions.",
+      "options": [
+        "Neither conclusion (I) nor (II) follows.",
+        "Only conclusion (II) follows.",
+        "Only conclusion (I) follows.",
+        "Both conclusions (I) and (II) follow."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Only conclusion (II) follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q086",
+      "serialNumber": 86,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, if 'CHAIR' is coded as '12345' and 'HAND' is coded as '6789', what is the code for 'R'?",
+      "options": [
+        "2",
+        "7",
+        "6",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The code for 'R' is 6.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q087",
+      "serialNumber": 87,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Seven boxes T, U, V, W, X, Y and D are kept one over the other but not necessarily in the same order. T is kept immediately above D. U is kept immediately above W. Only V is kept above Y. Only one box are kept between V and T. Only two boxes are kept between Y and X. How many boxes are kept between W and V?",
+      "options": [
+        "One",
+        "Five",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Five boxes are kept between W and V.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q088",
+      "serialNumber": 88,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "What will come in the place of the question mark (?) in the following equation, if '+' and 'x' are interchanged, and '-' and '+' are interchanged? 42 - 7 x 12 + 3 / 13 = ?",
+      "options": [
+        "11",
+        "15",
+        "29",
+        "22"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 11.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q089",
+      "serialNumber": 89,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Matrix",
+      "subTopic": "Matrix Arrangement",
+      "difficulty": "Hard",
+      "question": "This question is based on the five, three-digit numbers given below. (Left) 384 673 543 236 741 (Right) (Example- 697 - First digit = 6, second digit = 9 and third digit = 7 (NOTE: All operations to be done from left to right.) If 2 is added to the first digit of every number, in how many numbers will the first digit be exactly divisible by the second digit?",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. In 2 numbers, the first digit is divisible by the second digit.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_08_S1_Q090",
+      "serialNumber": 90,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Basic Directions",
+      "difficulty": "Medium",
+      "question": "Town J is to the west of town M. Town N is to the south of Town M. Town K is to the west of Town N. Town L is to the south of town N. What is the position of town L with respect to town K?",
+      "options": [
+        "Northeast",
+        "Southwest",
+        "Northwest",
+        "Southeast"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Town L is to the southeast of town K.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    }
+  ]
+}

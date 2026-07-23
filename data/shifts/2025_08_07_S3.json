@@ -1,0 +1,1922 @@
+{
+  "metadata": {
+    "id": "2025_08_07_S3",
+    "year": 2025,
+    "date": "2025-08-07",
+    "shift": 3,
+    "shiftTime": "4:30 PM - 6:00 PM",
+    "pageRange": {
+      "start": 33,
+      "end": 48
+    },
+    "totalQuestions": 100,
+    "duration": 90,
+    "subjectSplit": {
+      "General Awareness": 40,
+      "Mathematics": 30,
+      "General Intelligence and Reasoning": 30
+    }
+  },
+  "questions": [
+    {
+      "id": "2025_08_07_S3_Q001",
+      "serialNumber": 1,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "Which of the following regions in India is known for Tropical Evergreen Forests?",
+      "options": [
+        "Punjab",
+        "Sunderbans",
+        "Western Ghats",
+        "Rajasthan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Tropical Evergreen Forests are found in the Western Ghats.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q002",
+      "serialNumber": 2,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Prime Minister Chief Minister Council of Ministers",
+      "difficulty": "Medium",
+      "question": "Which of the following is the correct descending order of ministerial ranks in the Union Council of Ministers, as per Indian practice?",
+      "options": [
+        "Cabinet Minister to Minister of State to Deputy Minister",
+        "Cabinet Minister to Minister of State to Deputy Minister",
+        "Cabinet Minister to Minister of State to Deputy Minister",
+        "Cabinet Minister to Minister of State to Deputy Minister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The correct descending order is Cabinet Minister, Minister of State, Deputy Minister.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q003",
+      "serialNumber": 3,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "The Bhabar region lies in which part of the Great Plains?",
+      "options": [
+        "West of Indus plain",
+        "Along the Brahmaputra basin",
+        "Just south of the Terai",
+        "Adjacent to the foothills of the Himalayas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The Bhabar region lies adjacent to the foothills of the Himalayas.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q004",
+      "serialNumber": 4,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Easy",
+      "question": "Which of the following important Indian festivals was observed on 13th and 14th March 2025?",
+      "options": [
+        "Eid-ul-Fitr",
+        "Diwali",
+        "Raksha Bandhan",
+        "Holi"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Holi was observed on 13th and 14th March 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q005",
+      "serialNumber": 5,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Medium",
+      "question": "Which issue did the World Economic Forum highlight as the top immediate global threat in its 2025 Global Risks Report published in January 2025?",
+      "options": [
+        "Escalating cyberattacks",
+        "Instability in global markets",
+        "State-based armed conflict",
+        "Resurgence of pandemics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. State-based armed conflict was highlighted as the top immediate global threat.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q006",
+      "serialNumber": 6,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "World Geography",
+      "difficulty": "Easy",
+      "question": "Geographically, Bhutan is divided into four regions. Which of the following is NOT a name of those divisions?",
+      "options": [
+        "Western",
+        "Northern",
+        "Eastern",
+        "Southern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Northern is not a geographical division of Bhutan.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q007",
+      "serialNumber": 7,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Medium",
+      "question": "The Parthians originated from which of the following countries?",
+      "options": [
+        "Iran",
+        "Saudi Arabia",
+        "Iraq",
+        "Turkey"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Parthians originated from Iran.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q008",
+      "serialNumber": 8,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Easy",
+      "question": "Who among the following was honoured as the International Cricket Council (ICC) Men's Cricketer of the Year for outstanding performance in 2024?",
+      "options": [
+        "Rohit Sharma",
+        "Jasprit Bumrah",
+        "Mohammad Sami",
+        "Virat Kohli"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Jasprit Bumrah was honoured as ICC Men's Cricketer of the Year for 2024.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q009",
+      "serialNumber": 9,
+      "subject": "General Awareness",
+      "topic": "Science - Physics",
+      "subTopic": "Sound Light Optics",
+      "difficulty": "Easy",
+      "question": "Which technology uses acoustic waves to locate objects in the ocean?",
+      "options": [
+        "Sonar",
+        "LiDAR",
+        "Echo-sounder",
+        "SAR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Sonar uses acoustic waves to locate objects in the ocean.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q010",
+      "serialNumber": 10,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "India's first exploration licence auction and AI-Driven Mineral Targeting Hackathon was launched in:",
+      "options": [
+        "Goa",
+        "Andhra Pradesh",
+        "Telangana",
+        "Maharashtra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The launch took place in Goa.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q011",
+      "serialNumber": 11,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "What is the name of the patented respiratory device developed by AIIMS Raipur to curb airborne infections in May 2025?",
+      "options": [
+        "AirGuard",
+        "RespiraSafe",
+        "HOAC Combo",
+        "OxyShield"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. HOAC Combo is the patented respiratory device developed by AIIMS Raipur.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q012",
+      "serialNumber": 12,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Reforms",
+      "difficulty": "Medium",
+      "question": "In post 1991 reforms, the term 'disinvestment' refers to:",
+      "options": [
+        "selling government's share in public sector companies",
+        "reducing agricultural subsidies",
+        "reducing foreign trade",
+        "increasing taxes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Disinvestment refers to selling government's share in public sector companies.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q013",
+      "serialNumber": 13,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "Which of the following acts introduced the Federal Structure in British India for the first time?",
+      "options": [
+        "Government of India Act, 1935",
+        "Rowlatt Act, 1919",
+        "Indian Councils Act, 1909",
+        "Indian Independence Act, 1947"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Government of India Act, 1935 introduced the Federal Structure.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q014",
+      "serialNumber": 14,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "Which is a landmark judgement of Justice Bela Trivedi, whose official retirement is scheduled for June 2025?",
+      "options": [
+        "Challenge to the Abrogation of Article 370",
+        "Ruling on POCSO Act",
+        "Euthanasia and the Right to Die with Dignity",
+        "Validity of Unstamped Arbitration Agreement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Justice Bela Trivedi delivered the landmark judgement on the challenge to the abrogation of Article 370.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q015",
+      "serialNumber": 15,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Hard",
+      "question": "In the Pallava administration, which was the smallest administrative unit directly managed by local self-governing assemblies?",
+      "options": [
+        "Nadu",
+        "Mandala",
+        "Ur",
+        "Kottam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Ur was the smallest administrative unit in Pallava administration.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q016",
+      "serialNumber": 16,
+      "subject": "General Awareness",
+      "topic": "Science - Chemistry",
+      "subTopic": "Acids Bases and Salts",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT a characteristic of acids?",
+      "options": [
+        "They turn blue litmus red.",
+        "They have a sour taste.",
+        "They release OH ions in water.",
+        "They react with bases to form salt and water."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Acids release H+ ions, not OH- ions.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q017",
+      "serialNumber": 17,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Easy",
+      "question": "Narayana Guru, a social reformer who led a massive movement against the discrimination of the lower castes, was from the state of:",
+      "options": [
+        "West Bengal",
+        "Madhya Pradesh",
+        "Kerala",
+        "Andhra Pradesh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Narayana Guru was from Kerala.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q018",
+      "serialNumber": 18,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Poverty Unemployment and HDI",
+      "difficulty": "Medium",
+      "question": "Why can Gross Enrollment Ratio (GER) sometimes exceed 100%?",
+      "options": [
+        "Due to school mergers in rural areas",
+        "Due to inclusion of post-graduate students",
+        "Due to enrollment of learners outside the official age group",
+        "Because of errors in census data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. GER can exceed 100% due to enrollment of learners outside the official age group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q019",
+      "serialNumber": 19,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "MS Windows",
+      "difficulty": "Easy",
+      "question": "Which of the following actions will permanently delete a file from an MS Windows system, bypassing the Recycle Bin?",
+      "options": [
+        "Dragging the file to the Recycle Bin",
+        "Right-clicking on the file and selecting 'Delete'",
+        "Selecting the file and pressing Shift + Delete keys",
+        "Pressing the Delete key"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Shift + Delete keys permanently delete a file, bypassing the Recycle Bin.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q020",
+      "serialNumber": 20,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Medium",
+      "question": "Which city is constructing a 27-metre-tall clock tower at Talkatora Roundabout to enhance its architectural identity?",
+      "options": [
+        "Jaipur",
+        "New Delhi",
+        "Mumbai",
+        "Kolkata"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. New Delhi is constructing a 27-metre-tall clock tower at Talkatora Roundabout.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q021",
+      "serialNumber": 21,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "MS Windows",
+      "difficulty": "Easy",
+      "question": "Which key combination is commonly used in Windows OS to open the Task Manager?",
+      "options": [
+        "Alt + Tab",
+        "Alt + F4",
+        "Ctrl + Shift + Esc",
+        "Ctrl + Tab"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Ctrl + Shift + Esc opens the Task Manager in Windows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q022",
+      "serialNumber": 22,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Medieval History",
+      "difficulty": "Medium",
+      "question": "From the 11th through the 18th centuries, what type of literature was the most prominent in medieval India?",
+      "options": [
+        "Theatrical historical performances",
+        "Devotional poetry",
+        "Elaborate philosophical discussions",
+        "Specialised scientific writings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Devotional poetry was the most prominent literature in medieval India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q023",
+      "serialNumber": 23,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Constitution",
+      "difficulty": "Easy",
+      "question": "In which of the following years was the Right to Information Act passed?",
+      "options": [
+        "1999",
+        "2005",
+        "1973",
+        "2007"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Right to Information Act was passed in 2005.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q024",
+      "serialNumber": 24,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "The 'Kundara Proclamation' which openly called for taking up arms against the British, is associated with which of the following freedom fighters?",
+      "options": [
+        "Velu Thampi",
+        "Wazir Ali Khan",
+        "Gajapatiraju",
+        "Kattabomman Nayakan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Kundara Proclamation is associated with Velu Thampi.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q025",
+      "serialNumber": 25,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Banking and Finance",
+      "difficulty": "Medium",
+      "question": "In which of the following years did Vodafone start its journey in India?",
+      "options": [
+        "2007",
+        "2005",
+        "2009",
+        "2002"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Vodafone started its journey in India in 2007.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q026",
+      "serialNumber": 26,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Medium",
+      "question": "Which state is leading with the highest number of solar power installations under PM Surya Ghar Muft Bijli Yojana (PMSGMBY) by March 2025?",
+      "options": [
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Maharashtra is leading with the highest number of solar power installations.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q027",
+      "serialNumber": 27,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "Which company received the 'Champion Company' award at the inaugural CII Awards for Excellence in Disability Inclusion in 2025?",
+      "options": [
+        "Amazon",
+        "Zomato",
+        "Wipro Limited",
+        "Minda Corporation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Wipro Limited received the 'Champion Company' award.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q028",
+      "serialNumber": 28,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "In April 2025, the Cabinet Committee on Economic Affairs has approved the development of a Greenfield High-Speed Corridor connecting which two states on NH-06 under Hybrid Annuity Mode (HAM)?",
+      "options": [
+        "Manipur and Mizoram",
+        "Tripura and Mizoram",
+        "Meghalaya and Assam",
+        "Assam and Nagaland"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The corridor will connect Manipur and Mizoram.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q029",
+      "serialNumber": 29,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "President Vice President Governor",
+      "difficulty": "Easy",
+      "question": "Under Article 356 of the Indian Constitution, President's Rule can be imposed in a state on the recommendation of the:",
+      "options": [
+        "President of India",
+        "High Court",
+        "State Government",
+        "Supreme Court of India"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. President's Rule is imposed on the recommendation of the State Government.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q030",
+      "serialNumber": 30,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "In May 2025, who was appointed as Secretary, Department of Revenue, Ministry of Finance?",
+      "options": [
+        "Arvind Shrivastava",
+        "Shankar Lal Kumawat",
+        "Smarak Swain",
+        "Ajay Seth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Smarak Swain was appointed as Secretary, Department of Revenue.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q031",
+      "serialNumber": 31,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "On 21 May 2025, the Director General of Health Services (DGHS) in Delhi was appointed to oversee the implementation of which two major healthcare initiatives?",
+      "options": [
+        "PM-JAY and National Digital Health Mission",
+        "Fit India Movement and Swachh Bharat Abhiyan",
+        "National Health Stack and eSanjeevani",
+        "Ayushman Bharat Health Infrastructure Mission and Ayushman Arogya Mandir"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. DGHS will oversee Ayushman Bharat Health Infrastructure Mission and Ayushman Arogya Mandir.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q032",
+      "serialNumber": 32,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Easy",
+      "question": "In which of the following years was the Pradhan Mantri Gram Sadak Yojana (PMGSY) launched by the Government of India to provide connectivity to unconnected habitations as part of a poverty reduction strategy?",
+      "options": [
+        "2002",
+        "1997",
+        "2005",
+        "2000"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. PMGSY was launched in 2000.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q033",
+      "serialNumber": 33,
+      "subject": "General Awareness",
+      "topic": "Environment and Ecology",
+      "subTopic": "Environmental Acts and Conventions",
+      "difficulty": "Medium",
+      "question": "When was the Basel Convention adopted on the Control of Transboundary Movements of Hazardous Wastes and their Disposal?",
+      "options": [
+        "1991",
+        "1989",
+        "1995",
+        "1993"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Basel Convention was adopted in 1989.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q034",
+      "serialNumber": 34,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Constitution",
+      "difficulty": "Medium",
+      "question": "To pass a Constitutional Amendment Bill in the Lok Sabha, which of the following correctly states the minimum support required?",
+      "options": [
+        "Two-thirds majority of the total membership of the House",
+        "Simple majority of Lok Sabha members and two-thirds of Rajya Sabha members present and voting",
+        "Unanimous vote of all Members of Parliament",
+        "Majority of the total membership and two-thirds of members present and voting"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The bill requires a majority of total membership and two-thirds of members present and voting.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q035",
+      "serialNumber": 35,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "Where is the headquarters of the North Western Railway zone located?",
+      "options": [
+        "Jaipur",
+        "Hubli",
+        "New Delhi",
+        "Hajipur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The headquarters of North Western Railway is in Jaipur.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q036",
+      "serialNumber": 36,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Climate",
+      "difficulty": "Easy",
+      "question": "The region between the Tropic of Cancer and the Tropic of Capricorn is known as the:",
+      "options": [
+        "Frigid",
+        "Temperate",
+        "Tropical",
+        "Polar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The region between the Tropic of Cancer and Tropic of Capricorn is the Tropical zone.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q037",
+      "serialNumber": 37,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Easy",
+      "question": "According to the PLFS Annual Report (July 2023-June 2024), which Indian state made history in 2025 by becoming the first to achieve full literacy?",
+      "options": [
+        "Sikkim",
+        "Mizoram",
+        "Himachal Pradesh",
+        "Kerala"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Himachal Pradesh became the first state to achieve full literacy.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q038",
+      "serialNumber": 38,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Easy",
+      "question": "Which of the following was the first state to be formed on linguistic basis after severe agitation and the death of a protester?",
+      "options": [
+        "Telangana",
+        "Kerala",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Andhra Pradesh was the first state formed on linguistic basis.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q039",
+      "serialNumber": 39,
+      "subject": "General Awareness",
+      "topic": "Science - Chemistry",
+      "subTopic": "Atomic Structure and Periodic Table",
+      "difficulty": "Easy",
+      "question": "In which of the following groups does hydrogen belong?",
+      "options": [
+        "Group 2",
+        "Group 17",
+        "Group 1",
+        "Group 18"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Hydrogen belongs to Group 1 of the periodic table.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q040",
+      "serialNumber": 40,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "The Bhabar region lies in which part of the Great Plains?",
+      "options": [
+        "West of Indus plain",
+        "Along the Brahmaputra basin",
+        "Just south of the Terai",
+        "Adjacent to the foothills of the Himalayas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The Bhabar region lies adjacent to the foothills of the Himalayas.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q041",
+      "serialNumber": 41,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Trains",
+      "difficulty": "Hard",
+      "question": "Train A leaves station M at 7:50 a.m. and reaches station N at 2:50 p.m. on the same day. Train B leaves station N at 9:50 a.m. and reaches station M at 2:50 p.m. on the same day. Find the time when Trains A and B meet.",
+      "options": [
+        "10:47 p.m.",
+        "11:55 a.m.",
+        "9:47 p.m.",
+        "5:00 a.m."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The trains meet at 11:55 a.m.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q042",
+      "serialNumber": 42,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Easy",
+      "question": "What smallest number should be added to 4519 so that the sum is completely divisible by 30?",
+      "options": [
+        "6",
+        "10",
+        "13",
+        "11"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. 11 should be added to 4519 to make it divisible by 30.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q043",
+      "serialNumber": 43,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Linear Equations",
+      "difficulty": "Medium",
+      "question": "The product of two positive numbers is 2880. If the first number is five times of the second number, then the sum of the two numbers is:",
+      "options": [
+        "137",
+        "150",
+        "164",
+        "144"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The sum of the two numbers is 144.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q044",
+      "serialNumber": 44,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Hard",
+      "question": "The population of a district is 351000, out of which 164000 are males. 14% of the population is literate. If 14% males are literate, then what percentage of females are literate?",
+      "options": [
+        "12%",
+        "14%",
+        "16%",
+        "17%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. 14 percent of females are literate.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q045",
+      "serialNumber": 45,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "LCM and HCF",
+      "difficulty": "Medium",
+      "question": "Two numbers have HCF 6 and LCM 36. If the difference between the two numbers is 30, what are the two numbers?",
+      "options": [
+        "12 and 42",
+        "24 and 54",
+        "6 and 36",
+        "18 and 48"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The two numbers are 6 and 36.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q046",
+      "serialNumber": 46,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Hard",
+      "question": "Sapna invested 20,900 on simple interest, partly at 10% per annum and partly at 9% per annum. If she earns equal interests from the two investments after 5 years, then find the sum invested at 10% per annum.",
+      "options": [
+        "9,902",
+        "9,903",
+        "9,900",
+        "9,899"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The sum invested at 10 percent is 9,900.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q047",
+      "serialNumber": 47,
+      "subject": "Mathematics",
+      "topic": "Simplification",
+      "subTopic": "BODMAS",
+      "difficulty": "Medium",
+      "question": "Simplify: 3(((4/3)x^2) - 30x + 18) - 4(x^2 + 8x - 14)",
+      "options": [
+        "122x - 110",
+        "-122x + 110",
+        "122x + 110",
+        "-122x - 110"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Simplifying gives -122x + 110.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q048",
+      "serialNumber": 48,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Medium",
+      "question": "Which of the following ratios is the greatest?",
+      "options": [
+        "40:51",
+        "44:74",
+        "42:70",
+        "22:76"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. 40:51 is the greatest ratio.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q049",
+      "serialNumber": 49,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Medium",
+      "question": "Sakshi bought a toy for 456, decorated it at a cost of 20 and sold the toy for 612. Find the loss or profit percentage.",
+      "options": [
+        "210/7% loss",
+        "200/7% profit",
+        "profit",
+        "200/7% loss"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Sakshi made a profit of 200/7 percent.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q050",
+      "serialNumber": 50,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Work Rate",
+      "difficulty": "Medium",
+      "question": "A and B together can complete a work in 20 days. B and C together can complete it in 15 days. A and C together can complete it in 12 days. In how many days can A alone complete the work?",
+      "options": [
+        "28,275",
+        "28,035",
+        "27,795",
+        "28,905"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. A alone can complete the work in 28,275 days.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q051",
+      "serialNumber": 51,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Medium",
+      "question": "Which of the following numbers divides 253118139?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q052",
+      "serialNumber": 52,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Hard",
+      "question": "A sells a MacBook to B at a loss of 60% and B sells the MacBook to C at a profit of 25%. If C purchased the MacBook for 47,236, then what was the cost of the MacBook for A?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q053",
+      "serialNumber": 53,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "The average of first 170 even numbers is",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q054",
+      "serialNumber": 54,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Hard",
+      "question": "58,300 were divided among A, B and C, such that 4 times of A = 9 times of B = 3 times of C. Find the share of A.",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q055",
+      "serialNumber": 55,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Easy",
+      "question": "A shirt is marked at 900. After a discount of 10%, it is sold. Find the selling price.",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q056",
+      "serialNumber": 56,
+      "subject": "Mathematics",
+      "topic": "Surds and Indices",
+      "subTopic": "Surds and Indices",
+      "difficulty": "Medium",
+      "question": "Find the value of 50^(-13) / 50^(15) x 50^(-11).",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q057",
+      "serialNumber": 57,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Easy",
+      "question": "A number, when increased by 70%, gives 3910. The number is:",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q058",
+      "serialNumber": 58,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Linear Equations",
+      "difficulty": "Hard",
+      "question": "If 2 times the mother's age is 26 years more than 4 times her daughter's age, and 3 times the daughter's age is 2 years less than the mother's age, then what is the difference (in years) between the ages of the mother and the daughter?",
+      "options": [
+        "24",
+        "25",
+        "22",
+        "27"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The difference between their ages is 25 years.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q059",
+      "serialNumber": 59,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subTopic": "Quadrilaterals",
+      "difficulty": "Hard",
+      "question": "ABCD is a trapezium in which BC || AD and AC = CD. If angle ABC = 18 degrees and angle BAC = 93 degrees, then what is the measure of angle ACD (in degree)?",
+      "options": [
+        "37 degrees",
+        "42 degrees",
+        "51 degrees",
+        "50 degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The measure of angle ACD is 51 degrees.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q060",
+      "serialNumber": 60,
+      "subject": "Mathematics",
+      "topic": "Surds and Indices",
+      "subTopic": "Surds and Indices",
+      "difficulty": "Hard",
+      "question": "Given that 4^0.72 = x, 4^0.86 = y and x^2 = y^z, then the value of z is close to:",
+      "options": [
+        "9.56",
+        "11.98",
+        "8.43",
+        "9.68"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value of z is close to 9.56.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q061",
+      "serialNumber": 61,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Easy",
+      "question": "The average weight (in kg) of a family of five members whose weights are 40 kg, 49 kg, 56 kg, 75 kg and 39 kg is:",
+      "options": [
+        "50.8",
+        "51.8",
+        "52.8",
+        "53.8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The average weight is 51.8 kg.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q062",
+      "serialNumber": 62,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Easy",
+      "question": "The marked price of a stainless-steel bottle is ₹1,200. After applying two successive discounts of 10% and 5%, what is the selling price?",
+      "options": [
+        "1,106",
+        "1,052",
+        "1,026",
+        "1,116"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The selling price is 1,026.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q063",
+      "serialNumber": 63,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "2D Shapes",
+      "difficulty": "Easy",
+      "question": "An equilateral triangle has each side measuring 13 cm; find its perimeter.",
+      "options": [
+        "30 cm",
+        "39 cm",
+        "26 cm",
+        "42 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The perimeter is 39 cm.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q064",
+      "serialNumber": 64,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Work Rate",
+      "difficulty": "Hard",
+      "question": "Anjali can do a certain piece of work in 30 days. Anjali and Ayushi can together do the same work in 18 days, and Anjali, Ayushi and Ankita can do the same work together in 9 days. In how many days can Anjali and Ankita do the same work together?",
+      "options": [
+        "45",
+        "14",
+        "25",
+        "34"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Anjali and Ankita can do the work together in 45 days.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q065",
+      "serialNumber": 65,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Work Rate",
+      "difficulty": "Hard",
+      "question": "A can lay railway track between two given stations in 19 days and B can do the same job in 16 days. With the help of C, they did the job in 5 days only. Then, C alone can do the job in",
+      "options": [
+        "11 101/129 days",
+        "13 101/129 days",
+        "20 101/129 days",
+        "9 101/129 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. C alone can do the job in 11 101/129 days.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q066",
+      "serialNumber": 66,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Medium",
+      "question": "A, B and C invest a sum in the ratio of 63 : 35 : 42, respectively. If they earned a total profit of 5,120 at the end of the year, then what is the difference between share of B and C?",
+      "options": [
+        "274",
+        "340",
+        "221",
+        "256"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The difference between shares of B and C is 256.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q067",
+      "serialNumber": 67,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Easy",
+      "question": "The number 245015 is divisible by which of the following?",
+      "options": [
+        "2",
+        "15",
+        "5",
+        "11"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. 245015 is divisible by 15.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q068",
+      "serialNumber": 68,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "2D Shapes",
+      "difficulty": "Hard",
+      "question": "Find the circumference (in m) of the largest circle that can be drawn completely inside a rectangle whose dimensions are given as 126 m and 226 m. Take pi = 22/7.",
+      "options": [
+        "395",
+        "396",
+        "401",
+        "389"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The circumference is 396 m.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q069",
+      "serialNumber": 69,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Relative Speed",
+      "difficulty": "Medium",
+      "question": "A man goes to Lucknow from Kanpur at a speed of 72 km/hr and returns to Kanpur at speed of 90 km/hr, through the same route. What is his average speed (in km/hr) of the entire journey?",
+      "options": [
+        "80",
+        "83",
+        "76",
+        "79"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The average speed is 80 km/hr.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q070",
+      "serialNumber": 70,
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "subTopic": "Identities",
+      "difficulty": "Hard",
+      "question": "Simplify: sec^2 beta - 1/(cosec^2 beta - 1)",
+      "options": [
+        "0",
+        "sec beta",
+        "1",
+        "cosec beta"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The simplified value is 1.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q071",
+      "serialNumber": 71,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) 1 & 94 5#62 82$ @&#5%&#1 (Right) How many such symbols are there each of which is immediately preceded by a number and also immediately followed by a symbol?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. There are 2 symbols that meet the condition.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q072",
+      "serialNumber": 72,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "A, B, C, D, J, K and L are sitting around a circular table, facing the centre of the table. L sits to the immediate right of D. Only three people sit between L and C when counted from the left of L. Only three people sit between D and J. A sits to the immediate right of K. How many people sit between D and K when counted from the right of K?",
+      "options": [
+        "Three",
+        "Four",
+        "Two",
+        "One"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Four people sit between D and K when counted from the right of K.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q073",
+      "serialNumber": 73,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "GL-HF",
+        "KP-LI",
+        "MR-NK",
+        "IN-JG"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. IN-JG does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q074",
+      "serialNumber": 74,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "If 3 is added to each odd digit and 1 is subtracted from each even digit in the number 6243514, what will be the difference between the highest and lowest digits in the number thus formed?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The difference between the highest and lowest digits is 6.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q075",
+      "serialNumber": 75,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "What should come in place of the question mark (?) in the given series? 84, 85, 87, 91, 99, ?",
+      "options": [
+        "511",
+        "115",
+        "125",
+        "254"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The next number in the series is 115.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q076",
+      "serialNumber": 76,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "If 'A' stands for '/', 'B' stands for 'x', 'C' stands for '*' and 'D' stands for '-', then what will come in place of the question mark (?) in the following equation? (117 A 3) C (119 A 7) C 24 D 6 C (117 A 13) B 2 = ?",
+      "options": [
+        "108",
+        "92",
+        "100",
+        "98"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The value is 98.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q077",
+      "serialNumber": 77,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "What will come in the place of the question mark (?) in the following equation, if '+' and 'x' are interchanged and '-' and '+' are interchanged? 25 / 6 - 8 + 20 x 4 = ?",
+      "options": [
+        "152",
+        "153",
+        "154",
+        "151"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 152.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q078",
+      "serialNumber": 78,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'LEFT' is coded as '5427' and 'EARS' is coded as '6153'. What is the code for 'E' in the given code language?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The code for 'E' is 6.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q079",
+      "serialNumber": 79,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Shortest Distance",
+      "difficulty": "Hard",
+      "question": "Rajeev starts from Point A and drives 8 km towards east. He then takes a left turn, drives 4 km, turns left and drives 4 km. He then takes a left turn and drives 11 km. He takes a final right turn, drives 4 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only unless specified.)",
+      "options": [
+        "9 km towards south",
+        "7 km towards west",
+        "7 km towards north",
+        "9 km towards north"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Rajeev should drive 7 km towards north.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q080",
+      "serialNumber": 80,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Mixed Series",
+      "difficulty": "Hard",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? COB 5, EQD 10, GSF 15, IUH 20, ?",
+      "options": [
+        "JWI 25",
+        "JWI 22",
+        "KWJ 25",
+        "KVJ 22"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. KWJ 25 will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q081",
+      "serialNumber": 81,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Blood Relations",
+      "subTopic": "Coded Relations",
+      "difficulty": "Hard",
+      "question": "In a certain code language, 'A = B' means 'A is the wife of B', 'A # B' means 'A is the father of B', 'A # B' means 'A is the brother of B' and 'A % B' means 'A is the mother of B'. How is D related to A if 'D % E = L # T # A'?",
+      "options": [
+        "Mother's mother",
+        "Mother's brother",
+        "Mother's father",
+        "Mother's sister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. D is the mother's mother of A.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q082",
+      "serialNumber": 82,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: All meters are compasses. All compasses are scales. Conclusions: (I) Some scales are compasses. (II) All meters are scales.",
+      "options": [
+        "Only conclusion (I) follows.",
+        "Only conclusion (II) follows.",
+        "Both conclusions (I) and (II) follow.",
+        "Neither conclusion (I) nor (II) follows."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Both conclusions (I) and (II) follow.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q083",
+      "serialNumber": 83,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Number Analogy",
+      "difficulty": "Medium",
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 - Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (75, 62, 49) (61, 48, 35)",
+      "options": [
+        "(73, 60, 53)",
+        "(48, 24, 12)",
+        "(92, 79, 66)",
+        "(66, 52, 41)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. (92, 79, 66) follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q084",
+      "serialNumber": 84,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "ETHC is related to XOMJ in a certain way based on the English alphabetical order. In the same way, CZBE is related to VUGL. To which of the given options is HKQZ related, following the same logic?",
+      "options": [
+        "AVGF",
+        "AFGV",
+        "AFVG",
+        "AVGH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. HKQZ is related to AFVG.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q085",
+      "serialNumber": 85,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter cluster pairs are alike in a certain way and thus form a group. Which one DOES NOT belong to that group? (NOTE: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)",
+      "options": [
+        "MG-PK",
+        "EY-HC",
+        "KE-MI",
+        "ZT-CX"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. KE-MI does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q086",
+      "serialNumber": 86,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "CFJP is related to GJMS in a certain way based on the English alphabetical order. In the same way, SVVB is related to WZYE. To which of the given options is EHEK related, following the same logic?",
+      "options": [
+        "LNHC",
+        "LIHN",
+        "ILHN",
+        "LINJ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. EHEK is related to LIHN.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q087",
+      "serialNumber": 87,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "Refer to the following number and symbol series and answer the question that follows. All number are single-digit numbers. Counting to be done from left to right only. (Left) 5#%2^3 8/7+52#6/19 (Right) How many symbols in the series are immediately preceded by a number and immediately followed by a symbol?",
+      "options": [
+        "More than two",
+        "One",
+        "Two",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. There is 1 symbol that meets the condition.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q088",
+      "serialNumber": 88,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements. Statements: Some kites are hats. No hat is a bat. Conclusions: (I): Some kites are bats. (II): Some hats are kites.",
+      "options": [
+        "Only conclusion (I) follows.",
+        "Both conclusions (I) and (II) follow.",
+        "Only conclusion (II) follows.",
+        "Neither conclusion (I) nor (II) follows."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Only conclusion (II) follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q089",
+      "serialNumber": 89,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Mixed Series",
+      "difficulty": "Hard",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? KDU 94, HIQ 107, ENM 120, BSI 133, YXE 146, ?",
+      "options": [
+        "UDB 159",
+        "WZB 161",
+        "WDC 161",
+        "VCA 159"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. UDB 159 will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q090",
+      "serialNumber": 90,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Easy",
+      "question": "Nushrat ranked 12th from the bottom and 21st from the top in his class. How many students are there in his class?",
+      "options": [
+        "32",
+        "30",
+        "31",
+        "33"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. There are 32 students in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q091",
+      "serialNumber": 91,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 81374569 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?",
+      "options": [
+        "Three",
+        "One",
+        "Two",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. One digit will remain unchanged.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q092",
+      "serialNumber": 92,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Mixed Analogy",
+      "difficulty": "Medium",
+      "question": "VR 27 is related to YU 32 in a certain way. In the same way, MI 9 is related to PL 14. To which of the following is GC 13 related, following the same logic?",
+      "options": [
+        "MP 18",
+        "JF 18",
+        "JK 16",
+        "JF 22"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. GC 13 is related to JF 18.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q093",
+      "serialNumber": 93,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre. Only one person sits between C and D when counted from the right of C. Only one person sits between D and A. Only one person sits between C and B. Only two people sit between F and A. Only one person sits between E and B. How many people sit between E and G when counted from the left of G?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Two people sit between E and G when counted from the left of G.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q094",
+      "serialNumber": 94,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Easy",
+      "question": "Amit ranked 34th from the top and 45th from the bottom in his class. How many students are there in his class?",
+      "options": [
+        "79",
+        "77",
+        "78",
+        "76"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. There are 78 students in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q095",
+      "serialNumber": 95,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Basic Directions",
+      "difficulty": "Medium",
+      "question": "Town B is to the south of Town A. Town C is to the west of Town A. Town D is to the west of Town C. Town E is to the north of Town D and also to the south of Town F. What is the position of Town F with respect to Town D?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Town F is to the north of Town D.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q096",
+      "serialNumber": 96,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series? 86 88 92 100 116 ?",
+      "options": [
+        "148",
+        "180",
+        "132",
+        "144"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The next number in the series is 148.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q097",
+      "serialNumber": 97,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "NE-RK",
+        "PA-TH",
+        "XK-BQ",
+        "QI-UO"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. QI-UO does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q098",
+      "serialNumber": 98,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series? 7 7 10 18 33 ?",
+      "options": [
+        "69",
+        "64",
+        "57",
+        "61"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The next number in the series is 57.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q099",
+      "serialNumber": 99,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Medium",
+      "question": "In a row of 47 students facing North, Sonika is 18th from the left end. If Dhruv is 11th to the right of Sonika, what is Dhruv's position from the right-end of the line?",
+      "options": [
+        "20th",
+        "18th",
+        "21st",
+        "19th"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Dhruv is 19th from the right end.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_07_S3_Q100",
+      "serialNumber": 100,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'YOUR' is coded as '4628' and 'UNIT' is coded as '1385'. What is the code for 'U' in the given code language?",
+      "options": [
+        "1",
+        "8",
+        "3",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The code for 'U' is 1.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    }
+  ]
+}

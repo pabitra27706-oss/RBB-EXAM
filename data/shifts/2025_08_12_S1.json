@@ -1,0 +1,1922 @@
+{
+  "metadata": {
+    "id": "2025_08_12_S1",
+    "year": 2025,
+    "date": "2025-08-12",
+    "shift": 1,
+    "shiftTime": "9:00 AM - 10:30 AM",
+    "pageRange": {
+      "start": 145,
+      "end": 160
+    },
+    "totalQuestions": 100,
+    "duration": 90,
+    "subjectSplit": {
+      "General Awareness": 40,
+      "Mathematics": 30,
+      "General Intelligence and Reasoning": 30
+    }
+  },
+  "questions": [
+    {
+      "id": "2025_08_12_S1_Q001",
+      "serialNumber": 1,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "The Indian handicraft industry suffered significant decline under colonial economic policies. What was a major reason for the decline of Indian handicrafts during British rule?",
+      "options": [
+        "Environmental degradation",
+        "Rise of Indian industry",
+        "Influx of machine-made British goods",
+        "Lack of domestic demand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The influx of machine-made British goods caused the decline of Indian handicrafts.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q002",
+      "serialNumber": 2,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "Which of the following countries does NOT share a land border with India?",
+      "options": [
+        "Sri Lanka",
+        "Afghanistan",
+        "China",
+        "Myanmar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Sri Lanka does not share a land border with India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q003",
+      "serialNumber": 3,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "What is the primary goal of the Indian government's Bhashini project?",
+      "options": [
+        "To create a multilingual AI platform for real-time translation among Indian languages",
+        "To establish a national database of dialects",
+        "To develop a new programming language for Indian developers",
+        "To digitise ancient Indian manuscripts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Bhashini aims to create a multilingual AI platform for real-time translation among Indian languages.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q004",
+      "serialNumber": 4,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "What was India's Human Development Index (HDI) value in the 2025 UNDP report?",
+      "options": [
+        "0.690",
+        "0.676",
+        "0.685",
+        "0.700"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. India's HDI value in the 2025 UNDP report was 0.690.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q005",
+      "serialNumber": 5,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Constitution",
+      "difficulty": "Medium",
+      "question": "The Constitution of India's Fifth Schedule deals with the administration and control of Scheduled Areas and Scheduled Tribes in which states?",
+      "options": [
+        "Any state except the northeastern states",
+        "All states of India",
+        "Only the northeastern states",
+        "Only the union territories"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Fifth Schedule applies to any state except the northeastern states.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q006",
+      "serialNumber": 6,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "MS Windows",
+      "difficulty": "Easy",
+      "question": "Which desktop element in Windows displays system notifications, date and time, and background apps status?",
+      "options": [
+        "File Explorer",
+        "Notification Area",
+        "Start Menu",
+        "Control Panel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Notification Area displays system notifications, date and time, and background apps status.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q007",
+      "serialNumber": 7,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Judiciary",
+      "difficulty": "Hard",
+      "question": "Article 323B of the Constitution of India (added by the 42nd Amendment) empowers the Parliament to establish tribunals for adjudication of matters related to certain subjects. Which of the following matters is specifically covered under Article 323B?",
+      "options": [
+        "Matters such as taxation, foreign exchange, land reforms, etc., which can be assigned to tribunals by legislation",
+        "Appointment of Supreme Court judges",
+        "Recruitment and service conditions of public servants (civil services)",
+        "Only industrial disputes between employers and workers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Article 323B covers matters such as taxation, foreign exchange, land reforms, etc., for tribunals.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q008",
+      "serialNumber": 8,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Easy",
+      "question": "Which sector(s) employed the largest share of the working population in India on the eve of independence?",
+      "options": [
+        "Secondary sector",
+        "Primary sector",
+        "Both tertiary and secondary sectors",
+        "Tertiary sector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The primary sector employed the largest share of the working population on the eve of independence.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q009",
+      "serialNumber": 9,
+      "subject": "General Awareness",
+      "topic": "Science - Physics",
+      "subTopic": "Motion Force Work Energy",
+      "difficulty": "Medium",
+      "question": "Impulse is defined as",
+      "options": [
+        "rate of change of force",
+        "change in displacement",
+        "product of mass and velocity",
+        "product of force and time"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Impulse is defined as the product of force and time.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q010",
+      "serialNumber": 10,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Medieval History",
+      "difficulty": "Easy",
+      "question": "The First Battle of Panipat was fought in 1526, replacing the Lodi Dynasty with Mughal rule in India. It was fought between Ibrahim Lodi and",
+      "options": [
+        "Shah Jahan",
+        "Akbar",
+        "Aurangzeb",
+        "Babar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The First Battle of Panipat was fought between Ibrahim Lodi and Babar.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q011",
+      "serialNumber": 11,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "Which state government introduced the Drone Promotion and Utilisation Policy, 2025?",
+      "options": [
+        "Madhya Pradesh",
+        "Jharkhand",
+        "Punjab",
+        "Odisha"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Madhya Pradesh introduced the Drone Promotion and Utilisation Policy, 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q012",
+      "serialNumber": 12,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Easy",
+      "question": "Which leader played the most crucial role in integrating princely states into India post-independence?",
+      "options": [
+        "BR Ambedkar",
+        "Sardar Vallabhbhai Patel",
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Sardar Vallabhbhai Patel played the most crucial role in integrating princely states.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q013",
+      "serialNumber": 13,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "Which of the following was the objective of the law enacted in 1856 in India?",
+      "options": [
+        "Banning of child labour",
+        "Abolition of caste system",
+        "Temple entry for Shudras",
+        "Legalising widow remarriage"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The Hindu Widow Remarriage Act, 1856, legalised widow remarriage.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q014",
+      "serialNumber": 14,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "What was the theme of the 2025 Civil Services Day?",
+      "options": [
+        "Digital Transformation in Governance - Empowering Citizens and Reaching the Last Mile",
+        "Next Generation Administrative Reforms - Empowering Citizens and Reaching the Last Mile",
+        "Innovations in Public Policy",
+        "Strengthening Federal Structures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The theme was 'Digital Transformation in Governance - Empowering Citizens and Reaching the Last Mile'.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q015",
+      "serialNumber": 15,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "Which Act first created the position of a Governor-General of India with civil and military authority?",
+      "options": [
+        "Charter Act 1833",
+        "Regulating Act",
+        "Government of India Act 1858",
+        "Pitt's India Act"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Regulating Act of 1773 first created the position of Governor-General.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q016",
+      "serialNumber": 16,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Centre State Relations",
+      "difficulty": "Easy",
+      "question": "Which level of government generally legislates on matters such as police, public health and agriculture in India?",
+      "options": [
+        "Union Government",
+        "State Legislatures",
+        "Inter-State Council",
+        "Local Bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. State Legislatures legislate on police, public health and agriculture.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q017",
+      "serialNumber": 17,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Easy",
+      "question": "In which northeastern state was the Hornbill Festival held with record participation in December 2024?",
+      "options": [
+        "Nagaland",
+        "Meghalaya",
+        "Manipur",
+        "Assam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Hornbill Festival was held in Nagaland with record participation in December 2024.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q018",
+      "serialNumber": 18,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "By what year is the India-UK FTA expected to be fully implemented?",
+      "options": [
+        "2027",
+        "2025",
+        "2030",
+        "2026"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The India-UK FTA is expected to be fully implemented by 2027.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q019",
+      "serialNumber": 19,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Hard",
+      "question": "Which version of the skill development scheme, launched by the government and implemented from FY 2022 to 2026, aims to provide free training to rural youth in India?",
+      "options": [
+        "Skill India 3.0",
+        "Pradhan Mantri Kaushal Vikas Yojana 2.0",
+        "Pradhan Mantri Kaushal Vikas Yojana 4.0",
+        "Deen Dayal Upadhyaya Grameen Kaushalya Yojana 2.0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. PMKVY 2.0 aims to provide free training to rural youth in India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q020",
+      "serialNumber": 20,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Hard",
+      "question": "Which Indian relay team set a national record in the 4x100m event at the National Relay Carnival 2025?",
+      "options": [
+        "Gurindervir Singh, Animesh Kujur, Manikanta H, Amiya Mallick",
+        "Gurindervir Singh, Animesh Kujur, Manikanta H, Aman Borghain",
+        "Srabani Nanda, Dutee Chand, Hima Das, Archana Suseendran",
+        "Amiya Mallick, Mohammed Anas, Noah Nirmal Tom, Rajesh Ramesh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. This relay team set a national record in the 4x100m event at the National Relay Carnival 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q021",
+      "serialNumber": 21,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "Hardware",
+      "difficulty": "Easy",
+      "question": "Which of the following is an input device for a computer?",
+      "options": [
+        "Mouse",
+        "Scanner",
+        "Touchscreen",
+        "Keyboard"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. A keyboard is an input device for a computer.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q022",
+      "serialNumber": 22,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Citizenship Writs and PIL",
+      "difficulty": "Hard",
+      "question": "Article 6 of the Constitution pertains to the citizenship of persons who migrated to India from which of the following territories?",
+      "options": [
+        "Pakistan",
+        "Sri Lanka",
+        "Bangladesh",
+        "Myanmar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Article 6 pertains to citizenship of persons who migrated from Pakistan.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q023",
+      "serialNumber": 23,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Hard",
+      "question": "Which of the following administrative features was common to both Pallava and Pandya kingdoms?",
+      "options": [
+        "Rule by elected monarchs",
+        "Division of the kingdom into Mandalams and Nadus",
+        "Abolition of land revenue taxes",
+        "Village assemblies were called Sabha and Ur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Both kingdoms divided the kingdom into Mandalams and Nadus.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q024",
+      "serialNumber": 24,
+      "subject": "General Awareness",
+      "topic": "Environment and Ecology",
+      "subTopic": "Environmental Acts and Conventions",
+      "difficulty": "Easy",
+      "question": "How many total Sustainable Development Goals (SDGs) were adopted at the United Nations Sustainable Development Summit in New York in September 2015?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. 17 Sustainable Development Goals were adopted in September 2015.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q025",
+      "serialNumber": 25,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "Which of the following is a feature of the Eastern Coastal Plain of India?",
+      "options": [
+        "Wider and formed by alluvial deposits",
+        "Presence of numerous estuaries",
+        "Located between the Western Ghats and the Arabian Sea",
+        "Narrow and rocky"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Eastern Coastal Plain has numerous estuaries.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q026",
+      "serialNumber": 26,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "Which of the following Indian organisations successfully conducted the combat firing of the Multi-Influence Ground Mine (MIGM) in May 2025?",
+      "options": [
+        "Hindustan Aeronautics Limited and Indian Air Force",
+        "Defence Research and Development Organisation and Indian Navy",
+        "Indian Space Research Organisation and Indian Army",
+        "Bharat Dynamics Limited and Indian Coast Guard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. DRDO and Indian Navy conducted the combat firing of MIGM in May 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q027",
+      "serialNumber": 27,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "Important Dates and Days",
+      "difficulty": "Easy",
+      "question": "Kathputli is a traditional puppet show of which of the following Indian states?",
+      "options": [
+        "Rajasthan",
+        "Assam",
+        "Odisha",
+        "Kerala"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Kathputli is a traditional puppet show of Rajasthan.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q028",
+      "serialNumber": 28,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Agriculture",
+      "difficulty": "Hard",
+      "question": "As per the Ministry of Agriculture data from 1950-51 to 2014-15, which land use category in India has shown a declining trend?",
+      "options": [
+        "Net sown area",
+        "Forest area",
+        "Barren and wasteland",
+        "Area under non-agricultural use"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Barren and wasteland has shown a declining trend from 1950-51 to 2014-15.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q029",
+      "serialNumber": 29,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "The British East India Company established its first factory in India at Surat in which year?",
+      "options": [
+        "1833",
+        "1827",
+        "1818",
+        "1811"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The British East India Company established its first factory in Surat in 1811.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q030",
+      "serialNumber": 30,
+      "subject": "General Awareness",
+      "topic": "Science - Chemistry",
+      "subTopic": "Inorganic Chemistry",
+      "difficulty": "Hard",
+      "question": "Harold C Urey was awarded the Nobel Prize in Chemistry, in 1934:",
+      "options": [
+        "for discovery in the chemistry of the transuranium elements",
+        "for the discovery of heavy hydrogen",
+        "for the discovery and development of conductive polymers",
+        "for the development of the density-functional theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Harold C Urey won the Nobel Prize in 1934 for the discovery of heavy hydrogen.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q031",
+      "serialNumber": 31,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Banking and Finance",
+      "difficulty": "Medium",
+      "question": "Which of the following instruments is primarily used by the RBI for monetary policy implementation in the post 1991 reform era?",
+      "options": [
+        "Repo rate",
+        "Export incentives",
+        "Tariff rates",
+        "Direct taxes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The RBI primarily uses the repo rate for monetary policy implementation.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q032",
+      "serialNumber": 32,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Easy",
+      "question": "Which economic system dominated India on the eve of independence (in 1947)?",
+      "options": [
+        "Import substitution industrialisation",
+        "Colonial agrarian economy",
+        "Global free market",
+        "Socialist planned economy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. A colonial agrarian economy dominated India on the eve of independence.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q033",
+      "serialNumber": 33,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "President Vice President Governor",
+      "difficulty": "Hard",
+      "question": "Which of the following is a discretionary power of the President of India?",
+      "options": [
+        "Dissolving the Lok Sabha without advice",
+        "Appointing the Chief Justice of India",
+        "Appointing a Prime Minister when no party has a clear majority",
+        "Giving assent to a Money Bill"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Appointing a Prime Minister when no party has a clear majority is a discretionary power.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q034",
+      "serialNumber": 34,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "The Gulf of Mannar lies between:",
+      "options": [
+        "mainland India and Andaman Islands",
+        "India and Sri Lanka",
+        "Sri Lanka and Maldives",
+        "India and Maldives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Gulf of Mannar lies between India and Sri Lanka.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q035",
+      "serialNumber": 35,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Industry",
+      "difficulty": "Hard",
+      "question": "What is the purpose of the 'Melt and Pour' rule introduced in the DMI&SP Policy 2025?",
+      "options": [
+        "Importing partially processed steel and finishing it domestically qualifies as 'domestic'",
+        "Steel exports must include documentation of Indian melting processes",
+        "Steel used in government-funded projects is completely manufactured in India",
+        "Biometric authentication is required at smelting plants for traceability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The 'Melt and Pour' rule allows importing partially processed steel and finishing it domestically to qualify as 'domestic'.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q036",
+      "serialNumber": 36,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "Important Dates and Days",
+      "difficulty": "Medium",
+      "question": "Which important Sikh festival is on 5 November 2025?",
+      "options": [
+        "Baisakhi",
+        "Lohri",
+        "Guru Nanak Jayanti",
+        "Holi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Guru Nanak Jayanti is celebrated on 5 November 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q037",
+      "serialNumber": 37,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "In May 2025, the Supreme Court of India delivered a landmark judgment regarding the constitutional validity of which of the following?",
+      "options": [
+        "Article 370",
+        "Laapataa Ladies",
+        "Stree 2",
+        "Bhool Bhulaiyaa 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Supreme Court delivered a landmark judgment regarding Article 370.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q038",
+      "serialNumber": 38,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "Which Indian space tech startup along with Google launched India's first private satellite constellation?",
+      "options": [
+        "Ship Rocket",
+        "Udaan",
+        "Livspace",
+        "Pixxel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Pixxel along with Google launched India's first private satellite constellation.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q039",
+      "serialNumber": 39,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Medium",
+      "question": "The government initiative known as KIRTI, an acronym for Khelo India Rising Talent Identification, was inaugurated in",
+      "options": [
+        "2023",
+        "2024",
+        "2025",
+        "2022"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. KIRTI was inaugurated in 2024.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q040",
+      "serialNumber": 40,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Hard",
+      "question": "Which Indian city was announced by the global governing body WPA as the host of the 2025 Para Athletics World Championships?",
+      "options": [
+        "New Delhi",
+        "Chennai",
+        "Bengaluru",
+        "Mumbai"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. New Delhi was announced as the host of the 2025 Para Athletics World Championships.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q041",
+      "serialNumber": 41,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Relative Speed",
+      "difficulty": "Medium",
+      "question": "A man driving a car at a speed of 99 km/hr crosses a bridge in 1.2 minutes. Find the length (in metres) of the bridge.",
+      "options": [
+        "1970",
+        "1980",
+        "1960",
+        "1950"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The length of the bridge is 1980 metres.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q042",
+      "serialNumber": 42,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Hard",
+      "question": "Sapna invested 20,900 on simple interest, partly at 9% per annum and partly at 13% per annum. If she earns equal interests from the two investments after 3 years, then find the sum invested at 9% per annum.",
+      "options": [
+        "12,349",
+        "12,350",
+        "12,352",
+        "12,348"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The sum invested at 9 percent is 12,349.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q043",
+      "serialNumber": 43,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Direct and Inverse Proportion",
+      "difficulty": "Medium",
+      "question": "Rahul, Monika, and Yuvraj invest 1,310, 1,430, and 1,040, respectively, to start a business. If the profit at the end of the year is 1,890, then what is the share of Yuvraj in the profit?",
+      "options": [
+        "519",
+        "523",
+        "520",
+        "522"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Yuvraj's share of the profit is 519.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q044",
+      "serialNumber": 44,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "2D Shapes",
+      "difficulty": "Easy",
+      "question": "The perimeter of a square is 336 m. Its area (in m^2) is:",
+      "options": [
+        "7052",
+        "7036",
+        "7057",
+        "7056"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The area of the square is 7056 m^2.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q045",
+      "serialNumber": 45,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Linear Equations",
+      "difficulty": "Hard",
+      "question": "3 years ago, the age of a father was 21 years more than twice his son's age. After how many years, from now, will he be twice his son's age?",
+      "options": [
+        "18",
+        "23",
+        "15",
+        "21"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. After 23 years, the father will be twice his son's age.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q046",
+      "serialNumber": 46,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Hard",
+      "question": "A trader claims to sell vegetables at a profit of 57%, but also dishonestly uses a weight which is 13% less than what is mentioned on it. Find the total percentage of profit earned by the trader. (Round off the answer to the nearest whole number.)",
+      "options": [
+        "80%",
+        "79%",
+        "85%",
+        "75%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The total profit percentage is 80 percent.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q047",
+      "serialNumber": 47,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Medium",
+      "question": "Which of the following numbers divides 86,16,16,843?",
+      "options": [
+        "43",
+        "47",
+        "50",
+        "36"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. 86,16,16,843 is divisible by 43.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q048",
+      "serialNumber": 48,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Hard",
+      "question": "If the 6-digit number N18M05 is divisible by 11, then which of the options below can give a possible correct relation between M and N?",
+      "options": [
+        "M = N",
+        "M - N = 2",
+        "M - N = 1",
+        "M + N = -2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. M - N = 1 is the correct relation.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q049",
+      "serialNumber": 49,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Medium",
+      "question": "Which of the following ratios is the greatest?",
+      "options": [
+        "37:76",
+        "43:65",
+        "35:72",
+        "50:60"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. 50:60 is the greatest ratio.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q050",
+      "serialNumber": 50,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subTopic": "Quadrilaterals",
+      "difficulty": "Easy",
+      "question": "Which of the following statements is correct?",
+      "options": [
+        "A square is a special case of neither a rectangle nor a rhombus.",
+        "A square is a special case of a rhombus only.",
+        "A square is a special case of both a rectangle and a rhombus.",
+        "A square is a special case of a rectangle only."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. A square is a special case of both a rectangle and a rhombus.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q051",
+      "serialNumber": 51,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Hard",
+      "question": "I bought two dresses for 1,200. I sold the first one at a loss of 9% and the second at a gain of 18%. If, on the whole I made neither a loss nor a gain, find the cost price of the first dress.",
+      "options": [
+        "824",
+        "820",
+        "784",
+        "800"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The cost price of the first dress is 800.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q052",
+      "serialNumber": 52,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Hard",
+      "question": "The simple interest on a certain sum for 3 1/3 years at the rate of 4.2% per annum is ₹5,845. What will be the amount payable on the same sum at the rate of 6.4% per annum simple interest in 12 1/2 years?",
+      "options": [
+        "75,143",
+        "75,148",
+        "75,131",
+        "75,150"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The amount payable is 75,143.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q053",
+      "serialNumber": 53,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Medium",
+      "question": "By how much is 65% of 65 greater than 1/5 of 45?",
+      "options": [
+        "33.25",
+        "27.25",
+        "30.25",
+        "31.25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The difference is 33.25.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q054",
+      "serialNumber": 54,
+      "subject": "Mathematics",
+      "topic": "Simplification",
+      "subTopic": "BODMAS",
+      "difficulty": "Medium",
+      "question": "Find the value of: [459 / {11 + 2 x (5 - 9)}].",
+      "options": [
+        "153",
+        "155",
+        "152",
+        "154"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 153.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q055",
+      "serialNumber": 55,
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "subTopic": "Trigonometric Ratios",
+      "difficulty": "Hard",
+      "question": "If x/y = cot theta, where theta is an acute angle, then cos theta =",
+      "options": [
+        "y/x",
+        "sqrt(x^2 + y^2)/y",
+        "sqrt(y^2 - x^2)/y",
+        "sqrt(x^2 + y^2)/x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. cos theta = sqrt(y^2 - x^2)/y.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q056",
+      "serialNumber": 56,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Pipes and Cisterns",
+      "difficulty": "Hard",
+      "question": "Pipe P can fill 3/4 part of a tank in 27 hours, and pipe Q can fill 2/3 part of the same tank in 12 hours. Both P and Q were kept open for 6 hours, then both were closed. Pipe R alone was then opened and it emptied the water in the tank in 8 hours. Pipes P, Q and R together can fill the empty tank in:",
+      "options": [
+        "31 hours",
+        "37 hours",
+        "48 hours",
+        "45 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Pipes P, Q, and R together can fill the tank in 31 hours.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q057",
+      "serialNumber": 57,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "2D Shapes",
+      "difficulty": "Easy",
+      "question": "What is the area of a triangle with a base of 12 cm and a height of 8 cm?",
+      "options": [
+        "16 cm squared",
+        "24 cm squared",
+        "48 cm squared",
+        "96 cm squared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The area of the triangle is 48 cm squared.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q058",
+      "serialNumber": 58,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Hard",
+      "question": "After giving two successive discounts, each of x% on the marked price of an article, the total discount is 18,000. If the marked price of the article is 50,000, find the value of x.",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value of x is 20.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q059",
+      "serialNumber": 59,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "The average of first 160 even numbers is",
+      "options": [
+        "161.5",
+        "162",
+        "161",
+        "160.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The average is 161.5.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q060",
+      "serialNumber": 60,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Pipes and Cisterns",
+      "difficulty": "Hard",
+      "question": "Pipe A can fill a tank in 18 hours, pipe B can fill the same tank in 21 hours and pipe C can fill the same tank in 16 hours. The time taken by them to fill the same tank if they operate together is:",
+      "options": [
+        "6 hours",
+        "11 hours",
+        "7 hours",
+        "13 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The time taken is 6 hours.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q061",
+      "serialNumber": 61,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Medium",
+      "question": "Which of the following numbers divides 81,42,42,541?",
+      "options": [
+        "7",
+        "12",
+        "8",
+        "15"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. 81,42,42,541 is divisible by 7.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q062",
+      "serialNumber": 62,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Relative Speed",
+      "difficulty": "Hard",
+      "question": "In covering a distance of 30 km, Anmol takes 7 hours more than Nikhil. If Anmol doubles his speed, then he would take 8 hours less than Nikhil. Anmol's speed is:",
+      "options": [
+        "7 km/hr",
+        "1 km/hr",
+        "6 km/hr",
+        "3 km/hr"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Anmol's speed is 1 km/hr.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q063",
+      "serialNumber": 63,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Hard",
+      "question": "The current population of a town is 12,500. It increases by 52% and 30% in two successive years but decreases by 15% in the third year. What is the population of the town at the end of the third year?",
+      "options": [
+        "20,995",
+        "20,991",
+        "20,990",
+        "20,998"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The population at the end of the third year is 20,995.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q064",
+      "serialNumber": 64,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "Find the value of x satisfying: 5(2x^2 - 7) - 2(5x^2 + 8x - 2) = 12",
+      "options": [
+        "43/16",
+        "39/16",
+        "53/16",
+        "49/16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value of x is 43/16.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q065",
+      "serialNumber": 65,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Hard",
+      "question": "The average weight of a group of 5 people is 60 kg. If one person with weight 70 kg is replaced by a new person, the average becomes 62 kg. What is the weight of the new person?",
+      "options": [
+        "26",
+        "27",
+        "38",
+        "24"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The weight of the new person is 26.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q066",
+      "serialNumber": 66,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "LCM and HCF",
+      "difficulty": "Hard",
+      "question": "The LCM of the numbers 12.8 and 0.004 is:",
+      "options": [
+        "128",
+        "0.128",
+        "1.28",
+        "12.8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The LCM of 12.8 and 0.004 is 128.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q067",
+      "serialNumber": 67,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Medium",
+      "question": "A retailer offers the following discount scheme to his customers for the purchase of articles. 'Buy 30 and get 10 free'. Find the discount percentage offered.",
+      "options": [
+        "26%",
+        "25%",
+        "30%",
+        "28%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The discount percentage is 25 percent.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q068",
+      "serialNumber": 68,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Part to Part and Part to Whole",
+      "difficulty": "Hard",
+      "question": "12,300 were divided among A, B and C such that 3 times the share of A = 6 times the share of B = 2 times the share of C. Find the share of A.",
+      "options": [
+        "4,100",
+        "3,915",
+        "4,063",
+        "3,924"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The share of A is 4,100.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q069",
+      "serialNumber": 69,
+      "subject": "Mathematics",
+      "topic": "Surds and Indices",
+      "subTopic": "Surds and Indices",
+      "difficulty": "Medium",
+      "question": "Find the value of 50^(-6) + 50^(18) x 50^(-5).",
+      "options": [
+        "50^(-19)",
+        "50^(-29)",
+        "50^(-36)",
+        "50^(-32)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 50 to the power of -19.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q070",
+      "serialNumber": 70,
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "subTopic": "Average",
+      "difficulty": "Hard",
+      "question": "Find the median of 26, 13, 14, 15, 8, 36, 23, 35 and 50.",
+      "options": [
+        "35",
+        "23",
+        "26",
+        "50"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The median is 23.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q071",
+      "serialNumber": 71,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Basic Directions",
+      "difficulty": "Hard",
+      "question": "Town H is to the east of town R and to the north of town D. Town E is southeast of town H. In which direction is town D with respect to town R?",
+      "options": [
+        "Southeast",
+        "Southwest",
+        "North",
+        "West"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Town D is to the southeast of town R.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q072",
+      "serialNumber": 72,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) >5*1+9&6#6 4&/@#&8 3< (Right) How many such symbols are there that are immediately preceded by a number and also immediately followed by another symbol?",
+      "options": [
+        "Four",
+        "Two",
+        "One",
+        "Three"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. There are 2 symbols that meet the condition.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q073",
+      "serialNumber": 73,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "A, B, C, D, Q, R and S are sitting around a circular table, facing the centre of the table. Q sits to the immediate right of D. Only three people sit between Q and S, when counted from the left of Q. Only three people sit between D and C. A sits to the immediate right of R. How many people sit between D and R, when counted from the right of R?",
+      "options": [
+        "One",
+        "Four",
+        "Three",
+        "Two"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. One person sits between D and R when counted from the right of R.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q074",
+      "serialNumber": 74,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic. JUNK-UJNK-KUJN LACK-ALCK-KALC",
+      "options": [
+        "BUNS-UBNS-SUNB",
+        "MOST-OMST-OSTM",
+        "FROM-RFOM-MRFO",
+        "MOCK-MCOK-KCOM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. BUNS-UBNS-SUNB follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q075",
+      "serialNumber": 75,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "If '+' means '-', '-' means 'x', 'x' means '÷' and '÷' means '+', then what will come in place of the question mark (?) in the following equation? 51 + 8 - 8 ÷ 80 x 4 = ?",
+      "options": [
+        "26",
+        "20",
+        "14",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The value is 14.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q076",
+      "serialNumber": 76,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Classification",
+      "subTopic": "Letter Classification",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "OJR",
+        "JEM",
+        "GBI",
+        "LGO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. JEM does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q077",
+      "serialNumber": 77,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series? 90 90 91 95 104 ?",
+      "options": [
+        "122",
+        "120",
+        "121",
+        "119"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The next number in the series is 120.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q078",
+      "serialNumber": 78,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'EARS' is coded as '4259' and 'SARI' is coded as '9725'. What is the code for 'I' in the given code language?",
+      "options": [
+        "5",
+        "9",
+        "2",
+        "7"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The code for 'I' is 7.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q079",
+      "serialNumber": 79,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. Only three boxes are kept below F. Only two boxes are kept between F and A. Only D is kept immediately above B. C is kept at some place below G and at some place above E. How many boxes are kept between B and F?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Two boxes are kept between B and F.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q080",
+      "serialNumber": 80,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Classification",
+      "subTopic": "Letter Classification",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "LNH",
+        "GIC",
+        "EGB",
+        "IKE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. LNH does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q081",
+      "serialNumber": 81,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "If '+' means '-', '-' means 'x', 'x' means '÷' and '÷' means '+', then what will come in place of the question mark (?) in the following equation? 18 - 2 + 48 x 4 ÷ 21 = ?",
+      "options": [
+        "35",
+        "45",
+        "30",
+        "40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 35.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q082",
+      "serialNumber": 82,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements. Statements: All cars are buses. Some cars are trucks. Conclusions (I): Some trucks are cars. Conclusions (II): Some buses are cars.",
+      "options": [
+        "Neither conclusion (I) nor (II) follows.",
+        "Only conclusion (I) follows.",
+        "Only conclusion (II) follows.",
+        "Both conclusions (I) and (II) follow."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Both conclusions (I) and (II) follow.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q083",
+      "serialNumber": 83,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic. COME-OCME-EOCM NEAT-ENAT-TENA",
+      "options": [
+        "SANK-ASNK-KASN",
+        "GONE-OGNE-EONG",
+        "DOST-DSOT-TSOD",
+        "HEAT-EHAT-EATH"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. GONE-OGNE-EONG follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q084",
+      "serialNumber": 84,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Number Analogy",
+      "difficulty": "Hard",
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (38, 12, 456) (44, 11, 484)",
+      "options": [
+        "(67, 5, 365)",
+        "(38, 8, 304)",
+        "(61, 4, 254)",
+        "(43, 6, 278)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. (38, 8, 304) follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q085",
+      "serialNumber": 85,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Shortest Distance",
+      "difficulty": "Hard",
+      "question": "Harry starts from Point A and drives 1 km towards the south. He then takes a right turn and drives 7 km, then turns right and drives 8 km. He then takes a right turn and drives 15 km. He takes a final right turn, drives 7 km and stops at Point P. How far (shortest distance) and in which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "options": [
+        "8 km to the west",
+        "10 km to the west",
+        "9 km to the west",
+        "5 km to the west"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. He should drive 8 km to the west.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q086",
+      "serialNumber": 86,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Seven boxes U, V, W, X, E, F and G are kept one over the other but not necessarily in the same order. Only two boxes are kept between V and X. Only W is kept above F. No box is kept below X. E is kept at some place below G but at some place above U. Which box is kept third above U?",
+      "options": [
+        "X",
+        "G",
+        "E",
+        "W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. X is kept third above U.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q087",
+      "serialNumber": 87,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements. Statements: All trams are cows. No cow is a bun. Conclusions: (I): No tram is a bun. (II): Some buns are cows.",
+      "options": [
+        "Both conclusions (I) and (II) follow.",
+        "Only conclusion (II) follows.",
+        "Neither conclusion (I) nor (II) follows.",
+        "Only conclusion (I) follows."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Only conclusion (I) follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q088",
+      "serialNumber": 88,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "SWER is related to GKSF in a certain way based on the English alphabetical order. In the same way, WAIV is related to KOWJ. To which of the given options is MQYL related, following the same logic?",
+      "options": [
+        "AEMZ",
+        "AEMU",
+        "AZEM",
+        "AZME"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. MQYL is related to AEMZ.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q089",
+      "serialNumber": 89,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 19758436 is arranged in descending order from left to right. The position(s) of how many digits will remain unchanged as compared to that in the original number?",
+      "options": [
+        "Two",
+        "None",
+        "Three",
+        "One"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. One digit will remain unchanged.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q090",
+      "serialNumber": 90,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 8934612 is arranged in ascending order from left to right. What will be the sum of the digits that are second from the left and second from the right in the new number thus formed?",
+      "options": [
+        "6",
+        "10",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The sum of the digits is 10.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q091",
+      "serialNumber": 91,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Easy",
+      "question": "What should come in place of the question mark (?) in the given series? 99, 100, 102, 106, 114, ?",
+      "options": [
+        "130",
+        "135",
+        "125",
+        "103"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The next number in the series is 130.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q092",
+      "serialNumber": 92,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series? 3 13 28 48 ? 103",
+      "options": [
+        "71",
+        "73",
+        "68",
+        "70"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The missing number is 73.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q093",
+      "serialNumber": 93,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Seven people, D, E, F, G, H, I and X, are sitting in a row facing North. Only two people sit to the left of G. Only three people sit between G and H. Only one person sits between H and F. E sits to the immediate left of I. D is not an immediate neighbour of H. How many people sit to the right of X?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Three people sit to the right of X.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q094",
+      "serialNumber": 94,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Mixed Series",
+      "difficulty": "Hard",
+      "question": "Which of the following letter-clusters will replace the question mark (?) in the given series to make it logically complete? VRM 9 WTJ 6 XVG 3 YXD 0 ?",
+      "options": [
+        "ZZA-3",
+        "ZYZ-3",
+        "ZZA-6",
+        "ZZZ-6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. ZZA-3 will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q095",
+      "serialNumber": 95,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Hard",
+      "question": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) 7S%4&19@5&3O8*2notin6 (Right) If all the symbols are dropped from the series, which of the following will be sixth from the right?",
+      "options": [
+        "1",
+        "5",
+        "9",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. 1 will be sixth from the right.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q096",
+      "serialNumber": 96,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Letter Series",
+      "difficulty": "Hard",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? VEC WFD XGE YHF ?",
+      "options": [
+        "ZVG",
+        "ZWR",
+        "ZIG",
+        "ZML"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. ZIG will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q097",
+      "serialNumber": 97,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "Seven boxes V, W, X, Y, Z, Q and R are kept one over the other but not necessarily in the same order. Only two boxes are kept between Q and V. Only Y is kept above W. No box is kept below V. X is kept at some place below Z but at some place above R. Which box is kept third above R?",
+      "options": [
+        "Z",
+        "Q",
+        "X",
+        "W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Z is kept third above R.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q098",
+      "serialNumber": 98,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Classification",
+      "subTopic": "Letter Classification",
+      "difficulty": "Medium",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "EAW",
+        "OKG",
+        "DZB",
+        "MIE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. OKG does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q099",
+      "serialNumber": 99,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Blood Relations",
+      "subTopic": "Coded Relations",
+      "difficulty": "Hard",
+      "question": "In a certain code language, A+B means 'A is the daughter of B', A-B means 'A is the father of B', A x B means 'A is the son of B', A÷B means 'A is the sister of B'. How is Q related to D if 'Q + E - R x C ÷ D'?",
+      "options": [
+        "Mother's mother",
+        "Father's sister",
+        "Mother",
+        "Sister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Q is the mother's mother of D.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_12_S1_Q100",
+      "serialNumber": 100,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'FOUR' is coded as '5427' and 'RISE' is coded as '6143'. What is the code for 'R' in the given code language?",
+      "options": [
+        "7",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The code for 'R' is 4.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    }
+  ]
+}

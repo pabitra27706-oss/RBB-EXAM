@@ -1,0 +1,1542 @@
+{
+  "metadata": {
+    "id": "2025_08_11_S1",
+    "year": 2025,
+    "date": "2025-08-11",
+    "shift": 1,
+    "shiftTime": "9:00 AM - 10:30 AM",
+    "pageRange": {
+      "start": 97,
+      "end": 112
+    },
+    "totalQuestions": 100,
+    "duration": 90,
+    "subjectSplit": {
+      "General Awareness": 40,
+      "Mathematics": 30,
+      "General Intelligence and Reasoning": 30
+    }
+  },
+  "questions": [
+    {
+      "id": "2025_08_11_S1_Q001",
+      "serialNumber": 1,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "ভারতীয় নৌবাহিনীর কোন ব্যবহারের অনুপমোগী মোহিত জাহাজটিক, 2025 সালে জেল নিচে নিমন্ত্রিত জাদুঘের পরিশত করা হবে বা লে মোহাগা করা হৈছিল?",
+      "options": [
+        "INS বিশাখাপতনম",
+        "INS নীলগিরি",
+        "INS কালভরী",
+        "INS গুলদার"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. INS Vishakhapatnam was commissioned into the Indian Navy in 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q002",
+      "serialNumber": 2,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "Important Dates and Days",
+      "difficulty": "Medium",
+      "question": "নিচের কোনটি ভারতের একটি উপজাতীয় নৃত্য?",
+      "options": [
+        "গুসাদি (Ghusadi)",
+        "লাবণী (Lavani)",
+        "ভাঙরা (Bhangra)",
+        "কথক (Kathak)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Ghusadi is a tribal dance of India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q003",
+      "serialNumber": 3,
+      "subject": "General Awareness",
+      "topic": "Static GK",
+      "subTopic": "Important Dates and Days",
+      "difficulty": "Hard",
+      "question": "ভারতের মণিপুরে লাই হারাওবা নৃত্য পরিবেশনকারী নির্দিষ্ট মহিলা ভক্তদের বোঝাতে নিচের কোন শব্দটি ব্যবহার করা হয়?",
+      "options": [
+        "জোগিন",
+        "মাইবা",
+        "মাহিব",
+        "পুজারিন"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Maiba is the term used for female devotees performing Lai Haraoba dance in Manipur.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q004",
+      "serialNumber": 4,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Medium",
+      "question": "গীঘ্রে মাসগুনিতে উত্তর-পশ্চিম ভারতের কোন প্রাকৃতিক গঠনটি নিম্নচাপ বলয়ের সূচনা করে?",
+      "options": [
+        "থর মরুভূমি",
+        "গঙ্গা অববাহিকা",
+        "আরবরি শাহাে",
+        "সাতপুৰা পৰ্বতমানা"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Thar Desert creates a low-pressure belt in northwest India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q005",
+      "serialNumber": 5,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "জেনভা ভিত্তিক স্বাস্থ্য, বাণিজ্য এবং মেধা সম্পত্তি (IP) সংক্রান্ত তিনটি আন্তর্জাতিক সংস্থা 2025 সালের 26 ফেব্রুয়ারি কোন তিনটি আন্তর্জাতিক সংস্থা যৌথভাবে একটি ত্রিপক্ষীয় সহযোগিতা চুক্তিতে স্বাক্ষর করেছিল?",
+      "options": [
+        "WHO, UNESCO এবং WTO",
+        "WHO, IMF এবং UNDP",
+        "WHO, WIPO এবং WTO",
+        "WHO, WIPO এবং UNICEF"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. WHO, WIPO and WTO signed a tripartite cooperation agreement on 26 February 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q006",
+      "serialNumber": 6,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Constitution",
+      "difficulty": "Medium",
+      "question": "Which of the following is the correct descending order of ministerial ranks in the Union Council of Ministers?",
+      "options": [
+        "Cabinet Minister, Minister of State, Deputy Minister",
+        "Cabinet Minister, Minister of State, Deputy Minister",
+        "Cabinet Minister, Minister of State, Deputy Minister",
+        "Cabinet Minister, Minister of State, Deputy Minister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The correct descending order is Cabinet Minister, Minister of State, Deputy Minister.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q007",
+      "serialNumber": 7,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "MS Windows",
+      "difficulty": "Easy",
+      "question": "Which software is used to create presentations in MS Office?",
+      "options": [
+        "Microsoft Word",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Access"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Microsoft PowerPoint is used to create presentations.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q008",
+      "serialNumber": 8,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "2025 সালে, কোন আন্তর্জাতিক সংস্থা সীমান্ত বিরোধ নিষ্পত্তির জন্য মধ্যস্থতা করেছিল?",
+      "options": [
+        "বিশ্ব বাণিজ্য সংস্থা",
+        "ASEAN আঞ্চলিক ফোরাম",
+        "আন্তর্জাতিক আদালত",
+        "জাতিসংঘ সাধারণ পরিষদ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The International Court of Justice mediated the border dispute.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q009",
+      "serialNumber": 9,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Trade",
+      "difficulty": "Medium",
+      "question": "2013 সালে Ikea, তার ₹10,500 কোটি FDI প্রস্তাবের জন্য সরকারী অনুমোদন পেয়েছিল। এটি কোন ধরনের কোম্পানি?",
+      "options": [
+        "জার্মান কোম্পানি",
+        "আমেরিকান কোম্পানি",
+        "সুইডিশ কোম্পানি",
+        "চীনা কোম্পানি"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Ikea is a Swedish company.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q010",
+      "serialNumber": 10,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "2025 সালে কোন ভারতীয় সংস্থা, ন্যানো প্রযুক্তি ব্যবহার করে 19তম সাংবার্ষিক ন্যানো প্রযুক্তি সম্মেলনের আয়োজন করেছিল?",
+      "options": [
+        "NASSCOM",
+        "TRAI",
+        "CII",
+        "AMAI"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. AMAI organized the 19th annual nanotechnology conference in 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q011",
+      "serialNumber": 11,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Medium",
+      "question": "2025 সালে 7 মার্চ, আন্তর্জাতিক দুর্যোগ প্রস্তুতি (emergency preparedness) দিবস পালনের জন্য কতটি দেশ অংশগ্রহণ করেছিল?",
+      "options": [
+        "290",
+        "244",
+        "200",
+        "150"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. 290 countries participated in the International Disaster Preparedness Day in 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q012",
+      "serialNumber": 12,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "2025 সালে জানুয়ারি মাসে আয়োজিত 'তপস্যা' (Tavasya) নামক কোন ভারতীয় চলচ্চিত্রের বিশ্ব প্রিমিয়ার হয়েছিল?",
+      "options": [
+        "বালি সিনেমা",
+        "সাদেহেলম আজ",
+        "সিনেথ সক্রিট",
+        "কদী"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The film 'Tavasya' had its world premiere in January 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q013",
+      "serialNumber": 13,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "President Vice President Governor",
+      "difficulty": "Medium",
+      "question": "ভারতের রাষ্ট্রপতি হিসেবে নির্বাচিত হওয়ার জন্য ন্যূনতম বয়স কত?",
+      "options": [
+        "25 বছর",
+        "18 বছর",
+        "30 বছর",
+        "21 বছর"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The minimum age to become the President of India is 35 years, but the option closest is 30 years.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q014",
+      "serialNumber": 14,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Reforms",
+      "difficulty": "Hard",
+      "question": "ভারতের রাজস্ব একত্রীকরণ কৌশলের অংশ হল প্রত্যক্ষ কর সংস্কার। উদারীকরণ-পরবর্তী ভারত কোন কমিটি প্রত্যক্ষ কর সরলীকরণের সুপারিশ করেছিল?",
+      "options": [
+        "নরসিংহ কমিটি",
+        "তরাপার কমিটি",
+        "কেলকার কমিটি",
+        "দত্ত কমিটি"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Narasimham Committee recommended direct tax simplification in post-liberalization India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q015",
+      "serialNumber": 15,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Ancient History",
+      "difficulty": "Hard",
+      "question": "ইরাপ পাথরের ফলকে বলা হয়েছে যে সমুদ্রপতি তাঁর ______ এর কারণে তাঁর পিতা রাজা দ্বারা নির্বাসিত হয়েছিলেন।",
+      "options": [
+        "স্পদ এবং জনপ্রিয়তা",
+        "বয়স এবং জন্মগত অধিকার",
+        "ভক্তি, ধার্মিক আচরণ এবং বীরত্ব",
+        "অন্যান্য রাজাদের কাছ থেকে সমর্থন"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The king was exiled due to his devotion, righteous conduct, and bravery.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q016",
+      "serialNumber": 16,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "NITI আয়োগ কর্তৃক প্রকাশিত আর্থিক স্বাস্থ্য সূচক 2025 এ কোন ভারতীয় রাজ্য শীর্ষ স্থানে রয়েছে?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text due to corrupted options.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q017",
+      "serialNumber": 17,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "কোন আইনটি প্রথমবারের জন্য ভারতীয় সদস্যদের বিধান পরিষদে বাজেট বিষয়ে আলোচনা করার অনুমতি দেয়?",
+      "options": [
+        "ইন্ডিয়ান কাউন্সিল অ্যাক্ট, 1861",
+        "ইন্ডিয়ান কাউন্সিল অ্যাক্ট, 1892",
+        "গভর্নমেন্ট অফ ইন্ডিয়া অ্যাক্ট, 1858",
+        "ইন্ডিয়ান কাউন্সিল অ্যাক্ট, 1909"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The Indian Councils Act of 1892 allowed Indian members to discuss the budget.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q018",
+      "serialNumber": 18,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "ভারতীয় জাতীয় কংগ্রেস এবং সমাজ সংস্কারের প্রচারের জন্য সারদা সদন সোসাইটি কে প্রতিষ্ঠা করেছিলেন?",
+      "options": [
+        "এস এন ব্যানার্জী",
+        "বাল গঙ্গাধর তিলক",
+        "গোপাল কৃষ্ণ গোখলে",
+        "বিপিন চন্দ্র পাল"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. S.N. Banerjee established the Sarada Sadan Society for promoting Indian National Congress and social reform.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q019",
+      "serialNumber": 19,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Medieval History",
+      "difficulty": "Hard",
+      "question": "নিচের কোনটি আলাউদ্দিন খলজির রাজস্বকালে সামরিক বিভাগ ছিল?",
+      "options": [
+        "দিওয়ান-ই-ইনশা",
+        "দিওয়ান-ই-আরজ",
+        "দিওয়ান-ই-উইজারাত",
+        "দিওয়ান-ই-রিসালাত"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Diwan-i-Arz was the military department during Alauddin Khilji's reign.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q020",
+      "serialNumber": 20,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "কত সালে ভারতের তৃতীয় প্রেসিডেন্সি ব্যাংক হিসাবে ব্যাংক অফ মাদ্রাজ প্রতিষ্ঠিত হয়?",
+      "options": [
+        "1843",
+        "1857",
+        "1863",
+        "1840"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The Bank of Madras was established in 1843 as the third presidency bank of India.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q021",
+      "serialNumber": 21,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Sports",
+      "difficulty": "Easy",
+      "question": "2025 সালের 7 মে আন্তর্জাতিক ক্রিকেট কাউন্সিল কোন রাজ্যে অনুষ্ঠিত হয়েছিল?",
+      "options": [
+        "মহারাষ্ট্র",
+        "বিহার",
+        "হরিয়ানা",
+        "গুজরাট"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The International Cricket Council event was held in Maharashtra in May 2025.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q022",
+      "serialNumber": 22,
+      "subject": "General Awareness",
+      "topic": "Science - Biology",
+      "subTopic": "Biotechnology Enzymes Vitamins",
+      "difficulty": "Hard",
+      "question": "অ্যামাইলোপেকটিন হল একটি শাখা-শৃঙ্খল পলিস্যাকারাইড যা মূলত ______ দ্বারা সংযুক্ত গ্লুকোজ ইউনিট দ্বারা গঠিত।",
+      "options": [
+        "α-1,4-গ্লাইকোসিডিক বন্ধন",
+        "β-1,4-গ্লাইকোসিডিক বন্ধন",
+        "β-1,6-গ্লাইকোসিডিক বন্ধন",
+        "α-1,2-গ্লাইকোসিডিক বন্ধন"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Amylopectin is formed by α-1,4 and α-1,6 glycosidic bonds.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q023",
+      "serialNumber": 23,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Planning",
+      "difficulty": "Medium",
+      "question": "What does UDAY stand for in the context of power distribution companies?",
+      "options": [
+        "Uninterrupted Domestic Assurance Yojana",
+        "Utility Development and Assistance Yojana",
+        "Ujwal DISCOM Assurance Yojana",
+        "Urban Distribution Action Yojana"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. UDAY stands for Ujwal DISCOM Assurance Yojana.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q024",
+      "serialNumber": 24,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "National Events",
+      "difficulty": "Hard",
+      "question": "C-295 বিমান তৈরির জন্য 2024 সালের অক্টোবরে উদ্বোধন করা টাটা এয়ারক্রাফট কমপ্লেক্স কোথায় অবস্থিত?",
+      "options": [
+        "চেন্নাই",
+        "হায়দাবাদ",
+        "ভাদোদরা",
+        "পুনে"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The Tata Aircraft Complex for C-295 aircraft was inaugurated in Vadodara.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q025",
+      "serialNumber": 25,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Centre State Relations",
+      "difficulty": "Hard",
+      "question": "ভারতীয় সংবিধানের কোন ভাগে কেন্দ্র ও রাজ্যের মধ্যে অর্থনৈতিক সম্পর্কে উল্লেখ রয়েছে?",
+      "options": [
+        "ভাগ X",
+        "ভাগ XI",
+        "ভাগ XIII",
+        "ভাগ XII"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Part XII of the Indian Constitution deals with financial relations between the Centre and States.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q026",
+      "serialNumber": 26,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "এপ্রিল 2025 সালে নিকেল খনির জাতীয়করণ এবং স্বাধীনতা সম্পর্কে পেরু নামে একটি দেশের একটি আইন?",
+      "options": [
+        "অস্ট্রেলিয়া",
+        "নিউজিল্যান্ড",
+        "যুবাজা",
+        "ফিন"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Australia passed a law regarding nickel mining nationalization and independence.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q027",
+      "serialNumber": 27,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Poverty Unemployment and HDI",
+      "difficulty": "Hard",
+      "question": "1990 সালে প্রত্যাশিত আয়ু ছিল 58.6 বছর। 2023 সালে বৃদ্ধি পেয়ে ______ বছর হয়েছে। (সঠিক সংখ্যা নির্বাচন করুন।)",
+      "options": [
+        "72 বছর",
+        "70 বছর",
+        "65 বছর",
+        "75 বছর"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Life expectancy increased to 72 years in 2023.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q028",
+      "serialNumber": 28,
+      "subject": "General Awareness",
+      "topic": "Computer Awareness",
+      "subTopic": "Hardware",
+      "difficulty": "Medium",
+      "question": "Which of the following is a type of computer memory?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text due to corrupted options.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q029",
+      "serialNumber": 29,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Science and Technology",
+      "difficulty": "Hard",
+      "question": "2023 সালে 'ভারত 6G মিশন'-এর প্রাথমিক উদ্দেশ্য কী?",
+      "options": [
+        "শীঘ্র দেশব্যাপী 6G পরিষেবা চালু করা",
+        "2030 সালের মধ্যে ভারতকে 6G প্রযুক্তির বৈশ্বিক নেতা হিসেবে প্রতিষ্ঠিত করা",
+        "শহর এলাকায় 6G পরিষেবার বাণিজ্যিকীকরণ করা",
+        "2025 সালের মধ্যে 5G প্রযুক্তি প্রতিস্থাপন করা"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The primary objective of India's 6G mission is to establish India as a global leader in 6G technology by 2030.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q030",
+      "serialNumber": 30,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Constitution",
+      "difficulty": "Hard",
+      "question": "সমবায় সমিতি সংক্রান্ত বিষয়ে, সংবিধানের কোন অংশ 97তম সংশোধনীর মাধ্যমে সংযুক্ত করা হয়েছিল?",
+      "options": [
+        "ভাগ IXB",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Part IXB was added to the Constitution through the 97th Amendment Act regarding cooperative societies.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q031",
+      "serialNumber": 31,
+      "subject": "General Awareness",
+      "topic": "Science - Biology",
+      "subTopic": "Human Body",
+      "difficulty": "Hard",
+      "question": "Which disease is caused by the accumulation of lipids in brain cells due to the deficiency or inactivation of lipid digesting enzymes?",
+      "options": [
+        "Tay-Sachs disease",
+        "Huntington's disease",
+        "Parkinson's disease",
+        "Alzheimer's disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Tay-Sachs disease is caused by lipid accumulation in brain cells.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q032",
+      "serialNumber": 32,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "Books and Authors",
+      "difficulty": "Hard",
+      "question": "2025 সালের এপ্রিলে প্রকাশিত 'AI on Trial' বইটি কে লিখেছেন?",
+      "options": [
+        "হরনারায়ণ রায়",
+        "সুখবীর কুমার & থেটিসফ আলম",
+        "মহেন্দ্র লাল সোডী & हरनारायण शून्य",
+        "বৈনায়ক দেববর্মণ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. 'AI on Trial' was written by Sukhbir Kumar and Thetisif Alam.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q033",
+      "serialNumber": 33,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Medium",
+      "question": "What was the main belief of the moderate Congress leaders regarding the British rule in India?",
+      "options": [
+        "Violent uprising",
+        "Support for British",
+        "Immediate independence",
+        "Gradual political freedom"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Moderate Congress leaders believed in gradual political freedom.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q034",
+      "serialNumber": 34,
+      "subject": "General Awareness",
+      "topic": "Polity",
+      "subTopic": "Fundamental Rights and Duties",
+      "difficulty": "Hard",
+      "question": "কোন সংশোধনীর মাধ্যমে 'সমাজবাদী' এবং 'ধর্মনিরপেক্ষ' শব্দগুলি প্রস্তাবনায় যুক্ত করা হয়েছিল?",
+      "options": [
+        "24তম",
+        "42তম",
+        "44তম",
+        "39তম"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The words 'Socialist' and 'Secular' were added to the Preamble by the 42nd Amendment.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q035",
+      "serialNumber": 35,
+      "subject": "General Awareness",
+      "topic": "Economy",
+      "subTopic": "Industry",
+      "difficulty": "Medium",
+      "question": "কয়লা মন্ত্রকের তথ্য অনুসারে 2023-24 অর্থবছরে কোন রাজ্য কয়লা উৎপাদনে সর্বাধিক ছিল?",
+      "options": [
+        "রাজস্থান",
+        "তেলেঙ্গানা",
+        "মধ্য প্রদেশ",
+        "ওড়িশা"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Odisha was the largest coal producing state in 2023-24.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q036",
+      "serialNumber": 36,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Hard",
+      "question": "আন্দামান ও নিকোবর দ্বীপপুঞ্জের তুলনায় লক্ষদ্বীপ দ্বীপপুঞ্জের জীববৈচিত্র্য কম কেন?",
+      "options": [
+        "ছোট ভূখণ্ড এলাকা এবং অরণ্যের অভাব",
+        "অনুৎপাদক এবং অম্ল মাটি",
+        "মানব জনসংখ্যার আধিক্য",
+        "আর্থিক উৎপাদন এবং শীতল তাপমাত্রা"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Lakshadweep has lower biodiversity due to its small land area and lack of forests.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q037",
+      "serialNumber": 37,
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "subTopic": "Indian Geography",
+      "difficulty": "Easy",
+      "question": "নিচের কোন ভারতীয় রাজ্য নেপালের সাথে তার সীমান্ত ভাগ করে?",
+      "options": [
+        "বিহার",
+        "হিমাচল প্রদেশ",
+        "ওড়িশা",
+        "মেঘালয়"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Bihar shares its border with Nepal.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q038",
+      "serialNumber": 38,
+      "subject": "General Awareness",
+      "topic": "Science - Chemistry",
+      "subTopic": "Organic Chemistry",
+      "difficulty": "Hard",
+      "question": "কোন সাধারণ জৈবিক গঠন ডায়াজোনিয়াম লবণ নামে পরিচিত?",
+      "options": [
+        "R-C≡N",
+        "R-N2+ X-",
+        "R-C=NR'",
+        "R-CO-NRR'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. Diazonium salts have the general structure R-N2+ X-.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q039",
+      "serialNumber": 39,
+      "subject": "General Awareness",
+      "topic": "Current Affairs 2024-2025",
+      "subTopic": "International Events",
+      "difficulty": "Hard",
+      "question": "2025 সালের জুন মাসে, কোন ঘটনাটি ইসরায়েল-ইরান সংঘাতকে আরও তীব্র করেছিল?",
+      "options": [
+        "ইরানের পারমাণবিক কেন্দ্রে প্রথম ইসরায়েলের হামলা",
+        "তেল আক্রমণে ইরানের মিসাইল হামলা",
+        "যৌথ কর্মপরিকল্পনা থেকে ইরানের প্রত্যাহার",
+        "একজন ইরানি জেনারেলকে হত্যা"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Israel's first attack on Iran's nuclear facility intensified the conflict.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q040",
+      "serialNumber": 40,
+      "subject": "General Awareness",
+      "topic": "History",
+      "subTopic": "Modern History",
+      "difficulty": "Hard",
+      "question": "1857 সালের বিদ্রোহ ভারতীয় সমাজে কোন ইতিবাচক পরিণতি তৈরি করেছিল?",
+      "options": [
+        "হিন্দু ও মুসলিম সম্প্রদায়ের মধ্যে অবিশ্বাস তৈরি হয়েছিল",
+        "ভারতীয় স্বাধীনতার অবসান ঘটেছিল",
+        "উপজাতীয় ও কৃষকদের আন্দোলন দুর্বল হয়ে পড়েছিল",
+        "ভারতীয় ভাষা ও সংস্কৃতির অবসান ঘটেছিল"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The 1857 revolt created distrust between Hindu and Muslim communities.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q041",
+      "serialNumber": 41,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Polynomials",
+      "difficulty": "Medium",
+      "question": "Simplify: (3x - 1)(2x + 3) - (x - 2)(x + 1)",
+      "options": [
+        "5x^2 + 8x - 1",
+        "11x^2 - 3x - 2",
+        "11x^2 - 3x + 2",
+        "-11x^2 - 3x - 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Simplifying gives 5x^2 + 8x - 1.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q042",
+      "serialNumber": 42,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Prime Numbers",
+      "difficulty": "Medium",
+      "question": "466 এবং 476 এর মধ্যে কতগুলি মৌলিক সংখ্যা আছে (উভয় সংখ্যা অন্তর্ভুক্ত)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. There are 2 prime numbers between 466 and 476.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q043",
+      "serialNumber": 43,
+      "subject": "Mathematics",
+      "topic": "Profit and Loss",
+      "subTopic": "Cost Price and Selling Price",
+      "difficulty": "Hard",
+      "question": "79টি চেয়ার 179 টাকায় কেনা হয়েছিল এবং 13টি চেয়ার পরিবহনের সময় ভেঙে গেছে। ব্যবসায়ী বাকি চেয়ারগুলি প্রতিটি 45.90 টাকায় বিক্রি করে। তাহলে, ব্যবসায়ীর লাভ নির্ণয় করুন।",
+      "options": [
+        "314.90",
+        "305.40",
+        "316.40",
+        "310.40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The profit is 314.90.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q044",
+      "serialNumber": 44,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Relative Speed",
+      "difficulty": "Hard",
+      "question": "একজন মহিলা 47 km/hr গতিবেগে 282 km দূরত্ব, 20 km/hr গতিবেগে পরবর্তী 120 km দূরত্ব এবং 62 km/hr গতিবেগে পরবর্তী 496 km দূরত্ব অতিক্রম করেন। পুরো যাত্রায় তার গড় গতিবেগ (km/hr এ) কত?",
+      "options": [
+        "52.2",
+        "44.9",
+        "53.6",
+        "46.7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The average speed is 52.2 km/hr.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q045",
+      "serialNumber": 45,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "3D Shapes",
+      "difficulty": "Medium",
+      "question": "30 cm ব্যাসবিশিষ্ট একটি গোলকের আয়তন নির্ণয় করুন। (π = 22/7)",
+      "options": [
+        "14,130 cm3",
+        "14,230 cm3",
+        "15,230 cm3",
+        "15,130 cm3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The volume of the sphere is 14,130 cm3.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q046",
+      "serialNumber": 46,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subTopic": "Quadrilaterals",
+      "difficulty": "Hard",
+      "question": "ABCD হল এমন একটি ট্রাপিজিয়াম যেখানে BC || AD এবং AC = CD। যদি ∠ABC = 54° এবং ∠BAC = 60° হয়, তাহলে ∠ACD এর পরিমাপ (ডিগ্রিতে) কত?",
+      "options": [
+        "184",
+        "48",
+        "171",
+        "181"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The measure of angle ACD is 48 degrees.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q047",
+      "serialNumber": 47,
+      "subject": "Mathematics",
+      "topic": "Number System",
+      "subTopic": "Divisibility and Remainders",
+      "difficulty": "Medium",
+      "question": "কোন সংখ্যাটি দ্বারা 740705 বিভাজ্য হবে?",
+      "options": [
+        "12",
+        "4",
+        "5",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. 740705 is divisible by 5.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q048",
+      "serialNumber": 48,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subTopic": "Direct and Inverse Proportion",
+      "difficulty": "Hard",
+      "question": "রিতু, সমীর এবং ইশা যথাক্রমে 1,350, 1,470 এবং 1,380 টাকা বিনিয়োগ করে একটি ব্যবসা শুরু করে। বছর শেষে মোট 1,330 টাকা লাভ হলে, প্রাপ্ত লাভে ইশার শেয়ার কত হবে?",
+      "options": [
+        "439",
+        "435",
+        "437",
+        "438"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Isha's share of the profit is 439.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q049",
+      "serialNumber": 49,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "23টি ম্যাচে একজন ব্যাটসম্যানের গড় রান 41 এবং পরবর্তী 10টি ম্যাচে তিনি গড়ে 14 রান করেছেন। মোট 33টি ম্যাচে তার গড় রান (দুই দশমিক স্থান পর্যন্ত আসন্ন) কত?",
+      "options": [
+        "34.82",
+        "33.82",
+        "31.82",
+        "32.82"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The average runs in all 33 matches is 33.82.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q050",
+      "serialNumber": 50,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Easy",
+      "question": "মাসিক 4% সুদের হারে 1,200 টাকার 3 মাসের সরল সুদ (টাকায়) কত হবে?",
+      "options": [
+        "12",
+        "32",
+        "24",
+        "144"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The simple interest is 144.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q051",
+      "serialNumber": 51,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Hard",
+      "question": "প্রথম সংখ্যার 39% যদি দ্বিতীয় সংখ্যার আট-নবমাংশের সমান হয়, তাহলে প্রথম সংখ্যা ও দ্বিতীয় সংখ্যার অনুপাত কত?",
+      "options": [
+        "805 : 353",
+        "800 : 351",
+        "804 : 348",
+        "796 : 347"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The ratio is 800:351.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q052",
+      "serialNumber": 52,
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "subTopic": "Heights and Distances",
+      "difficulty": "Hard",
+      "question": "একটি বাড়ির ছাদে একটি পতাকা-দণ্ড লাগানো হয়েছে। বাড়িটির পাদদেশ থেকে 30 m দূরে অবস্থিত একটি বিন্দু থেকে ওই পতাকা-দণ্ডের শীর্ষদেশের উন্নতি কোণ 60° এবং বাড়ির ছাদের উন্নতি কোণ 30° হলে, ওই পতাকা-দণ্ডের উচ্চতা কত মিটার?",
+      "options": [
+        "60√3",
+        "20√3",
+        "40√3",
+        "30√3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The height of the flagpole is 20√3 meters.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q053",
+      "serialNumber": 53,
+      "subject": "Mathematics",
+      "topic": "Simplification",
+      "subTopic": "BODMAS",
+      "difficulty": "Easy",
+      "question": "মান নির্ণয় করুন: 16 + 12 ÷ 6 – 2 × 4",
+      "options": [
+        "9",
+        "13",
+        "12",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The value is 10.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q054",
+      "serialNumber": 54,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Easy",
+      "question": "একটি পণ্যের মুদ্রিত মূল্য 800 এবং এটি 25% ছাড়ে বিক্রি করা হয়। পণ্যের বিক্রয়মূল্য নির্ধারণ করুন।",
+      "options": [
+        "680",
+        "600",
+        "640",
+        "620"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The selling price is 600.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q055",
+      "serialNumber": 55,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Work Rate",
+      "difficulty": "Medium",
+      "question": "A একটি কাজ 13 দিনে করতে পারে এবং B একই কাজ 24 দিনে করতে পারে। যদি তারা একসঙ্গে 5 দিন কাজ করে, তাহলে কাজের কত অংশ অবশিষ্ট থাকবে?",
+      "options": [
+        "133/312",
+        "129/312",
+        "127/312",
+        "137/312"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The remaining work is 133/312.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q056",
+      "serialNumber": 56,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Discount",
+      "difficulty": "Hard",
+      "question": "₹10,000 মূল্যের একটি পণ্যের উপর একজন পাইকারী বিক্রেতা 20% ট্রেড ডিসকাউন্ট অফার করে। ডিসকাউন্টকৃত মূল্যের উপর, 10% সিজনাল ডিসকাউন্ট দেওয়া হয়। যদি গ্রাহক নগদ অর্থ প্রদান করেন, তাহলে চূড়ান্ত মূল্যের উপর অতিরিক্ত 5% ছাড় দেওয়া হয়। গ্রাহককে চূড়ান্ত দাম হিসেবে কত দিতে হবে?",
+      "options": [
+        "6,800",
+        "7,000",
+        "6,940",
+        "6,840"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The final price is 6,840.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q057",
+      "serialNumber": 57,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subTopic": "Basic Percentage",
+      "difficulty": "Hard",
+      "question": "একটি জেলায় 359000 জন মানুষ আছে যার মধ্যে 179000 জন পুরুষ। যদি মোট জনসংখ্যার 22% সাক্ষর হয় এবং পুরুষদের 22% সাক্ষর হয়, তাহলে মহিলাদের শতকরা সাক্ষরতার হার কত?",
+      "options": [
+        "19%",
+        "24%",
+        "22%",
+        "20%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. 22 percent of females are literate.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q058",
+      "serialNumber": 58,
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "subTopic": "2D Shapes",
+      "difficulty": "Hard",
+      "question": "249 m এবং 217 m মাত্রাবিশিষ্ট একটি আয়তক্ষেত্রের ভিতরে আঁকা সম্ভব এমন সর্ববৃহৎ বৃত্তের পরিধি (m এ) নির্ধারণ করুন।",
+      "options": [
+        "679",
+        "676",
+        "682",
+        "690"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The circumference of the largest circle is 679 m.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q059",
+      "serialNumber": 59,
+      "subject": "Mathematics",
+      "topic": "Time and Work",
+      "subTopic": "Pipes and Cisterns",
+      "difficulty": "Hard",
+      "question": "Pipe P can fill 3/4 part of a tank in 15 hours, and pipe Q can fill 5/6 part of the same tank in 25 hours. Both P and Q were kept open for 2 hours, then both were closed. Pipe R alone was then opened and it emptied the water in the tank in 5 hours. Pipes P, Q and R together can fill the empty tank in:",
+      "options": [
+        "17 hours",
+        "22 hours",
+        "31 hours",
+        "20 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. Pipes P, Q, and R together can fill the tank in 17 hours.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q060",
+      "serialNumber": 60,
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subTopic": "Linear Equations",
+      "difficulty": "Hard",
+      "question": "পুত্রের বয়সের 5 গুণ, তার পিতার বয়সের সাথে যোগ করা হলে যোগফল হয় 79 বছর। পিতার বয়স 2.5 গুণ, পুত্রের বয়সের সাথে যোগ করা হলে যোগফল হয় 94 বছর। তাহলে, পিতার বয়স (বছরে) কত?",
+      "options": [
+        "34",
+        "37",
+        "38",
+        "30"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The father's age is 37 years.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q061",
+      "serialNumber": 61,
+      "subject": "Mathematics",
+      "topic": "Average",
+      "subTopic": "Average",
+      "difficulty": "Medium",
+      "question": "তিনটি আসবাবের গড় মূল্য 15,990 এবং তাদের মূল্যের অনুপাত 3 : 5 : 7 হলে সবচেয়ে সস্তা আসবাবটির মূল্য (টাকায়) কত?",
+      "options": [
+        "7,462",
+        "9,594",
+        "3,198",
+        "1,066"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The cheapest item costs 3,198.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q062",
+      "serialNumber": 62,
+      "subject": "Mathematics",
+      "topic": "Simple and Compound Interest",
+      "subTopic": "Basic SI and CI",
+      "difficulty": "Hard",
+      "question": "6 বছর 7.7% সুদের হারে, একটি নির্দিষ্ট অর্থের 2 7 বছরের সরল সুদের পরিমাণ 1,188 5 হয়। বার্ষিক 8.5% সরল সুদের হারে, সেই অর্থের জন্য 4 5 বছরে সুদে-আসলে কত অর্থ পরিশোধ করতে হবে?",
+      "options": [
+        "27,491",
+        "27,489",
+        "27,484",
+        "27,504"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The amount to be paid is 27,491.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q063",
+      "serialNumber": 63,
+      "subject": "Mathematics",
+      "topic": "Time Speed and Distance",
+      "subTopic": "Relative Speed",
+      "difficulty": "Medium",
+      "question": "একজন ব্যক্তি 42 km/h গতিবেগে গাড়ি চালিয়ে 5.4 মিনিটে একটি সেতু অতিক্রম করেন। সেতুটির দৈর্ঘ্য কত?",
+      "options": [
+        "3.51 km",
+        "3.42 km",
+        "4.38 km",
+        "3.78 km"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The length of the bridge is 3.78 km.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q064",
+      "serialNumber": 64,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "যদি 'A' এর অর্থ '+' হয়, 'B' এর অর্থ 'x' হয়, 'C' এর অর্থ '÷' হয় এবং 'D' এর অর্থ '-' হয়, তাহলে প্রদত্ত সমীকরণে প্রশ্নবোধক চিহ্নের (?) স্থানে কী বসবে? 9 B 5 D 12 A 2 C 11 = ?",
+      "options": [
+        "50",
+        "43",
+        "32",
+        "38"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. The value is 38.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q065",
+      "serialNumber": 65,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Letter Series",
+      "difficulty": "Hard",
+      "question": "ইংরেজি বর্ণানুক্রম অনুসারে প্রদত্ত ক্রমের প্রশ্নবোধক চিহ্নের (?) স্থানে কী বসবে? XZR UWO RTL OQI ?",
+      "options": [
+        "LNE",
+        "LME",
+        "LNF",
+        "LMF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. LNE will replace the question mark.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q066",
+      "serialNumber": 66,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Hard",
+      "question": "In a certain code language, 'MADE' is coded as '4172' and 'HAME' is coded as '2475'. What is the code for 'H' in the given code language?",
+      "options": [
+        "7",
+        "4",
+        "5",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The code for 'H' is 5.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q067",
+      "serialNumber": 67,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "subTopic": "Shortest Distance",
+      "difficulty": "Hard",
+      "question": "Shyam starts from Point A and drives 12 km towards east. He then takes a right turn, drives 7 km, turns right and drives 5 km. He then takes a left turn and drives 9 km. He takes a final right turn, drives 7 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?",
+      "options": [
+        "19 km towards east",
+        "16 km towards north",
+        "19 km towards north",
+        "16 km towards south"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. Shyam should drive 19 km towards north.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q068",
+      "serialNumber": 68,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Number Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "What should come in place of the question mark (?) in the given series? 49, 81, 121, 169, ?, 289",
+      "options": [
+        "225",
+        "256",
+        "245",
+        "196"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The missing number is 225.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q069",
+      "serialNumber": 69,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "যদি '+' ও '-' পরস্পর স্থান বিনিময় করে এবং 'x' ও '÷' পরস্পর স্থান বিনিময় করে, তবে নিচের সমীকরণে প্রশ্নবোধক চিহ্ন (?) এর স্থানে কোন সংখ্যাটি বসবে? 24 + 86 × 2 - 15 ÷ 4 = ?",
+      "options": [
+        "32",
+        "58",
+        "49",
+        "41"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The value is 49.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q070",
+      "serialNumber": 70,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Number Analogy",
+      "difficulty": "Hard",
+      "question": "যে বিকল্প সেটের সংখ্যাগুলি, নিচে দেওয়া সেটের সংখ্যাগুলির মতো একইভাবে সম্পর্কিত, সেই বিকল্প সেটটি নির্বাচন করুন। (টীকা: সংখ্যাগুলিকে তাদের উপাদান অংশে বিভাজিত না করে, সম্পূর্ণ সংখ্যার উপরই কার্যক্রম সম্পাদন করতে হবে। যেমন, 13 এর ক্ষেত্রে, 13 এর উপরেই যাবতীয় কার্যক্রম সম্পাদন করতে হবে। অর্থাৎ, 13 এর সাথে যোগ/বিয়োগ/গুণ ইত্যাদি করতে হবে কিন্তু 13 কে তার উপাদান অংশ 1 এবং 3 এ বিভাজিত করে তারপর 1 এবং 3 এর উপর কোনো প্রকার গাণিতিক কার্যক্রম সম্পাদন করা যাবে না।) (384, 32, 6) (408, 68, 3)",
+      "options": [
+        "(280, 38, 5)",
+        "(416, 52, 4)",
+        "(394, 48, 4)",
+        "(348, 41, 4)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. (416, 52, 4) follows the same pattern.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q071",
+      "serialNumber": 71,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Ranking and Order",
+      "subTopic": "Ranking and Order",
+      "difficulty": "Medium",
+      "question": "विज्ञा तार क्रास प्रथम दिक ऐक 12 तम अव ऐपरव दिक ऐक 34 तम श्रान राम्रष्ट्। तार क्रास कतजन हाउ आष्ट्?",
+      "options": [
+        "44",
+        "46",
+        "45",
+        "47"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. There are 44 students in the class.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q072",
+      "serialNumber": 72,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Analogy",
+      "subTopic": "Letter Analogy",
+      "difficulty": "Medium",
+      "question": "ইংরেজি বর্ণমালার ক্রম অনুসারে, নিচে দেওয়া চারটি বর্ণ-গুচ্ছ জোড়ার মধ্যে তিনটি নির্দিষ্ট পদ্ধতিতে সম্পর্কযুক্ত এবং সেই কারণে তারা একটি দল গঠন করে। কোন বর্ণ-গুচ্ছ জোড়াটি সেই দলের অন্তর্ভুক্ত নয় তা নির্বাচন করুন। (টীকা: বাছাইকৃত বিকল্পটি ব্যঞ্জনবর্ণ/স্বরবর্ণ সংখ্যা অথবা বর্ণ-গুচ্ছে তাদের অবস্থান ভিত্তিক নয়।)",
+      "options": [
+        "NI-MO",
+        "TO-SV",
+        "QL-PS",
+        "KF-JM"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. QL-PS does not belong to the group.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q073",
+      "serialNumber": 73,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Puzzle",
+      "subTopic": "Seating Arrangement",
+      "difficulty": "Hard",
+      "question": "সাতজন ব্যক্তি A, B, C, T, U, V এবং W উত্তর দিকে মুখ করে সারিবদ্ধভাবে বসে আছেন। V এবং T এর মাঝে কতজন বসে আছেন? U বসে আছেন T এর ঠিক বাম দিকে। C এবং তার ঠিক ডানদিকে কেউ বসে নেই। C এবং U এর মাঝে মোট কজন বসে আছেন? W বসে আছেন A এর ঠিক ডানদিকে। B এবং W এর মাঝে কতজন ব্যক্তি বসে আছেন?",
+      "options": [
+        "তিনজন",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q074",
+      "serialNumber": 74,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Number Coding",
+      "difficulty": "Medium",
+      "question": "Each of the digits in the number 6317458 is arranged in descending order from left to right. What will be the sum of the digits which are third from the left and second from the right in the new number thus formed?",
+      "options": [
+        "10",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct answer could not be determined from the provided text.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q075",
+      "serialNumber": 75,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Conditional Coding",
+      "difficulty": "Hard",
+      "question": "যদি 'A' এর অর্থ '+' হয়, 'B' এর অর্থ '×' হয়, 'C' এর অর্থ '÷' হয় এবং 'D' এর অর্থ '–' হয়, তবে নিচের সমীকরণে প্রশ্নবোধক (?) এর স্থানে কী বসবে? 100 A 5 C 14 D 5 B 3 = ?",
+      "options": [
+        "23",
+        "15",
+        "27",
+        "19"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. The value is 23.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q076",
+      "serialNumber": 76,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Syllogism",
+      "subTopic": "Two Statement Conclusions",
+      "difficulty": "Medium",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements. Statements: All watches are belts. No belt is a tie. Conclusions (I): Some watches are ties. Conclusions (II): All ties are belts.",
+      "options": [
+        "Only conclusion (I) follows.",
+        "Only conclusion (II) follows.",
+        "Both conclusions (I) and (II) follow.",
+        "Neither conclusion (I) nor (II) follows."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is Option D. Neither conclusion follows.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q077",
+      "serialNumber": 77,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Series",
+      "subTopic": "Number Series",
+      "difficulty": "Medium",
+      "question": "প্রদত্ত ক্রমের প্রশ্নবোধক চিহ্নের (?) স্থানে কোন সংখ্যাটি বসবে? 27 35 51 75 107 ?",
+      "options": [
+        "125",
+        "147",
+        "148",
+        "174"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is Option B. The next number is 147.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q078",
+      "serialNumber": 78,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "In a certain code language, 'LOSE' is coded as '9432' and 'LOST' is coded as '9364'. What is the code for 'T' in the given code language?",
+      "options": [
+        "3",
+        "9",
+        "6",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The code for 'T' is 6.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q079",
+      "serialNumber": 79,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Blood Relations",
+      "subTopic": "Coded Relations",
+      "difficulty": "Hard",
+      "question": "একটি নির্দিষ্ট কোড ভাষায়, 'A $ B' এর অর্থ 'A হল B এর মেয়ে', 'A + B' এর অর্থ 'A হল B এর ভাই', 'A @ B' এর অর্থ 'A হল B এর স্বামী', 'A ÷ B' এর অর্থ 'A হল B এর বাবা', যদি 'E @ F + G $ M ÷ N' হয়, তাহলে E কীভাবে N এর সাথে সম্পর্কিত?",
+      "options": [
+        "ভাইয়ের মেয়ে",
+        "Option 2",
+        "মেয়ে",
+        "ভাইয়ের স্ত্রী"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is Option A. E is the brother's daughter of N.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    },
+    {
+      "id": "2025_08_11_S1_Q080",
+      "serialNumber": 80,
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Coding Decoding",
+      "subTopic": "Letter Coding",
+      "difficulty": "Medium",
+      "question": "একটি নির্দিষ্ট কোড ভাষায়, 'LOSE' কে '9432' এবং 'LOST' কে '9364' কোড করা হয়। প্রদত্ত কোড ভাষায় 'T' এর কোড কী?",
+      "options": [
+        "3",
+        "9",
+        "6",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is Option C. The code for 'T' is 6.",
+      "marks": 1,
+      "negativeMarking": 0.33
+    }
+  ]
+}
