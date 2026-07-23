@@ -5,126 +5,143 @@
       "questionCount": 40,
       "topics": [
         {
-          "name": "History",
+          "name": "Computer Awareness",
           "subTopics": [
-            "Ancient History",
-            "Medieval History",
-            "Modern History",
-            "Personalities",
-            "Revolts and Rebellions"
+            "Hardware",
+            "MS Windows",
+            "Software"
           ]
         },
         {
-          "name": "Geography",
+          "name": "Current Affairs",
           "subTopics": [
-            "Physical Geography",
-            "Climate",
-            "Indian Geography",
-            "World Geography"
-          ]
-        },
-        {
-          "name": "Polity",
-          "subTopics": [
-            "Constitution",
-            "Fundamental Rights and Duties",
-            "Directive Principles of State Policy",
-            "President Vice President Governor",
-            "Prime Minister Chief Minister Council of Ministers",
-            "Parliament",
-            "Judiciary",
-            "Panchayati Raj and Municipalities",
-            "Elections and Representation of People Act",
-            "Citizenship Writs and PIL",
-            "Centre State Relations"
-          ]
-        },
-        {
-          "name": "Economy",
-          "subTopics": [
-            "Planning",
-            "Reforms",
-            "Agriculture",
-            "Industry",
-            "Infrastructure",
-            "Banking and Finance",
-            "Trade",
-            "Poverty Unemployment and HDI"
-          ]
-        },
-        {
-          "name": "Science - Physics",
-          "subTopics": [
-            "Motion Force Work Energy",
-            "Sound Light Optics",
-            "Magnetism Electricity Current",
-            "Heat and Thermodynamics",
-            "Measurement Units Dimensions",
-            "Nuclear Physics and Radioactivity"
-          ]
-        },
-        {
-          "name": "Science - Chemistry",
-          "subTopics": [
-            "Atomic Structure and Periodic Table",
-            "Chemical Reactions and Equations",
-            "Acids Bases and Salts",
-            "Organic Chemistry",
-            "Inorganic Chemistry",
-            "Environmental Chemistry"
-          ]
-        },
-        {
-          "name": "Science - Biology",
-          "subTopics": [
-            "Human Body",
-            "Genetics and Evolution",
-            "Plant Biology",
-            "Ecology Food Chain Biodiversity",
-            "Biotechnology Enzymes Vitamins",
-            "Microorganisms and Immunity"
+            "Appointments",
+            "Awards and Honours",
+            "Defence and Security",
+            "Government Schemes",
+            "Science and Technology News",
+            "Sports",
+            "State and National Events"
           ]
         },
         {
           "name": "Current Affairs 2024-2025",
           "subTopics": [
-            "National Events",
-            "International Events",
-            "Sports",
-            "Science and Technology",
             "Books and Authors",
-            "Obituaries"
+            "International Events",
+            "National Events",
+            "Science and Technology",
+            "Sports"
           ]
         },
         {
-          "name": "Static GK",
+          "name": "Economy",
           "subTopics": [
-            "National Symbols Capitals Currencies",
-            "First in India",
-            "Important Dates and Days",
-            "Official Languages",
-            "UNESCO Sites"
+            "Agriculture",
+            "Banking and Finance",
+            "Indian Economy",
+            "Industry",
+            "Infrastructure",
+            "International Organisations",
+            "International Trade",
+            "Planning",
+            "Poverty Unemployment and HDI",
+            "Reforms",
+            "Sustainable Development",
+            "Trade"
           ]
         },
         {
           "name": "Environment and Ecology",
           "subTopics": [
-            "Climate Change and Global Warming",
             "Biosphere Reserves National Parks Wildlife Sanctuaries",
+            "Climate Change and Global Warming",
             "Endangered Species",
-            "Pollution",
             "Environmental Acts and Conventions"
           ]
         },
         {
-          "name": "Computer Awareness",
+          "name": "Geography",
           "subTopics": [
-            "Hardware",
-            "Software",
-            "Networking",
-            "Cybersecurity",
-            "MS Windows",
-            "Abbreviations"
+            "Agriculture and Soil",
+            "Climate",
+            "Indian Geography",
+            "Physical Geography",
+            "Population and Settlement",
+            "Vegetation and Wildlife",
+            "World Geography"
+          ]
+        },
+        {
+          "name": "History",
+          "subTopics": [
+            "Ancient History",
+            "Medieval History",
+            "Modern History"
+          ]
+        },
+        {
+          "name": "Polity",
+          "subTopics": [
+            "Centre State Relations",
+            "Citizenship Writs and PIL",
+            "Constitution",
+            "Directive Principles of State Policy",
+            "Elections and Representation of People Act",
+            "Fundamental Rights and Duties",
+            "Judiciary",
+            "Laws and Acts",
+            "Panchayati Raj and Municipalities",
+            "Parliament",
+            "President Vice President Governor",
+            "Prime Minister Chief Minister Council of Ministers"
+          ]
+        },
+        {
+          "name": "Science - Biology",
+          "subTopics": [
+            "Biotechnology Enzymes Vitamins",
+            "Genetics and Evolution",
+            "Human Body",
+            "Microorganisms and Immunity",
+            "Plant Biology"
+          ]
+        },
+        {
+          "name": "Science - Chemistry",
+          "subTopics": [
+            "Acids Bases and Salts",
+            "Atomic Structure and Periodic Table",
+            "Chemical Reactions and Equations",
+            "Inorganic Chemistry",
+            "Organic Chemistry"
+          ]
+        },
+        {
+          "name": "Science - Physics",
+          "subTopics": [
+            "Atomic Structure",
+            "Heat and Thermodynamics",
+            "Motion Force Work Energy",
+            "Nuclear Physics and Radioactivity",
+            "Sound Light Optics"
+          ]
+        },
+        {
+          "name": "Science and Technology",
+          "subTopics": [
+            "Biology and Life Sciences",
+            "Chemistry",
+            "Computers and Technology"
+          ]
+        },
+        {
+          "name": "Static GK",
+          "subTopics": [
+            "First in India",
+            "Important Dates and Days",
+            "National Symbols Capitals Currencies",
+            "Official Languages"
           ]
         }
       ]
@@ -134,98 +151,24 @@
       "questionCount": 30,
       "topics": [
         {
-          "name": "Number System",
+          "name": "Age Problems",
           "subTopics": [
-            "Divisibility and Remainders",
-            "LCM and HCF",
-            "Prime Numbers",
-            "Fractions and Decimals"
+            "Age Problems"
           ]
         },
         {
           "name": "Algebra",
           "subTopics": [
+            "Algebra",
             "Linear Equations",
-            "Quadratic Equations",
             "Polynomials",
-            "Exponents and Powers"
+            "Quadratic Equations"
           ]
         },
         {
-          "name": "Geometry",
+          "name": "Arithmetic",
           "subTopics": [
-            "Lines and Angles",
-            "Triangles",
-            "Quadrilaterals",
-            "Circles",
-            "Polygons"
-          ]
-        },
-        {
-          "name": "Trigonometry",
-          "subTopics": [
-            "Trigonometric Ratios",
-            "Identities",
-            "Heights and Distances"
-          ]
-        },
-        {
-          "name": "Mensuration",
-          "subTopics": [
-            "2D Shapes",
-            "3D Shapes"
-          ]
-        },
-        {
-          "name": "Data Interpretation",
-          "subTopics": [
-            "Tables",
-            "Charts"
-          ]
-        },
-        {
-          "name": "Percentage",
-          "subTopics": [
-            "Basic Percentage",
-            "Profit and Loss",
-            "Discount"
-          ]
-        },
-        {
-          "name": "Time and Work",
-          "subTopics": [
-            "Work Rate",
-            "Pipes and Cisterns"
-          ]
-        },
-        {
-          "name": "Time Speed and Distance",
-          "subTopics": [
-            "Relative Speed",
-            "Boats and Streams",
-            "Trains"
-          ]
-        },
-        {
-          "name": "Profit and Loss",
-          "subTopics": [
-            "Cost Price and Selling Price",
-            "Marked Price and Discount",
-            "Successive Discounts"
-          ]
-        },
-        {
-          "name": "Simple and Compound Interest",
-          "subTopics": [
-            "Basic SI and CI",
-            "Compounding Periods"
-          ]
-        },
-        {
-          "name": "Ratio and Proportion",
-          "subTopics": [
-            "Part to Part and Part to Whole",
-            "Direct and Inverse Proportion"
+            "Squares"
           ]
         },
         {
@@ -235,9 +178,90 @@
           ]
         },
         {
-          "name": "Mixture and Allegation",
+          "name": "Discount",
           "subTopics": [
-            "Mixture and Allegation"
+            "Discount"
+          ]
+        },
+        {
+          "name": "Geometry",
+          "subTopics": [
+            "Geometry",
+            "Polygons",
+            "Quadrilaterals",
+            "Triangles"
+          ]
+        },
+        {
+          "name": "LCM and HCF",
+          "subTopics": [
+            "LCM and HCF"
+          ]
+        },
+        {
+          "name": "Linear Equations",
+          "subTopics": [
+            "Linear Equations"
+          ]
+        },
+        {
+          "name": "Mensuration",
+          "subTopics": [
+            "2D Shapes",
+            "3D Shapes",
+            "Mensuration"
+          ]
+        },
+        {
+          "name": "Number System",
+          "subTopics": [
+            "Divisibility and Remainders",
+            "Fractions and Decimals",
+            "LCM and HCF",
+            "Number System",
+            "Prime Numbers"
+          ]
+        },
+        {
+          "name": "Partnership",
+          "subTopics": [
+            "Partnership"
+          ]
+        },
+        {
+          "name": "Percentage",
+          "subTopics": [
+            "Basic Percentage",
+            "Discount",
+            "Percentage"
+          ]
+        },
+        {
+          "name": "Profit and Loss",
+          "subTopics": [
+            "Cost Price and Selling Price",
+            "Discount",
+            "Profit and Loss"
+          ]
+        },
+        {
+          "name": "Ratio and Proportion",
+          "subTopics": [
+            "Direct and Inverse Proportion",
+            "Part to Part and Part to Whole",
+            "Ratio and Proportion"
+          ]
+        },
+        {
+          "name": "Simple Interest",
+          "subTopics": [
+            "Simple Interest"
+          ]
+        },
+        {
+          "name": "Simple and Compound Interest",
+          "subTopics": [
+            "Basic SI and CI"
           ]
         },
         {
@@ -247,21 +271,46 @@
           ]
         },
         {
+          "name": "Speed, Time and Distance",
+          "subTopics": [
+            "Speed, Time and Distance"
+          ]
+        },
+        {
+          "name": "Statistics",
+          "subTopics": [
+            "Average",
+            "Statistics"
+          ]
+        },
+        {
           "name": "Surds and Indices",
           "subTopics": [
             "Surds and Indices"
           ]
         },
         {
-          "name": "Permutation and Combination",
+          "name": "Time Speed and Distance",
           "subTopics": [
-            "Permutation and Combination"
+            "Relative Speed",
+            "Trains"
           ]
         },
         {
-          "name": "Probability",
+          "name": "Time and Work",
           "subTopics": [
-            "Probability"
+            "Pipes and Cisterns",
+            "Time and Work",
+            "Work Rate"
+          ]
+        },
+        {
+          "name": "Trigonometry",
+          "subTopics": [
+            "Heights and Distances",
+            "Identities",
+            "Trigonometric Ratios",
+            "Trigonometry"
           ]
         }
       ]
@@ -273,103 +322,88 @@
         {
           "name": "Analogy",
           "subTopics": [
+            "Analogy",
             "Letter Analogy",
-            "Number Analogy",
-            "Mixed Analogy"
+            "Mixed Analogy",
+            "Number Analogy"
           ]
         },
         {
-          "name": "Classification",
+          "name": "Arrangement and Pattern",
           "subTopics": [
-            "Letter Classification",
-            "Number Classification",
-            "Word Classification"
-          ]
-        },
-        {
-          "name": "Series",
-          "subTopics": [
-            "Number Series",
-            "Letter Series",
-            "Mixed Series",
-            "Missing Number in Series"
-          ]
-        },
-        {
-          "name": "Coding Decoding",
-          "subTopics": [
-            "Letter Coding",
-            "Number Coding",
-            "Symbol Coding",
-            "Conditional Coding"
+            "Arrangement and Pattern"
           ]
         },
         {
           "name": "Blood Relations",
           "subTopics": [
-            "Family Tree",
-            "Coded Relations"
+            "Blood Relations",
+            "Coded Relations",
+            "Family Tree"
+          ]
+        },
+        {
+          "name": "Classification",
+          "subTopics": [
+            "Letter Classification"
+          ]
+        },
+        {
+          "name": "Coding Decoding",
+          "subTopics": [
+            "Conditional Coding",
+            "Letter Coding",
+            "Number Coding"
+          ]
+        },
+        {
+          "name": "Coding-Decoding",
+          "subTopics": [
+            "Coding-Decoding"
           ]
         },
         {
           "name": "Direction and Distance",
           "subTopics": [
             "Basic Directions",
-            "Right Left Turns",
+            "Direction and Distance",
             "Shortest Distance"
           ]
         },
         {
-          "name": "Syllogism",
+          "name": "Mathematical Operations",
           "subTopics": [
-            "Two Statement Conclusions",
-            "Three Statement Conclusions"
+            "Mathematical Operations"
           ]
         },
         {
           "name": "Matrix",
           "subTopics": [
-            "Matrix Arrangement",
-            "Grid Pattern"
+            "Matrix Arrangement"
           ]
         },
         {
-          "name": "Venn Diagram",
+          "name": "Number Series",
           "subTopics": [
-            "Logical Representation",
-            "Set Operations"
+            "Number Series"
           ]
         },
         {
-          "name": "Logical Reasoning",
+          "name": "Number and Alphabet Series",
           "subTopics": [
-            "Statement and Assumptions",
-            "Statement and Conclusions",
-            "Statement and Arguments",
-            "Cause and Effect"
+            "Number and Alphabet Series"
           ]
         },
         {
-          "name": "Non Verbal Reasoning",
+          "name": "Odd One Out",
           "subTopics": [
-            "Mirror Image",
-            "Water Image",
-            "Figure Counting",
-            "Embedded Figures"
-          ]
-        },
-        {
-          "name": "Missing Numbers",
-          "subTopics": [
-            "Number Puzzles",
-            "Matrix Puzzles"
+            "Odd One Out"
           ]
         },
         {
           "name": "Puzzle",
           "subTopics": [
-            "Seating Arrangement",
-            "Floor Puzzle"
+            "Seating Arrangement"
           ]
         },
         {
@@ -379,9 +413,18 @@
           ]
         },
         {
-          "name": "Alphabet Test",
+          "name": "Series",
           "subTopics": [
-            "Alphabet Test"
+            "Letter Series",
+            "Mixed Series",
+            "Number Series"
+          ]
+        },
+        {
+          "name": "Syllogism",
+          "subTopics": [
+            "Syllogism",
+            "Two Statement Conclusions"
           ]
         }
       ]

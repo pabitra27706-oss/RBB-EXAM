@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   PRACTICE.JS — Practice mode with multi-select filters (FIXED)
+   PRACTICE.JS — Practice mode with multi-select filters
 ═══════════════════════════════════════════════════════════════ */
 
 const Practice = (() => {
@@ -34,23 +34,6 @@ const Practice = (() => {
   };
 
   /* ─────────────────────────────────────────────────────────────
-     HELPERS — String comparison utilities
-  ───────────────────────────────────────────────────────────── */
-
-  function _normalize(str) {
-    return (str || '').toLowerCase().trim();
-  }
-
-  function _matches(value1, value2) {
-    return _normalize(value1) === _normalize(value2);
-  }
-
-  function _arrayContains(array, value) {
-    const normalizedValue = _normalize(value);
-    return array.some(item => _normalize(item) === normalizedValue);
-  }
-
-  /* ─────────────────────────────────────────────────────────────
      INIT
   ───────────────────────────────────────────────────────────── */
 
@@ -69,151 +52,6 @@ const Practice = (() => {
     }
 
     await _updatePreview();
-
-    // OPTIONAL: Uncomment to debug taxonomy vs questions
-    // await _debugTaxonomyMismatches();
-  }
-
-  /* ─────────────────────────────────────────────────────────────
-     DEBUG UTILITY — Check taxonomy vs actual question data
-  ───────────────────────────────────────────────────────────── */
-
-  async function _debugTaxonomyMismatches() {
-    const shiftIds     = _state.shiftsIndex.map(s => s.id);
-    const shiftDataMap = await Storage.loadMultipleShifts(shiftIds);
-
-    let allQuestions = [];
-    Object.values(shiftDataMap).forEach(data => {
-      if (data && data.questions) {
-        allQuestions = allQuestions.concat(data.questions);
-      }
-    });
-
-    // Get all unique values from question files
-    const qSubjects  = [...new Set(allQuestions.map(q => q.subject))].sort();
-    const qTopics    = [...new Set(allQuestions.map(q => q.topic))].sort();
-    const qSubTopics = [...new Set(allQuestions.map(q => q.subTopic))].sort();
-
-    // Get all unique values from taxonomy
-    const tSubjects  = _state.taxonomy.subjects.map(s => s.name).sort();
-    const tTopics    = _state.taxonomy.subjects
-      .flatMap(s => s.topics.map(t => t.name)).sort();
-    const tSubTopics = _state.taxonomy.subjects
-      .flatMap(s => s.topics.flatMap(t => t.subTopics)).sort();
-
-    console.group('🔍 TAXONOMY vs QUESTIONS MISMATCH REPORT');
-
-    // Check subjects
-    console.group('📚 SUBJECTS');
-    qSubjects.forEach(s => {
-      const match = _arrayContains(tSubjects, s);
-      console.log(match ? '✅' : '❌', `"${s}"`);
-    });
-    console.groupEnd();
-
-    // Check topics
-    console.group('📌 TOPICS');
-    qTopics.forEach(t => {
-      const match = _arrayContains(tTopics, t);
-      console.log(match ? '✅' : '❌', `"${t}"`);
-    });
-    console.groupEnd();
-
-    // Check subtopics
-    console.group('📝 SUBTOPICS');
-    qSubTopics.forEach(st => {
-      const match = _arrayContains(tSubTopics, st);
-      console.log(match ? '✅' : '❌', `"${st}"`);
-    });
-    console.groupEnd();
-
-    console.groupEnd();
-  }
-
-  /* ─────────────────────────────────────────────────────────────
-     AUTO-GENERATE TAXONOMY (Run once to rebuild taxonomy.json)
-  ───────────────────────────────────────────────────────────── */
-
-  async function generateTaxonomyFromQuestions() {
-    const shiftsIndex  = await Storage.loadShiftsIndex();
-    const shiftIds     = shiftsIndex.map(s => s.id);
-    const shiftDataMap = await Storage.loadMultipleShifts(shiftIds);
-
-    let allQuestions = [];
-    Object.values(shiftDataMap).forEach(data => {
-      if (data && data.questions) {
-        allQuestions = allQuestions.concat(data.questions);
-      }
-    });
-
-    // Build taxonomy structure
-    const taxonomyMap = {};
-
-    allQuestions.forEach(q => {
-      const subject  = (q.subject  || '').trim();
-      const topic    = (q.topic    || '').trim();
-      const subTopic = (q.subTopic || '').trim();
-
-      if (!subject) return;
-
-      if (!taxonomyMap[subject]) {
-        taxonomyMap[subject] = {};
-      }
-
-      if (!taxonomyMap[subject][topic]) {
-        taxonomyMap[subject][topic] = new Set();
-      }
-
-      if (subTopic) {
-        taxonomyMap[subject][topic].add(subTopic);
-      }
-    });
-
-    // Define subject order
-    const subjectOrder = [
-      'General Awareness',
-      'Mathematics',
-      'General Intelligence and Reasoning'
-    ];
-
-    // Define question counts per subject
-    const questionCounts = {
-      'General Awareness':                  40,
-      'Mathematics':                        30,
-      'General Intelligence and Reasoning': 30
-    };
-
-    const taxonomy = {
-      subjects: subjectOrder
-        .filter(subjectName => taxonomyMap[subjectName])
-        .map(subjectName => {
-          const topicsMap = taxonomyMap[subjectName];
-
-          const topics = Object.keys(topicsMap)
-            .sort()
-            .map(topicName => ({
-              name:      topicName,
-              subTopics: Array.from(topicsMap[topicName]).sort()
-            }));
-
-          return {
-            name:          subjectName,
-            questionCount: questionCounts[subjectName] || 0,
-            topics
-          };
-        })
-    };
-
-    const json = JSON.stringify(taxonomy, null, 2);
-    
-    console.log('═══════════════════════════════════════════');
-    console.log('📋 GENERATED TAXONOMY.JSON');
-    console.log('═══════════════════════════════════════════');
-    console.log(json);
-    console.log('═══════════════════════════════════════════');
-    console.log('Copy the above JSON and save it as taxonomy.json');
-
-    return taxonomy;
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -320,23 +158,18 @@ const Practice = (() => {
     const container = document.getElementById('practice-topic-chips');
     if (!container || !section) return;
 
-    // ✅ FIX: Use case-insensitive matching
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
       : _state.taxonomy.subjects.filter(s =>
-          _arrayContains(_state.selectedSubjects, s.name)
+          _state.selectedSubjects.includes(s.name)
         );
 
-    const topicsMap = new Map();
+    const topics = [];
     subjects.forEach(s => {
       s.topics.forEach(t => {
-        if (!topicsMap.has(_normalize(t.name))) {
-          topicsMap.set(_normalize(t.name), t);
-        }
+        if (!topics.find(x => x.name === t.name)) topics.push(t);
       });
     });
-
-    const topics = Array.from(topicsMap.values());
 
     container.innerHTML = '';
 
@@ -363,26 +196,23 @@ const Practice = (() => {
     const container = document.getElementById('practice-subtopic-chips');
     if (!container || !section) return;
 
-    // ✅ FIX: Use case-insensitive matching
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
       : _state.taxonomy.subjects.filter(s =>
-          _arrayContains(_state.selectedSubjects, s.name)
+          _state.selectedSubjects.includes(s.name)
         );
 
-    const subTopicsSet = new Set();
+    const subTopics = [];
     subjects.forEach(s => {
       s.topics.forEach(t => {
         if (_state.selectedTopics.length === 0 ||
-            _arrayContains(_state.selectedTopics, t.name)) {
+            _state.selectedTopics.includes(t.name)) {
           t.subTopics.forEach(st => {
-            subTopicsSet.add(st);
+            if (!subTopics.includes(st)) subTopics.push(st);
           });
         }
       });
     });
-
-    const subTopics = Array.from(subTopicsSet).sort();
 
     container.innerHTML = '';
 
@@ -532,45 +362,22 @@ const Practice = (() => {
     const flaggedMap    = Storage.getFlags();
     const wrongIds      = Storage.getAllWrongQuestionIds(_state.shiftsIndex);
 
-    // ✅ FIX: Use case-insensitive, trimmed matching
     _state.matchingQuestions = allQuestions.filter(q => {
-      
-      // Subject filter
-      if (_state.selectedSubjects.length > 0) {
-        if (!_arrayContains(_state.selectedSubjects, q.subject)) {
-          return false;
-        }
-      }
+      if (_state.selectedSubjects.length > 0 &&
+          !_state.selectedSubjects.includes(q.subject)) return false;
+      if (_state.selectedTopics.length > 0 &&
+          !_state.selectedTopics.includes(q.topic)) return false;
+      if (_state.selectedSubTopics.length > 0 &&
+          !_state.selectedSubTopics.includes(q.subTopic)) return false;
+      if (_state.selectedDiffs.length > 0 &&
+          !_state.selectedDiffs.includes(q.difficulty)) return false;
 
-      // Topic filter
-      if (_state.selectedTopics.length > 0) {
-        if (!_arrayContains(_state.selectedTopics, q.topic)) {
-          return false;
-        }
-      }
-
-      // SubTopic filter
-      if (_state.selectedSubTopics.length > 0) {
-        if (!_arrayContains(_state.selectedSubTopics, q.subTopic)) {
-          return false;
-        }
-      }
-
-      // Difficulty filter
-      if (_state.selectedDiffs.length > 0) {
-        if (!_arrayContains(_state.selectedDiffs, q.difficulty)) {
-          return false;
-        }
-      }
-
-      // Bookmarked/Flagged/Wrong filter
       if (_state.onlyBookmarked || _state.onlyFlagged || _state.onlyWrong) {
         const bm = _state.onlyBookmarked && bookmarkedIds.includes(q.id);
         const fl = _state.onlyFlagged    && !!flaggedMap[q.id];
         const wr = _state.onlyWrong      && wrongIds.includes(q.id);
         if (!bm && !fl && !wr) return false;
       }
-
       return true;
     });
   }
@@ -619,7 +426,7 @@ const Practice = (() => {
     const practiceConfig = {
       source:        'practice',
       isCustom:      true,
-      studyMode:     true,
+      studyMode:     true,   // <── ADDED
       questions,
       questionCount: questions.length,
       timerEnabled:  _state.timerEnabled,
@@ -634,10 +441,6 @@ const Practice = (() => {
   /* ─────────────────────────────────────────────────────────────
      PUBLIC API
   ───────────────────────────────────────────────────────────── */
-  return { 
-    init,
-    generateTaxonomyFromQuestions,  // ← Export for manual use
-    debugMismatches: _debugTaxonomyMismatches  // ← Export for debugging
-  };
+  return { init };
 
 })();

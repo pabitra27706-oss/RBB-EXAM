@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxonomy Generator & Analyzer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      opacity: 0.9;
+    }
+
+    .controls {
+      padding: 30px;
+      background: #f8f9fa;
+      border-bottom: 2px solid #e9ecef;
+    }
+
+    .control-group {
+      margin-bottom: 20px;
+    }
+
+    .control-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #495057;
+    }
+
+    input[type="file"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: 2px dashed #dee2e6;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+    }
+
+    input[type="file"]:hover {
+      border-color: #667eea;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-success {
+      background: #28a745;
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #218838;
+      transform: translateY(-2px);
+    }
+
+    .btn-info {
+      background: #17a2b8;
+      color: white;
+    }
+
+    .btn-info:hover {
+      background: #138496;
+      transform: translateY(-2px);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none !important;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+    }
+
+    .section h2 {
+      color: #495057;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #667eea;
+    }
+
+    .stat-label {
+      color: #6c757d;
+      margin-top: 5px;
+    }
+
+    .subject-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .subject-card h3 {
+      color: #667eea;
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .topic-item {
+      margin-bottom: 15px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      border-left: 3px solid #28a745;
+    }
+
+    .topic-name {
+      font-weight: 600;
+      color: #495057;
+      margin-bottom: 8px;
+    }
+
+    .subtopics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .subtopic-tag {
+      background: #e9ecef;
+      padding: 5px 12px;
+      border-radius: 15px;
+      font-size: 0.85rem;
+      color: #495057;
+    }
+
+    .code-block {
+      background: #2d2d2d;
+      color: #f8f8f2;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 6px 12px;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+
+    .copy-btn:hover {
+      background: #5568d3;
+    }
+
+    .mismatch-list {
+      list-style: none;
+    }
+
+    .mismatch-item {
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .mismatch-item.match {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .mismatch-item.no-match {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    .icon {
+      font-size: 1.2rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🎓 Railway Exam Taxonomy Generator</h1>
+      <p>Analyze your question files and generate perfect taxonomy.json</p>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="control-group">
+        <label for="shifts-index">📋 Upload shifts-index.json</label>
+        <input type="file" id="shifts-index" accept=".json">
+      </div>
+
+      <div class="control-group">
+        <label for="question-files">📝 Upload all question JSON files (multiple selection)</label>
+        <input type="file" id="question-files" accept=".json" multiple>
+      </div>
+
+      <div class="control-group">
+        <label for="taxonomy-file">🗂️ Upload existing taxonomy.json (optional, for comparison)</label>
+        <input type="file" id="taxonomy-file" accept=".json">
+      </div>
+
+      <button class="btn btn-primary" id="analyze-btn" disabled>
+        🔍 Analyze Questions
+      </button>
+      <button class="btn btn-success" id="generate-btn" disabled>
+        📋 Generate Taxonomy
+      </button>
+      <button class="btn btn-info" id="download-btn" disabled>
+        💾 Download taxonomy.json
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="content">
+      <p style="text-align: center; color: #6c757d; padding: 40px;">
+        Upload your files to get started
+      </p>
+    </div>
+  </div>
+
+  <script>
+    let questionFiles = [];
+    let shiftsIndex = null;
+    let existingTaxonomy = null;
+    let generatedTaxonomy = null;
+    let allQuestions = [];
+
+    // File inputs
+    const shiftsIndexInput = document.getElementById('shifts-index');
+    const questionFilesInput = document.getElementById('question-files');
+    const taxonomyFileInput = document.getElementById('taxonomy-file');
+    
+    // Buttons
+    const analyzeBtn = document.getElementById('analyze-btn');
+    const generateBtn = document.getElementById('generate-btn');
+    const downloadBtn = document.getElementById('download-btn');
+    
+    // Content area
+    const content = document.getElementById('content');
+
+    // Event listeners
+    shiftsIndexInput.addEventListener('change', handleShiftsIndexUpload);
+    questionFilesInput.addEventListener('change', handleQuestionFilesUpload);
+    taxonomyFileInput.addEventListener('change', handleTaxonomyUpload);
+    analyzeBtn.addEventListener('click', analyzeQuestions);
+    generateBtn.addEventListener('click', generateTaxonomy);
+    downloadBtn.addEventListener('click', downloadTaxonomy);
+
+    function handleShiftsIndexUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          shiftsIndex = JSON.parse(event.target.result);
+          checkReadyToAnalyze();
+        } catch (error) {
+          alert('Error parsing shifts-index.json: ' + error.message);
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function handleQuestionFilesUpload(e) {
+      questionFiles = Array.from(e.target.files);
+      checkReadyToAnalyze();
+    }
+
+    function handleTaxonomyUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          existingTaxonomy = JSON.parse(event.target.result);
+        } catch (error) {
+          alert('Error parsing taxonomy.json: ' + error.message);
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function checkReadyToAnalyze() {
+      analyzeBtn.disabled = !(questionFiles.length > 0);
+    }
+
+    async function analyzeQuestions() {
+      content.innerHTML = '<div class="loading"><div class="spinner"></div><p style="margin-top: 20px;">Analyzing questions...</p></div>';
+
+      allQuestions = [];
+
+      // Read all question files
+      for (const file of questionFiles) {
+        try {
+          const text = await file.text();
+          const data = JSON.parse(text);
+          if (data.questions && Array.isArray(data.questions)) {
+            allQuestions = allQuestions.concat(data.questions);
+          }
+        } catch (error) {
+          console.error('Error reading file:', file.name, error);
+        }
+      }
+
+      // Analyze data
+      const subjects = [...new Set(allQuestions.map(q => q.subject))].filter(Boolean).sort();
+      const topics = [...new Set(allQuestions.map(q => q.topic))].filter(Boolean).sort();
+      const subTopics = [...new Set(allQuestions.map(q => q.subTopic))].filter(Boolean).sort();
+
+      // Build taxonomy structure
+      const taxonomyMap = {};
+
+      allQuestions.forEach(q => {
+        const subject = (q.subject || '').trim();
+        const topic = (q.topic || '').trim();
+        const subTopic = (q.subTopic || '').trim();
+
+        if (!subject) return;
+
+        if (!taxonomyMap[subject]) {
+          taxonomyMap[subject] = {};
+        }
+
+        if (!taxonomyMap[subject][topic]) {
+          taxonomyMap[subject][topic] = new Set();
+        }
+
+        if (subTopic) {
+          taxonomyMap[subject][topic].add(subTopic);
+        }
+      });
+
+      // Display results
+      displayAnalysisResults(subjects, topics, subTopics, taxonomyMap);
+
+      generateBtn.disabled = false;
+    }
+
+    function displayAnalysisResults(subjects, topics, subTopics, taxonomyMap) {
+      let html = '';
+
+      // Stats
+      html += `
+        <div class="section">
+          <h2>📊 Statistics</h2>
+          <div class="stats">
+            <div class="stat-card">
+              <div class="stat-number">${allQuestions.length}</div>
+              <div class="stat-label">Total Questions</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">${subjects.length}</div>
+              <div class="stat-label">Subjects</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">${topics.length}</div>
+              <div class="stat-label">Topics</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">${subTopics.length}</div>
+              <div class="stat-label">SubTopics</div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Subject breakdown
+      html += '<div class="section"><h2>📚 Subject Breakdown</h2>';
+
+      subjects.forEach(subject => {
+        const topicsMap = taxonomyMap[subject];
+        const topicNames = Object.keys(topicsMap).sort();
+        const questionCount = allQuestions.filter(q => q.subject === subject).length;
+
+        html += `
+          <div class="subject-card">
+            <h3>
+              <span>${subject}</span>
+              <span style="margin-left: auto; font-size: 0.9rem; color: #6c757d;">${questionCount} questions</span>
+            </h3>
+        `;
+
+        topicNames.forEach(topicName => {
+          const subTopicsList = Array.from(topicsMap[topicName]).sort();
+          const topicQuestionCount = allQuestions.filter(q => 
+            q.subject === subject && q.topic === topicName
+          ).length;
+
+          html += `
+            <div class="topic-item">
+              <div class="topic-name">
+                📌 ${topicName}
+                <span style="font-weight: normal; color: #6c757d; margin-left: 10px;">${topicQuestionCount} questions</span>
+              </div>
+              <div class="subtopics">
+                ${subTopicsList.map(st => `<span class="subtopic-tag">${st}</span>`).join('')}
+              </div>
+            </div>
+          `;
+        });
+
+        html += '</div>';
+      });
+
+      html += '</div>';
+
+      // Comparison with existing taxonomy
+      if (existingTaxonomy) {
+        html += displayComparison(taxonomyMap);
+      }
+
+      content.innerHTML = html;
+    }
+
+    function displayComparison(taxonomyMap) {
+      const tSubjects = existingTaxonomy.subjects.map(s => s.name);
+      const tTopics = existingTaxonomy.subjects.flatMap(s => s.topics.map(t => t.name));
+      const tSubTopics = existingTaxonomy.subjects.flatMap(s => 
+        s.topics.flatMap(t => t.subTopics)
+      );
+
+      const qSubjects = Object.keys(taxonomyMap);
+      const qTopics = Object.values(taxonomyMap).flatMap(t => Object.keys(t));
+      const qSubTopics = Object.values(taxonomyMap).flatMap(topics =>
+        Object.values(topics).flatMap(st => Array.from(st))
+      );
+
+      let html = '<div class="section"><h2>🔍 Comparison with Existing Taxonomy</h2>';
+
+      // Subjects comparison
+      html += '<h3 style="margin-bottom: 15px;">Subjects</h3>';
+      html += '<ul class="mismatch-list">';
+      qSubjects.forEach(s => {
+        const match = tSubjects.includes(s);
+        html += `
+          <li class="mismatch-item ${match ? 'match' : 'no-match'}">
+            <span class="icon">${match ? '✅' : '❌'}</span>
+            <span>"${s}"</span>
+          </li>
+        `;
+      });
+      html += '</ul>';
+
+      // Topics comparison
+      html += '<h3 style="margin: 25px 0 15px 0;">Topics</h3>';
+      html += '<ul class="mismatch-list">';
+      [...new Set(qTopics)].sort().forEach(t => {
+        const match = tTopics.includes(t);
+        html += `
+          <li class="mismatch-item ${match ? 'match' : 'no-match'}">
+            <span class="icon">${match ? '✅' : '❌'}</span>
+            <span>"${t}"</span>
+          </li>
+        `;
+      });
+      html += '</ul>';
+
+      // SubTopics comparison
+      html += '<h3 style="margin: 25px 0 15px 0;">SubTopics (showing mismatches only)</h3>';
+      html += '<ul class="mismatch-list">';
+      const mismatches = [...new Set(qSubTopics)].filter(st => !tSubTopics.includes(st)).sort();
+      if (mismatches.length === 0) {
+        html += '<li class="mismatch-item match"><span class="icon">✅</span><span>All subtopics match!</span></li>';
+      } else {
+        mismatches.forEach(st => {
+          html += `
+            <li class="mismatch-item no-match">
+              <span class="icon">❌</span>
+              <span>"${st}"</span>
+            </li>
+          `;
+        });
+      }
+      html += '</ul>';
+
+      html += '</div>';
+
+      return html;
+    }
+
+    function generateTaxonomy() {
+      const taxonomyMap = {};
+
+      allQuestions.forEach(q => {
+        const subject = (q.subject || '').trim();
+        const topic = (q.topic || '').trim();
+        const subTopic = (q.subTopic || '').trim();
+
+        if (!subject) return;
+
+        if (!taxonomyMap[subject]) {
+          taxonomyMap[subject] = {};
+        }
+
+        if (!taxonomyMap[subject][topic]) {
+          taxonomyMap[subject][topic] = new Set();
+        }
+
+        if (subTopic) {
+          taxonomyMap[subject][topic].add(subTopic);
+        }
+      });
+
+      const subjectOrder = [
+        'General Awareness',
+        'Mathematics',
+        'General Intelligence and Reasoning'
+      ];
+
+      const questionCounts = {
+        'General Awareness': 40,
+        'Mathematics': 30,
+        'General Intelligence and Reasoning': 30
+      };
+
+      generatedTaxonomy = {
+        subjects: subjectOrder
+          .filter(subjectName => taxonomyMap[subjectName])
+          .map(subjectName => {
+            const topicsMap = taxonomyMap[subjectName];
+
+            const topics = Object.keys(topicsMap)
+              .sort()
+              .map(topicName => ({
+                name: topicName,
+                subTopics: Array.from(topicsMap[topicName]).sort()
+              }));
+
+            return {
+              name: subjectName,
+              questionCount: questionCounts[subjectName] || 0,
+              topics
+            };
+          })
+      };
+
+      displayGeneratedTaxonomy();
+      downloadBtn.disabled = false;
+    }
+
+    function displayGeneratedTaxonomy() {
+      const json = JSON.stringify(generatedTaxonomy, null, 2);
+
+      const html = `
+        <div class="section">
+          <h2>✅ Generated taxonomy.json</h2>
+          <p style="margin-bottom: 15px; color: #6c757d;">
+            Copy this JSON and save it as <strong>taxonomy.json</strong> in your project
+          </p>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyTaxonomy()">Copy</button>
+            <pre id="taxonomy-output">${escapeHtml(json)}</pre>
+          </div>
+        </div>
+      `;
+
+      content.innerHTML += html;
+    }
+
+    function copyTaxonomy() {
+      const text = JSON.stringify(generatedTaxonomy, null, 2);
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Taxonomy copied to clipboard!');
+      });
+    }
+
+    function downloadTaxonomy() {
+      const json = JSON.stringify(generatedTaxonomy, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'taxonomy.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+  </script>
+
+</body>
+</html>
