@@ -1,8 +1,15 @@
 /* ═══════════════════════════════════════════════════════════════
-   PRACTICE.JS — Practice mode with multi-select filters (FIXED v2)
+   PRACTICE.JS — Practice mode with multi-select filters
+   VERSION: 3.0 - Full Debug Edition
 ═══════════════════════════════════════════════════════════════ */
 
 const Practice = (() => {
+
+  /* ─────────────────────────────────────────────────────────────
+     DEBUG MODE - Set to false to disable console logs
+  ───────────────────────────────────────────────────────────── */
+  
+  window.DEBUG_PRACTICE = true;
 
   /* ─────────────────────────────────────────────────────────────
      STATE
@@ -50,13 +57,24 @@ const Practice = (() => {
     return array.some(item => _normalize(item) === normalizedValue);
   }
 
+  function _debugLog(...args) {
+    if (window.DEBUG_PRACTICE) {
+      console.log(...args);
+    }
+  }
+
   /* ─────────────────────────────────────────────────────────────
      INIT
   ───────────────────────────────────────────────────────────── */
 
   async function init() {
+    _debugLog('🚀 Practice.init() started');
+
     _state.shiftsIndex = await Storage.loadShiftsIndex();
     _state.taxonomy    = await Storage.loadTaxonomy();
+
+    _debugLog('📋 Shifts loaded:', _state.shiftsIndex.length);
+    _debugLog('📚 Taxonomy loaded:', _state.taxonomy);
 
     const dateSet  = new Set(_state.shiftsIndex.map(s => s.date));
     _state.allDates = Array.from(dateSet).sort();
@@ -70,8 +88,7 @@ const Practice = (() => {
 
     await _updatePreview();
 
-    // OPTIONAL: Uncomment to debug
-    // console.log('Taxonomy loaded:', _state.taxonomy);
+    _debugLog('✅ Practice.init() completed');
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -80,7 +97,10 @@ const Practice = (() => {
 
   function _buildDateChips() {
     const container = document.getElementById('practice-date-chips');
-    if (!container) return;
+    if (!container) {
+      _debugLog('⚠️ practice-date-chips container not found');
+      return;
+    }
 
     container.innerHTML = '';
 
@@ -92,6 +112,8 @@ const Practice = (() => {
       const chip  = _makeChip(label, date, 'date', false);
       container.appendChild(chip);
     });
+
+    _debugLog('📅 Date chips built:', _state.allDates.length);
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -112,6 +134,8 @@ const Practice = (() => {
   }
 
   function _handleChipClick(btn, group, value, isAll) {
+    _debugLog('🎯 Chip clicked:', { group, value, isAll, buttonText: btn.textContent });
+
     const container = btn.parentElement;
     const allChip   = container.querySelector('[data-value="all"]');
 
@@ -140,6 +164,8 @@ const Practice = (() => {
       container.querySelectorAll('.filter-chip.multi-selected')
     ).map(c => c.dataset.value);
 
+    _debugLog('✅ Selected values for', group, ':', selected);
+
     _setStateArray(group, selected);
     _onFilterChange(group);
   }
@@ -154,6 +180,17 @@ const Practice = (() => {
       case 'subtopic': _state.selectedSubTopics = values; break;
       case 'diff':     _state.selectedDiffs     = values; break;
     }
+
+    _debugLog('📦 State updated for', group, ':', values);
+    _debugLog('📊 Current full state:', {
+      years: _state.selectedYears,
+      dates: _state.selectedDates,
+      shifts: _state.selectedShifts,
+      subjects: _state.selectedSubjects,
+      topics: _state.selectedTopics,
+      subtopics: _state.selectedSubTopics,
+      diffs: _state.selectedDiffs
+    });
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -161,6 +198,8 @@ const Practice = (() => {
   ───────────────────────────────────────────────────────────── */
 
   function _onFilterChange(group) {
+    _debugLog('🔄 Filter changed:', group);
+
     if (group === 'subject') {
       _rebuildTopicChips();
       _state.selectedTopics    = [];
@@ -176,16 +215,23 @@ const Practice = (() => {
   function _rebuildTopicChips() {
     const section   = document.getElementById('practice-topic-section');
     const container = document.getElementById('practice-topic-chips');
-    if (!container || !section) return;
+    if (!container || !section) {
+      _debugLog('⚠️ Topic section/container not found');
+      return;
+    }
 
-    // ✅ FIX: Use case-insensitive matching
+    _debugLog('🔨 Rebuilding topic chips for subjects:', _state.selectedSubjects);
+
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
-      : _state.taxonomy.subjects.filter(s =>
-          _arrayContains(_state.selectedSubjects, s.name)
-        );
+      : _state.taxonomy.subjects.filter(s => {
+          const matches = _arrayContains(_state.selectedSubjects, s.name);
+          _debugLog('  - Checking subject:', s.name, '→', matches ? '✅' : '❌');
+          return matches;
+        });
 
-    // Deduplicate topics by normalized name
+    _debugLog('📚 Filtered subjects:', subjects.map(s => s.name));
+
     const topicsMap = new Map();
     subjects.forEach(s => {
       s.topics.forEach(t => {
@@ -197,11 +243,13 @@ const Practice = (() => {
     });
 
     const topics = Array.from(topicsMap.values());
+    _debugLog('📌 Topics found:', topics.map(t => t.name));
 
     container.innerHTML = '';
 
     if (topics.length === 0) {
       section.style.display = 'none';
+      _debugLog('⚠️ No topics found, hiding section');
       return;
     }
 
@@ -216,14 +264,20 @@ const Practice = (() => {
 
     const subSection = document.getElementById('practice-subtopic-section');
     if (subSection) subSection.style.display = 'none';
+
+    _debugLog('✅ Topic chips rebuilt:', topics.length);
   }
 
   function _rebuildSubTopicChips() {
     const section   = document.getElementById('practice-subtopic-section');
     const container = document.getElementById('practice-subtopic-chips');
-    if (!container || !section) return;
+    if (!container || !section) {
+      _debugLog('⚠️ SubTopic section/container not found');
+      return;
+    }
 
-    // ✅ FIX: Use case-insensitive matching
+    _debugLog('🔨 Rebuilding subtopic chips for topics:', _state.selectedTopics);
+
     const subjects = _state.selectedSubjects.length === 0
       ? _state.taxonomy.subjects
       : _state.taxonomy.subjects.filter(s =>
@@ -243,11 +297,13 @@ const Practice = (() => {
     });
 
     const subTopics = Array.from(subTopicsSet).sort();
+    _debugLog('📝 SubTopics found:', subTopics);
 
     container.innerHTML = '';
 
     if (subTopics.length === 0) {
       section.style.display = 'none';
+      _debugLog('⚠️ No subtopics found, hiding section');
       return;
     }
 
@@ -259,6 +315,8 @@ const Practice = (() => {
     subTopics.forEach(st => {
       container.appendChild(_makeChip(st, st, 'subtopic', false));
     });
+
+    _debugLog('✅ SubTopic chips rebuilt:', subTopics.length);
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -266,6 +324,8 @@ const Practice = (() => {
   ───────────────────────────────────────────────────────────── */
 
   function _bindAllControls() {
+    _debugLog('🔗 Binding all controls...');
+
     _bindChipGroup('practice-year-chips',    'year');
     _bindChipGroup('practice-shift-chips',   'shift');
     _bindChipGroup('practice-subject-chips', 'subject');
@@ -282,6 +342,7 @@ const Practice = (() => {
         chip.classList.add('active');
         const val             = chip.dataset.count;
         _state.questionCount  = val === 'all' ? 9999 : parseInt(val, 10);
+        _debugLog('🔢 Question count changed to:', _state.questionCount);
         _updatePreview();
       });
     }
@@ -290,6 +351,7 @@ const Practice = (() => {
     if (shuffleToggle) {
       shuffleToggle.addEventListener('change', () => {
         _state.shuffle = shuffleToggle.checked;
+        _debugLog('🔀 Shuffle:', _state.shuffle);
       });
     }
 
@@ -299,6 +361,7 @@ const Practice = (() => {
       timerToggle.addEventListener('change', () => {
         _state.timerEnabled      = timerToggle.checked;
         if (timerRow) timerRow.style.display = timerToggle.checked ? 'flex' : 'none';
+        _debugLog('⏱️ Timer enabled:', _state.timerEnabled);
       });
     }
 
@@ -306,6 +369,7 @@ const Practice = (() => {
     if (timerMinsEl) {
       timerMinsEl.addEventListener('change', () => {
         _state.timerMins = parseInt(timerMinsEl.value, 10) || 30;
+        _debugLog('⏱️ Timer minutes:', _state.timerMins);
       });
     }
 
@@ -316,18 +380,21 @@ const Practice = (() => {
     if (bmToggle) {
       bmToggle.addEventListener('change', () => {
         _state.onlyBookmarked = bmToggle.checked;
+        _debugLog('🔖 Only bookmarked:', _state.onlyBookmarked);
         _updatePreview();
       });
     }
     if (flagToggle) {
       flagToggle.addEventListener('change', () => {
         _state.onlyFlagged = flagToggle.checked;
+        _debugLog('🚩 Only flagged:', _state.onlyFlagged);
         _updatePreview();
       });
     }
     if (wrongToggle) {
       wrongToggle.addEventListener('change', () => {
         _state.onlyWrong = wrongToggle.checked;
+        _debugLog('❌ Only wrong:', _state.onlyWrong);
         _updatePreview();
       });
     }
@@ -336,19 +403,28 @@ const Practice = (() => {
     if (startBtn) {
       startBtn.addEventListener('click', _startPractice);
     }
+
+    _debugLog('✅ All controls bound');
   }
 
   function _bindChipGroup(containerId, group) {
     const container = document.getElementById(containerId);
-    if (!container) return;
+    if (!container) {
+      _debugLog('⚠️ Container not found:', containerId);
+      return;
+    }
 
     container.addEventListener('click', (e) => {
       const chip = e.target.closest('.filter-chip');
       if (!chip) return;
+      
       const value = chip.dataset.value || chip.textContent.trim();
       const isAll = value === 'all';
+      
       _handleChipClick(chip, group, value, isAll);
     });
+
+    _debugLog('✅ Bound chip group:', containerId);
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -360,6 +436,8 @@ const Practice = (() => {
   async function _updatePreview() {
     clearTimeout(_previewDebounce);
     _previewDebounce = setTimeout(async () => {
+      _debugLog('🔄 Updating preview...');
+      
       await _computeMatchingQuestions();
 
       const total   = _state.matchingQuestions.length;
@@ -373,21 +451,21 @@ const Practice = (() => {
       if (countEl)  countEl.textContent = count;
       if (startBtn) startBtn.disabled   = count === 0;
 
-      // ✅ DEBUG: Log filter results
-      console.log('🔍 Filter Debug:', {
-        selectedSubjects: _state.selectedSubjects,
-        selectedTopics: _state.selectedTopics,
-        selectedSubTopics: _state.selectedSubTopics,
-        matchingQuestions: total
-      });
+      _debugLog('✅ Preview updated:', count, 'questions');
     }, 300);
   }
 
   async function _computeMatchingQuestions() {
-    // ✅ FIX: Load ALL shifts, don't filter by year/date/shift yet
-    // We need to check questions from all shifts first
+    _debugLog('═══════════════════════════════════════');
+    _debugLog('🔍 COMPUTING MATCHING QUESTIONS');
+    _debugLog('═══════════════════════════════════════');
+
     const allShiftIds  = _state.shiftsIndex.map(s => s.id);
+    _debugLog('📋 Total shifts in index:', allShiftIds.length);
+    _debugLog('📋 Shift IDs:', allShiftIds);
+
     const shiftDataMap = await Storage.loadMultipleShifts(allShiftIds);
+    _debugLog('📥 Shifts loaded from storage:', Object.keys(shiftDataMap).length);
 
     let allQuestions = [];
     Object.values(shiftDataMap).forEach(data => {
@@ -396,14 +474,63 @@ const Practice = (() => {
       }
     });
 
+    _debugLog('📚 Total questions loaded:', allQuestions.length);
+
+    if (allQuestions.length > 0) {
+      const sampleQ = allQuestions[0];
+      _debugLog('📌 Sample question:', {
+        id: sampleQ.id,
+        subject: sampleQ.subject,
+        topic: sampleQ.topic,
+        subTopic: sampleQ.subTopic,
+        difficulty: sampleQ.difficulty
+      });
+
+      // Show unique values in loaded questions
+      const uniqueSubjects = [...new Set(allQuestions.map(q => q.subject))];
+      const uniqueTopics = [...new Set(allQuestions.map(q => q.topic))];
+      const uniqueDiffs = [...new Set(allQuestions.map(q => q.difficulty))];
+      
+      _debugLog('📊 Unique subjects in questions:', uniqueSubjects);
+      _debugLog('📊 Unique topics in questions:', uniqueTopics.slice(0, 10), '...');
+      _debugLog('📊 Unique difficulties in questions:', uniqueDiffs);
+    }
+
+    _debugLog('───────────────────────────────────────');
+    _debugLog('🎯 ACTIVE FILTERS:');
+    _debugLog('  Years:', _state.selectedYears);
+    _debugLog('  Dates:', _state.selectedDates);
+    _debugLog('  Shifts:', _state.selectedShifts);
+    _debugLog('  Subjects:', _state.selectedSubjects);
+    _debugLog('  Topics:', _state.selectedTopics);
+    _debugLog('  SubTopics:', _state.selectedSubTopics);
+    _debugLog('  Difficulties:', _state.selectedDiffs);
+    _debugLog('  Only Bookmarked:', _state.onlyBookmarked);
+    _debugLog('  Only Flagged:', _state.onlyFlagged);
+    _debugLog('  Only Wrong:', _state.onlyWrong);
+    _debugLog('───────────────────────────────────────');
+
     const bookmarkedIds = Storage.getBookmarks();
     const flaggedMap    = Storage.getFlags();
     const wrongIds      = Storage.getAllWrongQuestionIds(_state.shiftsIndex);
 
-    // ✅ FIX: Filter questions with proper case-insensitive matching
+    let debugCounts = {
+      total: allQuestions.length,
+      afterYearDateShift: 0,
+      afterSubject: 0,
+      afterTopic: 0,
+      afterSubTopic: 0,
+      afterDifficulty: 0,
+      afterBookmarkFlag: 0
+    };
+
+    let firstSubjectMismatch = true;
+    let firstTopicMismatch = true;
+    let firstDiffMismatch = true;
+
     _state.matchingQuestions = allQuestions.filter(q => {
       
-      // Year/Date/Shift filter (filter by question's shiftId)
+      // Year/Date/Shift filter
       if (_state.selectedYears.length > 0 || _state.selectedDates.length > 0 || _state.selectedShifts.length > 0) {
         const matchingShifts = _getMatchingShiftIds();
         const questionShiftId = q.id ? q.id.split('_Q')[0] : null;
@@ -411,20 +538,44 @@ const Practice = (() => {
           return false;
         }
       }
+      debugCounts.afterYearDateShift++;
 
       // Subject filter
       if (_state.selectedSubjects.length > 0) {
-        if (!_arrayContains(_state.selectedSubjects, q.subject)) {
+        const matched = _arrayContains(_state.selectedSubjects, q.subject);
+        
+        if (!matched && firstSubjectMismatch) {
+          _debugLog('❌ SUBJECT MISMATCH (first occurrence):');
+          _debugLog('   Question subject:', `"${q.subject}"`);
+          _debugLog('   Normalized:', `"${_normalize(q.subject)}"`);
+          _debugLog('   Selected subjects:', _state.selectedSubjects);
+          _debugLog('   Normalized selected:', _state.selectedSubjects.map(s => _normalize(s)));
+          firstSubjectMismatch = false;
+        }
+        
+        if (!matched) {
           return false;
         }
       }
+      debugCounts.afterSubject++;
 
       // Topic filter
       if (_state.selectedTopics.length > 0) {
-        if (!_arrayContains(_state.selectedTopics, q.topic)) {
+        const matched = _arrayContains(_state.selectedTopics, q.topic);
+        
+        if (!matched && firstTopicMismatch) {
+          _debugLog('❌ TOPIC MISMATCH (first occurrence):');
+          _debugLog('   Question topic:', `"${q.topic}"`);
+          _debugLog('   Normalized:', `"${_normalize(q.topic)}"`);
+          _debugLog('   Selected topics:', _state.selectedTopics);
+          firstTopicMismatch = false;
+        }
+        
+        if (!matched) {
           return false;
         }
       }
+      debugCounts.afterTopic++;
 
       // SubTopic filter
       if (_state.selectedSubTopics.length > 0) {
@@ -432,13 +583,25 @@ const Practice = (() => {
           return false;
         }
       }
+      debugCounts.afterSubTopic++;
 
       // Difficulty filter
       if (_state.selectedDiffs.length > 0) {
-        if (!_arrayContains(_state.selectedDiffs, q.difficulty)) {
+        const matched = _arrayContains(_state.selectedDiffs, q.difficulty);
+        
+        if (!matched && firstDiffMismatch) {
+          _debugLog('❌ DIFFICULTY MISMATCH (first occurrence):');
+          _debugLog('   Question difficulty:', `"${q.difficulty}"`);
+          _debugLog('   Normalized:', `"${_normalize(q.difficulty)}"`);
+          _debugLog('   Selected difficulties:', _state.selectedDiffs);
+          firstDiffMismatch = false;
+        }
+        
+        if (!matched) {
           return false;
         }
       }
+      debugCounts.afterDifficulty++;
 
       // Bookmarked/Flagged/Wrong filter
       if (_state.onlyBookmarked || _state.onlyFlagged || _state.onlyWrong) {
@@ -447,13 +610,27 @@ const Practice = (() => {
         const wr = _state.onlyWrong      && wrongIds.includes(q.id);
         if (!bm && !fl && !wr) return false;
       }
+      debugCounts.afterBookmarkFlag++;
 
       return true;
     });
+
+    _debugLog('───────────────────────────────────────');
+    _debugLog('📊 FILTER FUNNEL:');
+    _debugLog('   Total loaded:', debugCounts.total);
+    _debugLog('   After Year/Date/Shift:', debugCounts.afterYearDateShift);
+    _debugLog('   After Subject:', debugCounts.afterSubject);
+    _debugLog('   After Topic:', debugCounts.afterTopic);
+    _debugLog('   After SubTopic:', debugCounts.afterSubTopic);
+    _debugLog('   After Difficulty:', debugCounts.afterDifficulty);
+    _debugLog('   After Bookmark/Flag/Wrong:', debugCounts.afterBookmarkFlag);
+    _debugLog('───────────────────────────────────────');
+    _debugLog('✅ FINAL MATCHING QUESTIONS:', _state.matchingQuestions.length);
+    _debugLog('═══════════════════════════════════════');
   }
 
   function _getMatchingShiftIds() {
-    return _state.shiftsIndex
+    const matching = _state.shiftsIndex
       .filter(s => {
         if (_state.selectedYears.length > 0) {
           const year = s.date.split('-')[0];
@@ -466,6 +643,9 @@ const Practice = (() => {
         return true;
       })
       .map(s => s.id);
+
+    _debugLog('🎯 Matching shift IDs:', matching);
+    return matching;
   }
 
   /* ─────────────────────────────────────────────────────────────
@@ -473,22 +653,30 @@ const Practice = (() => {
   ───────────────────────────────────────────────────────────── */
 
   async function _startPractice() {
+    _debugLog('🚀 Starting practice session...');
+
     await _computeMatchingQuestions();
 
     let questions = [..._state.matchingQuestions];
 
     if (questions.length === 0) {
+      _debugLog('⚠️ No questions match filters');
       Components.showToast('No questions match your filters.', 'warning');
       return;
     }
 
-    if (_state.shuffle) Scoring.shuffle(questions);
+    if (_state.shuffle) {
+      Scoring.shuffle(questions);
+      _debugLog('🔀 Questions shuffled');
+    }
 
     if (_state.questionCount !== 9999) {
       questions = questions.slice(0, _state.questionCount);
+      _debugLog('✂️ Limited to', _state.questionCount, 'questions');
     }
 
     if (questions.length === 0) {
+      _debugLog('⚠️ No questions after limit');
       Components.showToast('No questions available.', 'warning');
       return;
     }
@@ -505,12 +693,22 @@ const Practice = (() => {
       subjects:      [..._state.selectedSubjects],
     };
 
+    _debugLog('✅ Starting quiz with config:', practiceConfig);
+
     App.navigateTo('pre-quiz', { customConfig: practiceConfig });
   }
 
   /* ─────────────────────────────────────────────────────────────
      PUBLIC API
   ───────────────────────────────────────────────────────────── */
-  return { init };
+  return { 
+    init,
+    // Expose for debugging
+    getState: () => _state,
+    debugInfo: () => {
+      console.log('Current State:', _state);
+      console.log('Matching Questions:', _state.matchingQuestions.length);
+    }
+  };
 
 })();
